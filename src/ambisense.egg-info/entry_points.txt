@@ -1,0 +1,2 @@
+[console_scripts]
+ambisense = ambisense.cli:main

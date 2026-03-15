@@ -1,0 +1,6 @@
+spacy>=3.6
+click>=8.0
+rich>=13.0
+
+[dev]
+pytest>=7.0

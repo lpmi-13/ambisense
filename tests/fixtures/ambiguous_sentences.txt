@@ -1,0 +1,8 @@
+start a container on worker 2
+cut the steak with the knife
+find the error in the log file
+deploy the service on the cluster
+download the image from the registry
+build a dashboard for the team
+I saw the man with the telescope
+she hit the ball with the bat
