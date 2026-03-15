@@ -2,6 +2,10 @@ __pycache__/
 *.pyc
 *.egg-info/
 .pytest_cache/
+.venv/
+.uv-bin/
+.uv-cache/
+.uv-python/
 dist/
 build/
 *.egg
