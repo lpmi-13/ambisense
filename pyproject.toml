@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ambisense"
+version = "0.1.0"
+description = "Prepositional Phrase Attachment Ambiguity Detector"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = [
+    "spacy>=3.6",
+    "click>=8.0",
+    "rich>=13.0",
+]
+
+[project.scripts]
+ambisense = "ambisense.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
