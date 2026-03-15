@@ -12,6 +12,7 @@ from ambisense.formatter import (
     format_human,
     format_interactive_prompt,
     format_json,
+    format_review_finding,
     format_review_human,
     format_review_json,
 )
@@ -22,6 +23,14 @@ from ambisense.tree_renderer import render_tree, render_tree_pair
 
 
 DEFAULT_PREPOSITIONS = "on,in,with,for,from,at,to,by,through,about"
+
+
+def _ensure_sentence(text: str) -> str:
+    """Ensure text prints as a standalone sentence."""
+    text = text.strip()
+    if text and text[-1] not in ".?!":
+        text += "."
+    return text
 
 
 def read_input(files, text=None):
@@ -137,9 +146,11 @@ def scan(files, fmt, interactive, prepositions, include_of, include_copula,
 @click.option("--max-distance", type=int, default=8,
               help="Max token distance for alternative head.")
 @click.option("--model", default="en_core_web_sm", help="spaCy model to use.")
+@click.option("-i", "--interactive", is_flag=True,
+              help="Step through each finding and choose the intended reading.")
 @click.option("--no-color", is_flag=True, help="Disable colored output.")
 def review(files, fmt, markdown, prepositions, include_of, include_copula,
-           max_distance, model, no_color):
+           max_distance, model, interactive, no_color):
     """Review a document and suggest rewrites for ambiguous PP attachments."""
     watched = set(p.strip() for p in prepositions.split(","))
     results = []
@@ -160,7 +171,9 @@ def review(files, fmt, markdown, prepositions, include_of, include_copula,
 
     use_color = not no_color and sys.stdout.isatty()
 
-    if fmt == "json":
+    if interactive:
+        _run_review_interactive(results)
+    elif fmt == "json":
         click.echo(format_review_json(results))
     else:
         click.echo(format_review_human(results, use_color=use_color))
@@ -185,13 +198,48 @@ def _run_interactive(records, use_color):
         elif choice.upper() == "A":
             high, _ = generate_paraphrases(record)
             click.echo(f"    \u2713 Suggested rewrite:")
-            click.echo(f"      \"{high}\"")
+            click.echo(f"      \"{_ensure_sentence(high)}\"")
         elif choice.upper() == "B":
             _, low = generate_paraphrases(record)
             click.echo(f"    \u2713 Suggested rewrite:")
-            click.echo(f"      \"{low}\"")
+            click.echo(f"      \"{_ensure_sentence(low)}\"")
 
         if i < total:
+            click.echo("")
+
+
+def _run_review_interactive(results):
+    """Run interactive author review mode."""
+    findings = []
+    for result in results:
+        findings.extend(result.findings)
+
+    if not findings:
+        click.echo("\u2713 No PP-attachment ambiguities detected.")
+        return
+
+    total = len(findings)
+    for i, finding in enumerate(findings, 1):
+        click.echo(format_review_finding(finding, index=i, total=total))
+
+        choice = click.prompt(
+            "  Intended meaning?",
+            type=click.Choice(["A", "B", "S", "Q"], case_sensitive=False),
+        )
+
+        if choice.upper() == "Q":
+            click.echo("  Stopped review.")
+            break
+        if choice.upper() == "S":
+            click.echo("  Skipped.")
+        elif choice.upper() == "A":
+            click.echo("  Suggested rewrite:")
+            click.echo(f'    "{_ensure_sentence(finding.rewrite_high)}"')
+        elif choice.upper() == "B":
+            click.echo("  Suggested rewrite:")
+            click.echo(f'    "{_ensure_sentence(finding.rewrite_low)}"')
+
+        if i < total and choice.upper() != "Q":
             click.echo("")
 
 

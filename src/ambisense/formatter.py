@@ -10,6 +10,16 @@ from ambisense.paraphraser import generate_paraphrases
 from ambisense.review import DocumentReview
 
 
+def _sentence_case(text: str) -> str:
+    """Ensure text reads as a standalone sentence."""
+    text = text.strip()
+    if not text:
+        return text
+    if text[-1] not in ".?!":
+        text += "."
+    return text
+
+
 def format_human(
     records: List[AmbiguityRecord],
     filename: Optional[str] = None,
@@ -162,6 +172,32 @@ def format_interactive_prompt(
     return "\n".join(lines)
 
 
+def format_review_finding(
+    finding,
+    index: Optional[int] = None,
+    total: Optional[int] = None,
+) -> str:
+    """Format a single author-facing review finding."""
+    lines = [f"{finding.filename}:{finding.line}:{finding.column}"]
+
+    if index is not None and total is not None:
+        lines[0] += f"  [{index} of {total}]"
+
+    lines.extend([
+        f'  Ambiguous phrase: "{finding.pp_text}"',
+        f'  Sentence: "{finding.sentence}"',
+        "",
+        "  Possible readings:",
+        f"  A. {_sentence_case(finding.rewrite_high)}",
+        f"  B. {_sentence_case(finding.rewrite_low)}",
+        "",
+        "  Suggested rewrites:",
+        f'  - If you mean A: "{_sentence_case(finding.rewrite_high)}"',
+        f'  - If you mean B: "{_sentence_case(finding.rewrite_low)}"',
+    ])
+    return "\n".join(lines)
+
+
 def format_review_human(
     results: List[DocumentReview],
     use_color: bool = True,
@@ -187,14 +223,10 @@ def format_review_human(
             lines.append("")
 
             for finding_index, finding in enumerate(result.findings):
-                lines.append(f"{finding.filename}:{finding.line}:{finding.column}")
-                lines.append(f"  {finding.highlighted_sentence}")
-                lines.append(f'  If you mean the phrase attaches to verb "{finding.verb_text}":')
-                lines.append(f"    {finding.rewrite_high}")
-                lines.append(f'  If you mean the phrase modifies noun "{finding.noun_text}":')
-                lines.append(f"    {finding.rewrite_low}")
+                lines.append(format_review_finding(finding))
 
                 if finding_index < count - 1:
+                    lines.append("")
                     lines.append("")
 
         if result_index < len(results) - 1:
@@ -228,9 +260,15 @@ def format_review_json(results: List[DocumentReview]) -> str:
                             "text": finding.alternative_head_text,
                             "pos": finding.alternative_head_pos,
                         },
+                        "possible_readings": {
+                            "A": _sentence_case(finding.rewrite_high),
+                            "B": _sentence_case(finding.rewrite_low),
+                        },
                         "rewrites": {
-                            "verb_attachment": finding.rewrite_high,
-                            "noun_attachment": finding.rewrite_low,
+                            "A": _sentence_case(finding.rewrite_high),
+                            "B": _sentence_case(finding.rewrite_low),
+                            "verb_attachment": _sentence_case(finding.rewrite_high),
+                            "noun_attachment": _sentence_case(finding.rewrite_low),
                         },
                     }
                     for finding in result.findings

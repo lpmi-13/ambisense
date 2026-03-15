@@ -57,6 +57,28 @@ Review a Markdown tutorial file:
 uv run ambisense review examples/tutorial.md
 ```
 
+Step through one ambiguity at a time and choose the intended meaning:
+
+```bash
+uv run ambisense review --interactive examples/tutorial.md
+```
+
+Interactive review presents each finding in an author-facing block:
+
+```text
+examples/tutorial.md:9:19
+  Ambiguous phrase: "on worker 2"
+  Sentence: "Start a container on worker 2."
+
+  Possible readings:
+  A. While on worker 2, start a container.
+  B. Start a container that is on worker 2.
+
+  Suggested rewrites:
+  - If you mean A: "While on worker 2, start a container."
+  - If you mean B: "Start a container that is on worker 2."
+```
+
 Review plain text from stdin:
 
 ```bash

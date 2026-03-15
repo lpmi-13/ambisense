@@ -66,6 +66,29 @@ class TestReviewCli:
 
         assert result.exit_code == 0
         assert f"{path}:1:19" in result.output
-        assert "If you mean the phrase attaches to verb \"start\":" in result.output
-        assert "While on worker 2, start a container" in result.output
-        assert "If you mean the phrase modifies noun \"container\":" in result.output
+        assert 'Ambiguous phrase: "on worker 2"' in result.output
+        assert 'Sentence: "Start a container on worker 2."' in result.output
+        assert "Possible readings:" in result.output
+        assert "A. While on worker 2, start a container." in result.output
+        assert "B. Start a container that is on worker 2." in result.output
+        assert "Suggested rewrites:" in result.output
+        assert '- If you mean A: "While on worker 2, start a container."' in result.output
+        assert '- If you mean B: "Start a container that is on worker 2."' in result.output
+
+    def test_review_command_interactive_mode_prompts_and_echoes_choice(self, tmp_path):
+        path = tmp_path / "tutorial.md"
+        path.write_text("Start a container on worker 2.\n")
+
+        runner = CliRunner()
+        result = runner.invoke(
+            main,
+            ["review", str(path), "--interactive", "--no-color"],
+            input="A\n",
+        )
+
+        assert result.exit_code == 0
+        assert f"{path}:1:19" in result.output
+        assert "Possible readings:" in result.output
+        assert "Intended meaning?" in result.output
+        assert "Suggested rewrite:" in result.output
+        assert '"While on worker 2, start a container."' in result.output
