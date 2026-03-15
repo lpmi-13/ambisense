@@ -54,3 +54,11 @@ class TestGenerateParaphrases:
         if results:
             high, low = generate_paraphrases(results[0])
             assert high != low, "High and low paraphrases should differ"
+
+    def test_paraphrases_preserve_subject_when_present(self, nlp):
+        doc = nlp("I saw the man with the telescope")
+        results = detect_ambiguities(doc)
+        if results:
+            high, low = generate_paraphrases(results[0])
+            assert high == "Using the telescope, I saw the man"
+            assert low == "I saw the man that has the telescope"

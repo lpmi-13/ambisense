@@ -1,46 +1,46 @@
 {
   "on": {
-    "high": "While on {pp_obj}, {verb} {det} {np}",
-    "low": "{verb} {det} {np} that is on {pp_obj}"
+    "high": "While on {pp_obj}, {embedded_clause}",
+    "low": "{clause} that is on {pp_obj}"
   },
   "in": {
-    "high": "In {pp_obj}, {verb} {det} {np}",
-    "low": "{verb} {det} {np} that is in {pp_obj}"
+    "high": "In {pp_obj}, {embedded_clause}",
+    "low": "{clause} that is in {pp_obj}"
   },
   "with": {
-    "high": "Using {pp_obj}, {verb} {det} {np}",
-    "low": "{verb} {det} {np} that has {pp_obj}"
+    "high": "Using {pp_obj}, {embedded_clause}",
+    "low": "{clause} that has {pp_obj}"
   },
   "for": {
-    "high": "For {pp_obj}, {verb} {det} {np}",
-    "low": "{verb} {det} {np} intended for {pp_obj}"
+    "high": "For {pp_obj}, {embedded_clause}",
+    "low": "{clause} intended for {pp_obj}"
   },
   "from": {
-    "high": "From {pp_obj}, {verb} {det} {np}",
-    "low": "{verb} {det} {np} originating from {pp_obj}"
+    "high": "From {pp_obj}, {embedded_clause}",
+    "low": "{clause} originating from {pp_obj}"
   },
   "at": {
-    "high": "At {pp_obj}, {verb} {det} {np}",
-    "low": "{verb} {det} {np} located at {pp_obj}"
+    "high": "At {pp_obj}, {embedded_clause}",
+    "low": "{clause} located at {pp_obj}"
   },
   "to": {
-    "high": "To {pp_obj}, {verb} {det} {np}",
-    "low": "{verb} {det} {np} destined for {pp_obj}"
+    "high": "To {pp_obj}, {embedded_clause}",
+    "low": "{clause} destined for {pp_obj}"
   },
   "by": {
-    "high": "By means of {pp_obj}, {verb} {det} {np}",
-    "low": "{verb} {det} {np} associated with {pp_obj}"
+    "high": "By means of {pp_obj}, {embedded_clause}",
+    "low": "{clause} associated with {pp_obj}"
   },
   "through": {
-    "high": "Through {pp_obj}, {verb} {det} {np}",
-    "low": "{verb} {det} {np} routed through {pp_obj}"
+    "high": "Through {pp_obj}, {embedded_clause}",
+    "low": "{clause} routed through {pp_obj}"
   },
   "about": {
-    "high": "Regarding {pp_obj}, {verb} {det} {np}",
-    "low": "{verb} {det} {np} concerning {pp_obj}"
+    "high": "Regarding {pp_obj}, {embedded_clause}",
+    "low": "{clause} concerning {pp_obj}"
   },
   "_default": {
-    "high": "{pp} {verb} {det} {np}",
-    "low": "{verb} {det} {np} {prep} {pp_obj}"
+    "high": "{pp}, {embedded_clause}",
+    "low": "{clause} {prep} {pp_obj}"
   }
 }

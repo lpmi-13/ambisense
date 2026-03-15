@@ -45,6 +45,14 @@ def generate_paraphrases(record: AmbiguityRecord) -> Tuple[str, str]:
     det_text = record.det_text
     pp_obj = record.pp_obj_text
     prep_text = record.preposition.text
+    clause = record.clause_text
+
+    if record.subject_text:
+        embedded_clause = clause
+    elif clause:
+        embedded_clause = clause[:1].lower() + clause[1:]
+    else:
+        embedded_clause = clause
 
     variables = {
         "verb": verb_text,
@@ -53,16 +61,20 @@ def generate_paraphrases(record: AmbiguityRecord) -> Tuple[str, str]:
         "pp_obj": pp_obj,
         "prep": prep_text,
         "pp": record.pp_text,
+        "subject": record.subject_text,
+        "verb_phrase": record.verb_phrase_text,
+        "clause": clause,
+        "embedded_clause": embedded_clause,
     }
 
     try:
         high = high_template.format(**variables)
     except KeyError:
-        high = f"{record.pp_text} {verb_text} {det_text} {np_text}"
+        high = f"{record.pp_text}, {embedded_clause}"
 
     try:
         low = low_template.format(**variables)
     except KeyError:
-        low = f"{verb_text} {det_text} {np_text} {prep_text} {pp_obj}"
+        low = f"{record.clause_text} {prep_text} {pp_obj}"
 
     return high, low

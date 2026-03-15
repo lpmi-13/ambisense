@@ -47,22 +47,49 @@ Or call the script by path without activating anything:
 .venv/bin/ambisense scan examples/sample.txt
 ```
 
-## Development
+## Review Tutorials
 
-Add a runtime dependency:
+Use `review` when you want author-facing rewrite suggestions for a full document. The workflow is rule-based and local; it does not require an LLM. By default it treats input as Markdown, scans prose, and skips fenced code blocks and inline code.
+
+Review a Markdown tutorial file:
 
 ```bash
-uv add <package>
+uv run ambisense review examples/tutorial.md
 ```
 
-Add a development dependency:
+Review plain text from stdin:
 
 ```bash
-uv add --dev <package>
+cat examples/sample.txt | uv run ambisense review --plain-text
 ```
 
-Run the test suite:
+Emit machine-readable findings for editor or CI integration:
 
 ```bash
-uv run pytest
+uv run ambisense review --format json examples/tutorial.md
+```
+
+## Parse Trees
+
+Use the `tree` subcommand to render competing parses for a single ambiguous sentence. The renderer supports `unicode`, `ascii`, and `bracket` styles.
+
+Generate ASCII-art trees from a sentence passed directly on the command line:
+
+```bash
+uv run ambisense tree --style ascii "I saw the man with the telescope."
+```
+
+Generate the same ASCII-art trees by reading the sentence from a file:
+
+```bash
+uv run ambisense tree --style ascii < examples/sample.txt
+```
+
+The output shows both competing attachments side by side when the terminal is wide enough:
+
+```text
+HIGH (PP → verb "saw"):
+                   S
+ +-----------------+-+
+NP                  VP
 ```

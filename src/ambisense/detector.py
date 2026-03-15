@@ -50,6 +50,30 @@ class AmbiguityRecord:
         return ""
 
     @property
+    def subject_text(self) -> str:
+        """Get the subject phrase governing the ambiguous verb, if present."""
+        verb = self.verb
+        subjects = [
+            child for child in verb.children
+            if child.dep_ in ("nsubj", "nsubjpass", "expl")
+        ]
+        if not subjects:
+            return ""
+        subject = min(subjects, key=lambda token: token.i)
+        return " ".join(t.text for t in subject.subtree)
+
+    @property
+    def verb_phrase_text(self) -> str:
+        """Get the verb plus simple auxiliaries/negation."""
+        parts = [
+            child for child in self.verb.children
+            if child.dep_ in ("aux", "auxpass", "neg")
+        ]
+        parts.append(self.verb)
+        parts.sort(key=lambda token: token.i)
+        return " ".join(token.text for token in parts)
+
+    @property
     def np_text(self) -> str:
         """Get the noun phrase text, excluding the ambiguous PP."""
         noun = self.noun
@@ -85,6 +109,18 @@ class AmbiguityRecord:
                 continue
             tokens.append(t.text)
         return " ".join(tokens)
+
+    @property
+    def clause_text(self) -> str:
+        """Get a minimal clause covering the subject, verb, and noun phrase."""
+        parts = []
+        if self.subject_text:
+            parts.append(self.subject_text)
+        if self.verb_phrase_text:
+            parts.append(self.verb_phrase_text)
+        if self.np_text:
+            parts.append(self.np_text)
+        return " ".join(part for part in parts if part)
 
 
 def get_pp_span(prep_token: Token) -> Span:

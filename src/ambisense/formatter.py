@@ -7,6 +7,7 @@ from typing import List, Optional
 
 from ambisense.detector import AmbiguityRecord
 from ambisense.paraphraser import generate_paraphrases
+from ambisense.review import DocumentReview
 
 
 def format_human(
@@ -159,3 +160,83 @@ def format_interactive_prompt(
         f"    [S] Skip (not ambiguous / false positive)",
     ]
     return "\n".join(lines)
+
+
+def format_review_human(
+    results: List[DocumentReview],
+    use_color: bool = True,
+) -> str:
+    """Format author-facing review findings."""
+    if not results:
+        if use_color:
+            return "\u2713 No PP-attachment ambiguities detected."
+        return "No PP-attachment ambiguities detected."
+
+    lines = []
+    for result_index, result in enumerate(results):
+        count = len(result.findings)
+        if count == 0:
+            if use_color:
+                lines.append(f"\u2713 No PP-attachment ambiguities detected in {result.filename}.")
+            else:
+                lines.append(f"No PP-attachment ambiguities detected in {result.filename}.")
+        else:
+            prefix = "\u26a0" if use_color else "!"
+            noun = "ambiguity" if count == 1 else "ambiguities"
+            lines.append(f"{prefix} {count} possible PP-attachment {noun} in {result.filename}")
+            lines.append("")
+
+            for finding_index, finding in enumerate(result.findings):
+                lines.append(f"{finding.filename}:{finding.line}:{finding.column}")
+                lines.append(f"  {finding.highlighted_sentence}")
+                lines.append(f'  If you mean the phrase attaches to verb "{finding.verb_text}":')
+                lines.append(f"    {finding.rewrite_high}")
+                lines.append(f'  If you mean the phrase modifies noun "{finding.noun_text}":')
+                lines.append(f"    {finding.rewrite_low}")
+
+                if finding_index < count - 1:
+                    lines.append("")
+
+        if result_index < len(results) - 1:
+            lines.append("")
+
+    return "\n".join(lines)
+
+
+def format_review_json(results: List[DocumentReview]) -> str:
+    """Format author-facing review findings as JSON."""
+    payload = {
+        "files": [
+            {
+                "file": result.filename,
+                "ambiguities": [
+                    {
+                        "sentence": finding.sentence,
+                        "highlighted_sentence": finding.highlighted_sentence,
+                        "pp_text": finding.pp_text,
+                        "line": finding.line,
+                        "column": finding.column,
+                        "sentence_start_char": finding.sentence_start_char,
+                        "sentence_end_char": finding.sentence_end_char,
+                        "pp_start_char": finding.pp_start_char,
+                        "pp_end_char": finding.pp_end_char,
+                        "parser_head": {
+                            "text": finding.parser_head_text,
+                            "pos": finding.parser_head_pos,
+                        },
+                        "alternative_head": {
+                            "text": finding.alternative_head_text,
+                            "pos": finding.alternative_head_pos,
+                        },
+                        "rewrites": {
+                            "verb_attachment": finding.rewrite_high,
+                            "noun_attachment": finding.rewrite_low,
+                        },
+                    }
+                    for finding in result.findings
+                ],
+            }
+            for result in results
+        ]
+    }
+    return json.dumps(payload, indent=2, ensure_ascii=False)

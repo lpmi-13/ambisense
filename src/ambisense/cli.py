@@ -12,8 +12,11 @@ from ambisense.formatter import (
     format_human,
     format_interactive_prompt,
     format_json,
+    format_review_human,
+    format_review_json,
 )
 from ambisense.paraphraser import generate_paraphrases
+from ambisense.review import review_text
 from ambisense.tree_builder import build_tree_pair
 from ambisense.tree_renderer import render_tree, render_tree_pair
 
@@ -39,6 +42,25 @@ def read_input(files, text=None):
 
     if not sys.stdin.isatty():
         return sys.stdin.read().strip(), "<stdin>"
+
+    click.echo("Error: No input provided. Pass a file, pipe text, or use --help.", err=True)
+    sys.exit(1)
+
+
+def iter_review_inputs(files):
+    """Yield review inputs one document at a time."""
+    if files:
+        for path in files:
+            if path == "-":
+                yield "<stdin>", sys.stdin.read()
+            else:
+                with open(path) as fh:
+                    yield path, fh.read()
+        return
+
+    if not sys.stdin.isatty():
+        yield "<stdin>", sys.stdin.read()
+        return
 
     click.echo("Error: No input provided. Pass a file, pipe text, or use --help.", err=True)
     sys.exit(1)
@@ -100,6 +122,48 @@ def scan(files, fmt, interactive, prepositions, include_of, include_copula,
     else:
         click.echo(format_human(records, filename=filename, verbose=verbose,
                                 use_color=use_color))
+
+
+@main.command()
+@click.argument("files", nargs=-1, type=click.Path())
+@click.option("-f", "--format", "fmt", type=click.Choice(["human", "json"]),
+              default="human", help="Output format.")
+@click.option("--markdown/--plain-text", default=True,
+              help="Treat input as Markdown and ignore code blocks/code spans.")
+@click.option("-p", "--prepositions", default=DEFAULT_PREPOSITIONS,
+              help="Comma-separated preposition watchlist.")
+@click.option("--include-of", is_flag=True, help="Also flag 'of' PPs.")
+@click.option("--include-copula", is_flag=True, help="Also flag PPs after copula verbs.")
+@click.option("--max-distance", type=int, default=8,
+              help="Max token distance for alternative head.")
+@click.option("--model", default="en_core_web_sm", help="spaCy model to use.")
+@click.option("--no-color", is_flag=True, help="Disable colored output.")
+def review(files, fmt, markdown, prepositions, include_of, include_copula,
+           max_distance, model, no_color):
+    """Review a document and suggest rewrites for ambiguous PP attachments."""
+    watched = set(p.strip() for p in prepositions.split(","))
+    results = []
+
+    for filename, text in iter_review_inputs(files):
+        results.append(
+            review_text(
+                text,
+                filename=filename,
+                markdown=markdown,
+                model_name=model,
+                watched_prepositions=watched,
+                include_of=include_of,
+                include_copula=include_copula,
+                max_distance=max_distance,
+            )
+        )
+
+    use_color = not no_color and sys.stdout.isatty()
+
+    if fmt == "json":
+        click.echo(format_review_json(results))
+    else:
+        click.echo(format_review_human(results, use_color=use_color))
 
 
 def _run_interactive(records, use_color):
