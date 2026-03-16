@@ -1,0 +1,32 @@
+{
+  "on": {
+    "default": "location"
+  },
+  "in": {
+    "default": "container"
+  },
+  "with": {
+    "default": "instrument"
+  },
+  "for": {
+    "default": "beneficiary"
+  },
+  "from": {
+    "default": "source"
+  },
+  "at": {
+    "default": "location"
+  },
+  "to": {
+    "default": "destination"
+  },
+  "by": {
+    "default": "means"
+  },
+  "through": {
+    "default": "path"
+  },
+  "about": {
+    "default": "topic"
+  }
+}

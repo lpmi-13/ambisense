@@ -6,6 +6,7 @@ __pycache__/
 .uv-bin/
 .uv-cache/
 .uv-python/
+.offline-resources/
 dist/
 build/
 *.egg

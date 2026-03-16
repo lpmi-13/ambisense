@@ -1,0 +1,72 @@
+{
+  "rules": [
+    {
+      "id": "runtime_on_host_or_cluster",
+      "score": 100,
+      "prep": "on",
+      "when": {
+        "noun_classes": ["runtime_workload"],
+        "object_classes": ["host", "cluster"],
+        "semantic_roles": ["location"]
+      },
+      "rewrites": {
+        "high": "While connected to {pp_obj}, {embedded_clause}",
+        "low": "{clause} running on {pp_obj}"
+      }
+    },
+    {
+      "id": "artifact_from_store",
+      "score": 95,
+      "prep": "from",
+      "when": {
+        "noun_classes": ["artifact"],
+        "object_classes": ["artifact_store"],
+        "semantic_roles": ["source"]
+      },
+      "rewrites": {
+        "high": "{clause} directly from {pp_obj}",
+        "low": "{clause} stored in {pp_obj}"
+      }
+    },
+    {
+      "id": "diagnostic_in_log",
+      "score": 95,
+      "prep": "in",
+      "when": {
+        "noun_classes": ["diagnostic"],
+        "object_classes": ["log"],
+        "semantic_roles": ["container"]
+      },
+      "rewrites": {
+        "high": "Search {pp_obj} for {det_np}",
+        "low": "{clause} recorded in {pp_obj}"
+      }
+    },
+    {
+      "id": "ui_artifact_for_audience",
+      "score": 80,
+      "prep": "for",
+      "when": {
+        "noun_classes": ["ui_artifact"],
+        "object_classes": ["audience"],
+        "semantic_roles": ["beneficiary"]
+      },
+      "rewrites": {
+        "high": "{clause} on behalf of {pp_obj}",
+        "low": "{clause} for {pp_obj} to use"
+      }
+    },
+    {
+      "id": "instrument_with_tool",
+      "score": 60,
+      "prep": "with",
+      "when": {
+        "object_classes": ["instrument"],
+        "semantic_roles": ["instrument"]
+      },
+      "rewrites": {
+        "low": "{clause} equipped with {pp_obj}"
+      }
+    }
+  ]
+}

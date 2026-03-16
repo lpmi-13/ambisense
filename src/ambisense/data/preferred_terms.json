@@ -1,0 +1,12 @@
+{
+  "substitutions": {
+    "cfg": "configuration",
+    "cli": "CLI",
+    "k8s": "Kubernetes",
+    "logfile": "log file",
+    "logfiles": "log files",
+    "repo": "repository",
+    "repos": "repositories",
+    "svc": "service"
+  }
+}

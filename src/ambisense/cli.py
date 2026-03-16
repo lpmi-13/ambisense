@@ -16,7 +16,7 @@ from ambisense.formatter import (
     format_review_human,
     format_review_json,
 )
-from ambisense.paraphraser import generate_paraphrases
+from ambisense.paraphraser import generate_rewrites
 from ambisense.review import review_text
 from ambisense.tree_builder import build_tree_pair
 from ambisense.tree_renderer import render_tree, render_tree_pair
@@ -31,6 +31,16 @@ def _ensure_sentence(text: str) -> str:
     if text and text[-1] not in ".?!":
         text += "."
     return text
+
+
+def _apply_file_replacements(text, replacements):
+    """Apply sentence replacements to a file buffer from the end backward."""
+    updated = text
+    for start, end, replacement in sorted(replacements, key=lambda item: item[0], reverse=True):
+        original = updated[start:end]
+        trailing = original[len(original.rstrip()):]
+        updated = updated[:start] + replacement + trailing + updated[end:]
+    return updated
 
 
 def read_input(files, text=None):
@@ -148,14 +158,21 @@ def scan(files, fmt, interactive, prepositions, include_of, include_copula,
 @click.option("--model", default="en_core_web_sm", help="spaCy model to use.")
 @click.option("-i", "--interactive", is_flag=True,
               help="Step through each finding and choose the intended reading.")
+@click.option("--apply", is_flag=True,
+              help="Write chosen rewrites back to file inputs in place (requires --interactive).")
 @click.option("--no-color", is_flag=True, help="Disable colored output.")
 def review(files, fmt, markdown, prepositions, include_of, include_copula,
-           max_distance, model, interactive, no_color):
+           max_distance, model, interactive, apply, no_color):
     """Review a document and suggest rewrites for ambiguous PP attachments."""
+    if apply and not interactive:
+        raise click.UsageError("--apply requires --interactive.")
+
     watched = set(p.strip() for p in prepositions.split(","))
     results = []
+    file_texts = {}
 
     for filename, text in iter_review_inputs(files):
+        file_texts[filename] = text
         results.append(
             review_text(
                 text,
@@ -172,7 +189,9 @@ def review(files, fmt, markdown, prepositions, include_of, include_copula,
     use_color = not no_color and sys.stdout.isatty()
 
     if interactive:
-        _run_review_interactive(results)
+        if apply and any(result.filename == "<stdin>" for result in results):
+            raise click.UsageError("--apply only works with file inputs, not stdin.")
+        _run_review_interactive(results, file_texts=file_texts if apply else None, apply=apply)
     elif fmt == "json":
         click.echo(format_review_json(results))
     else:
@@ -196,11 +215,11 @@ def _run_interactive(records, use_color):
         if choice.upper() == "S":
             click.echo("    \u2713 Marked as false positive. Skipping.")
         elif choice.upper() == "A":
-            high, _ = generate_paraphrases(record)
+            high, _ = generate_rewrites(record)
             click.echo(f"    \u2713 Suggested rewrite:")
             click.echo(f"      \"{_ensure_sentence(high)}\"")
         elif choice.upper() == "B":
-            _, low = generate_paraphrases(record)
+            _, low = generate_rewrites(record)
             click.echo(f"    \u2713 Suggested rewrite:")
             click.echo(f"      \"{_ensure_sentence(low)}\"")
 
@@ -208,7 +227,7 @@ def _run_interactive(records, use_color):
             click.echo("")
 
 
-def _run_review_interactive(results):
+def _run_review_interactive(results, file_texts=None, apply=False):
     """Run interactive author review mode."""
     findings = []
     for result in results:
@@ -219,7 +238,24 @@ def _run_review_interactive(results):
         return
 
     total = len(findings)
+    queued_sentence_keys = set()
+    replacements_by_file = {}
+
     for i, finding in enumerate(findings, 1):
+        sentence_key = (
+            finding.filename,
+            finding.sentence_start_char,
+            finding.sentence_end_char,
+        )
+        if apply and sentence_key in queued_sentence_keys:
+            click.echo(
+                f"{finding.filename}:{finding.line}:{finding.column}  [{i} of {total}]"
+            )
+            click.echo("  Skipping because this sentence already has a queued rewrite.")
+            if i < total:
+                click.echo("")
+            continue
+
         click.echo(format_review_finding(finding, index=i, total=total))
 
         choice = click.prompt(
@@ -233,14 +269,35 @@ def _run_review_interactive(results):
         if choice.upper() == "S":
             click.echo("  Skipped.")
         elif choice.upper() == "A":
+            replacement = _ensure_sentence(finding.rewrite_high)
+            if apply:
+                queued_sentence_keys.add(sentence_key)
+                replacements_by_file.setdefault(finding.filename, []).append(
+                    (finding.sentence_start_char, finding.sentence_end_char, replacement)
+                )
             click.echo("  Suggested rewrite:")
-            click.echo(f'    "{_ensure_sentence(finding.rewrite_high)}"')
+            click.echo(f'    "{replacement}"')
         elif choice.upper() == "B":
+            replacement = _ensure_sentence(finding.rewrite_low)
+            if apply:
+                queued_sentence_keys.add(sentence_key)
+                replacements_by_file.setdefault(finding.filename, []).append(
+                    (finding.sentence_start_char, finding.sentence_end_char, replacement)
+                )
             click.echo("  Suggested rewrite:")
-            click.echo(f'    "{_ensure_sentence(finding.rewrite_low)}"')
+            click.echo(f'    "{replacement}"')
 
         if i < total and choice.upper() != "Q":
             click.echo("")
+
+    if not apply or not replacements_by_file:
+        return
+
+    for filename, replacements in replacements_by_file.items():
+        updated = _apply_file_replacements(file_texts[filename], replacements)
+        with open(filename, "w", encoding="utf-8") as fh:
+            fh.write(updated)
+        click.echo(f'Applied {len(replacements)} rewrite(s) to "{filename}".')
 
 
 @main.command()

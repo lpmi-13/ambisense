@@ -1,0 +1,198 @@
+{
+  "resource": "wordnet",
+  "schema_version": 1,
+  "term_classes": {
+    "artifact": [
+      "artifact"
+    ],
+    "binary": [
+      "artifact",
+      "runtime_workload"
+    ],
+    "bundle": [
+      "artifact",
+      "audience",
+      "cluster",
+      "instrument"
+    ],
+    "chart": [
+      "artifact"
+    ],
+    "cluster": [
+      "audience",
+      "cluster"
+    ],
+    "command": [
+      "audience",
+      "cluster"
+    ],
+    "container": [
+      "artifact",
+      "instrument"
+    ],
+    "dashboard": [
+      "artifact",
+      "host",
+      "instrument",
+      "ui_artifact"
+    ],
+    "developer": [
+      "artifact",
+      "audience",
+      "instrument"
+    ],
+    "error": [
+      "diagnostic",
+      "log"
+    ],
+    "event": [
+      "diagnostic",
+      "runtime_workload"
+    ],
+    "file": [
+      "artifact",
+      "audience",
+      "cluster",
+      "instrument",
+      "log"
+    ],
+    "host": [
+      "artifact",
+      "audience",
+      "cluster",
+      "host",
+      "instrument",
+      "runtime_workload"
+    ],
+    "image": [
+      "artifact",
+      "audience",
+      "host",
+      "instrument"
+    ],
+    "job": [
+      "artifact",
+      "audience",
+      "diagnostic",
+      "runtime_workload"
+    ],
+    "journal": [
+      "artifact",
+      "instrument",
+      "log"
+    ],
+    "knife": [
+      "artifact",
+      "host",
+      "instrument"
+    ],
+    "log": [
+      "artifact",
+      "host",
+      "instrument",
+      "log"
+    ],
+    "machine": [
+      "artifact",
+      "audience",
+      "cluster",
+      "host",
+      "instrument"
+    ],
+    "message": [
+      "diagnostic",
+      "log"
+    ],
+    "node": [
+      "artifact",
+      "host",
+      "instrument",
+      "runtime_workload"
+    ],
+    "operator": [
+      "audience"
+    ],
+    "package": [
+      "artifact",
+      "audience",
+      "cluster",
+      "instrument",
+      "runtime_workload"
+    ],
+    "panel": [
+      "artifact",
+      "audience",
+      "cluster",
+      "host",
+      "instrument",
+      "ui_artifact"
+    ],
+    "pod": [
+      "artifact",
+      "audience",
+      "cluster",
+      "instrument"
+    ],
+    "registry": [
+      "log"
+    ],
+    "report": [
+      "artifact",
+      "diagnostic",
+      "log",
+      "ui_artifact"
+    ],
+    "repository": [
+      "artifact",
+      "artifact_store",
+      "audience"
+    ],
+    "server": [
+      "artifact",
+      "audience",
+      "host",
+      "instrument"
+    ],
+    "service": [
+      "artifact",
+      "audience",
+      "cluster",
+      "runtime_workload"
+    ],
+    "team": [
+      "audience",
+      "cluster"
+    ],
+    "telescope": [
+      "artifact",
+      "host",
+      "instrument"
+    ],
+    "tool": [
+      "artifact",
+      "audience",
+      "instrument"
+    ],
+    "trace": [
+      "artifact",
+      "diagnostic",
+      "log"
+    ],
+    "user": [
+      "audience"
+    ],
+    "view": [
+      "artifact",
+      "diagnostic",
+      "log",
+      "ui_artifact"
+    ],
+    "warning": [
+      "diagnostic",
+      "log"
+    ],
+    "worker": [
+      "audience"
+    ]
+  }
+}

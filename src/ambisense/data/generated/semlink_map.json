@@ -1,0 +1,5763 @@
+{
+  "frame_mappings": {
+    "10.1-discharge": [
+      "Emitting",
+      "Use_firearm"
+    ],
+    "10.1-dislodge": [
+      "Removing"
+    ],
+    "10.1-dismiss": [
+      "Firing"
+    ],
+    "10.1-draw": [
+      "Cause_motion"
+    ],
+    "10.1-eject": [
+      "Removing"
+    ],
+    "10.1-eliminate": [
+      "Killing",
+      "Removing"
+    ],
+    "10.1-evict": [
+      "Removing"
+    ],
+    "10.1-excise": [
+      "Removing"
+    ],
+    "10.1-expel": [
+      "Exclude_member",
+      "Removing"
+    ],
+    "10.1-extract": [
+      "Removing"
+    ],
+    "10.1-lose": [
+      "Emotion_active",
+      "Losing_it"
+    ],
+    "10.1-oust": [
+      "Change_of_leadership"
+    ],
+    "10.1-take": [
+      "Removing",
+      "Taking",
+      "Undressing"
+    ],
+    "10.10-can": [
+      "Firing"
+    ],
+    "10.10-dismiss": [
+      "Firing"
+    ],
+    "10.10-drop": [
+      "Body_movement",
+      "Change_position_on_a_scale",
+      "Change_posture"
+    ],
+    "10.10-fire": [
+      "Firing"
+    ],
+    "10.10-oust": [
+      "Change_of_leadership"
+    ],
+    "10.10-sack": [
+      "Firing"
+    ],
+    "10.10-terminate": [
+      "Firing"
+    ],
+    "10.11-1-walk": [
+      "Cotheme",
+      "Self_motion"
+    ],
+    "10.2-evacuate": [
+      "Escaping",
+      "Removing"
+    ],
+    "10.2-expel": [
+      "Exclude_member",
+      "Removing"
+    ],
+    "10.3-1-clear": [
+      "Emptying",
+      "Removing"
+    ],
+    "10.3-1-drain": [
+      "Emptying",
+      "Removing"
+    ],
+    "10.3-1-empty": [
+      "Emptying",
+      "Removing"
+    ],
+    "10.4.1-1-dust": [
+      "Removing"
+    ],
+    "10.4.1-1-lick": [
+      "Manipulation"
+    ],
+    "10.4.1-1-pluck": [
+      "Grooming",
+      "Removing"
+    ],
+    "10.4.1-1-rinse": [
+      "Removing"
+    ],
+    "10.4.1-1-rub": [
+      "Manipulation",
+      "Placing"
+    ],
+    "10.4.1-1-scour": [
+      "Scouring"
+    ],
+    "10.4.1-1-scrape": [
+      "Friction",
+      "Make_noise",
+      "Removing"
+    ],
+    "10.4.1-1-scratch": [
+      "Damaging"
+    ],
+    "10.4.1-1-squeeze": [
+      "Manipulation"
+    ],
+    "10.4.1-1-strip": [
+      "Emptying",
+      "Removing"
+    ],
+    "10.4.1-1-wash": [
+      "Grooming",
+      "Removing"
+    ],
+    "10.4.1-purge": [
+      "Emptying",
+      "Removing"
+    ],
+    "10.4.1-shave": [
+      "Removing"
+    ],
+    "10.4.1-skim": [
+      "Removing"
+    ],
+    "10.4.1-soak": [
+      "Cause_to_be_wet",
+      "Fluidic_motion",
+      "Soaking"
+    ],
+    "10.4.1-unload": [
+      "Emptying",
+      "Removing"
+    ],
+    "10.4.1-wring": [
+      "Manipulation"
+    ],
+    "10.4.2-1-brush": [
+      "Grooming"
+    ],
+    "10.5-1-grab": [
+      "Manipulation",
+      "Taking"
+    ],
+    "10.5-1-nab": [
+      "Kidnapping"
+    ],
+    "10.5-1-nick": [
+      "Theft"
+    ],
+    "10.5-1-snatch": [
+      "Kidnapping",
+      "Removing",
+      "Theft"
+    ],
+    "10.5-1-steal": [
+      "Theft"
+    ],
+    "10.5-abduct": [
+      "Kidnapping"
+    ],
+    "10.5-confiscate": [
+      "Removing"
+    ],
+    "10.5-kidnap": [
+      "Kidnapping"
+    ],
+    "10.5-lift": [
+      "Theft"
+    ],
+    "10.5-pinch": [
+      "Theft"
+    ],
+    "10.5-seize": [
+      "Taking"
+    ],
+    "10.5-take": [
+      "Taking"
+    ],
+    "10.6.1-1-con": [
+      "Manipulate_into_doing"
+    ],
+    "10.6.1-1-defraud": [
+      "Manipulate_into_doing"
+    ],
+    "10.6.1-cheat": [
+      "Manipulate_into_doing"
+    ],
+    "10.6.2-disarm": [
+      "Emptying"
+    ],
+    "10.6.2-divest": [
+      "Emptying"
+    ],
+    "10.6.2-drain": [
+      "Emptying",
+      "Removing"
+    ],
+    "10.6.2-rid": [
+      "Emptying"
+    ],
+    "10.6.3-1-1-cure": [
+      "Cure"
+    ],
+    "10.6.3-1-1-purge": [
+      "Emptying",
+      "Removing"
+    ],
+    "10.6.3-1-acquit": [
+      "Verdict"
+    ],
+    "10.6.3-1-clear": [
+      "Removing"
+    ],
+    "10.6.3-1-release": [
+      "Releasing"
+    ],
+    "10.6.3-break": [
+      "Compliance"
+    ],
+    "10.6.3-cleanse": [
+      "Grooming"
+    ],
+    "10.6.3-ease": [
+      "Cure"
+    ],
+    "10.6.4-rob": [
+      "Robbery"
+    ],
+    "10.6.4-strip": [
+      "Emptying",
+      "Removing"
+    ],
+    "10.7-peel": [
+      "Emptying"
+    ],
+    "10.7-pit": [
+      "Emptying"
+    ],
+    "10.7-seed": [
+      "Emptying"
+    ],
+    "10.7-skin": [
+      "Emptying"
+    ],
+    "10.7-stone": [
+      "Emptying"
+    ],
+    "10.8-eviscerate": [
+      "Emptying"
+    ],
+    "100.1-hold": [
+      "Change_event_time"
+    ],
+    "101-register": [
+      "Recording"
+    ],
+    "102-emphasize": [
+      "Convey_importance",
+      "Emphasizing"
+    ],
+    "102-encourage": [
+      "Subjective_influence"
+    ],
+    "102-invite": [
+      "Request"
+    ],
+    "103-1-demand": [
+      "Have_as_requirement"
+    ],
+    "103-take": [
+      "Taking_time"
+    ],
+    "104-pass": [
+      "Process_end"
+    ],
+    "105.1-apply": [
+      "Using"
+    ],
+    "105.1-employ": [
+      "Using"
+    ],
+    "105.1-run": [
+      "Leadership",
+      "Operating_a_system"
+    ],
+    "105.1-use": [
+      "Using"
+    ],
+    "108-add": [
+      "Adding_up"
+    ],
+    "108-count": [
+      "Being_in_category",
+      "Categorization"
+    ],
+    "108-tally": [
+      "Adding_up"
+    ],
+    "109-1-1-1-seem": [
+      "Appearance"
+    ],
+    "109-1-1-remain": [
+      "State_continue"
+    ],
+    "109-1-act": [
+      "Conduct",
+      "Intentionally_act"
+    ],
+    "109-keep": [
+      "Activity_ongoing",
+      "Avoiding",
+      "Cause_to_continue",
+      "Storing"
+    ],
+    "109.1-1-1-become": [
+      "Becoming"
+    ],
+    "109.1-get": [
+      "Transition_to_a_state"
+    ],
+    "11.1-1-express": [
+      "Sending"
+    ],
+    "11.1-1-hand": [
+      "Giving"
+    ],
+    "11.1-1-pass": [
+      "Giving"
+    ],
+    "11.1-1-send": [
+      "Causation",
+      "Sending"
+    ],
+    "11.1-1-ship": [
+      "Sending"
+    ],
+    "11.1-1-wire": [
+      "Communication_means",
+      "Sending"
+    ],
+    "11.1-convey": [
+      "Bringing"
+    ],
+    "11.1-deliver": [
+      "Delivery"
+    ],
+    "11.1-dispatch": [
+      "Sending"
+    ],
+    "11.1-drive": [
+      "Cause_motion"
+    ],
+    "11.1-import": [
+      "Import_export_scenario",
+      "Importing"
+    ],
+    "11.1-post": [
+      "Sending"
+    ],
+    "11.1-transport": [
+      "Bringing"
+    ],
+    "11.2-1-float": [
+      "Motion"
+    ],
+    "11.2-1-roll": [
+      "Body_movement",
+      "Cause_motion",
+      "Mass_motion",
+      "Motion"
+    ],
+    "11.2-1-slide": [
+      "Cause_motion",
+      "Motion"
+    ],
+    "11.3-1-bring": [
+      "Bringing"
+    ],
+    "11.3-take": [
+      "Bringing"
+    ],
+    "11.4-1-1-kick": [
+      "Cause_harm"
+    ],
+    "11.4-1-1-push": [
+      "Cause_change_of_position_on_a_scale",
+      "Cause_motion",
+      "Manipulation"
+    ],
+    "11.4-1-1-shove": [
+      "Cause_motion"
+    ],
+    "11.4-1-1-thrust": [
+      "Cause_motion"
+    ],
+    "11.4-carry": [
+      "Bringing"
+    ],
+    "11.4-drag": [
+      "Cause_motion"
+    ],
+    "11.4-draw": [
+      "Cause_motion"
+    ],
+    "11.4-haul": [
+      "Bringing",
+      "Cause_motion"
+    ],
+    "11.4-pull": [
+      "Cause_motion",
+      "Earnings_and_losses",
+      "Manipulation"
+    ],
+    "11.4-run": [
+      "Self_motion"
+    ],
+    "11.4-tug": [
+      "Cause_motion",
+      "Manipulation"
+    ],
+    "11.4-yank": [
+      "Cause_motion",
+      "Manipulation"
+    ],
+    "11.5-1-ferry": [
+      "Bringing"
+    ],
+    "11.5-1-fly": [
+      "Bringing",
+      "Motion",
+      "Operate_vehicle",
+      "Ride_vehicle",
+      "Self_motion"
+    ],
+    "11.5-drive": [
+      "Bringing",
+      "Operate_vehicle",
+      "Self_motion"
+    ],
+    "11.5-paddle": [
+      "Operate_vehicle"
+    ],
+    "11.5-wheel": [
+      "Bringing"
+    ],
+    "111.1-run": [
+      "Leadership",
+      "Operating_a_system"
+    ],
+    "114-1-1-act": [
+      "Conduct"
+    ],
+    "12-1-1-press": [
+      "Cause_motion"
+    ],
+    "12-1-1-push": [
+      "Cause_change_of_position_on_a_scale",
+      "Cause_motion",
+      "Manipulation"
+    ],
+    "12-1-1-squeeze": [
+      "Cause_to_move_in_place"
+    ],
+    "12-1-1-thrust": [
+      "Cause_motion"
+    ],
+    "12-1-jerk": [
+      "Body_movement"
+    ],
+    "12-1-pull": [
+      "Cause_motion",
+      "Earnings_and_losses",
+      "Manipulation"
+    ],
+    "12-1-tug": [
+      "Cause_motion",
+      "Manipulation"
+    ],
+    "12-1-yank": [
+      "Cause_motion",
+      "Manipulation"
+    ],
+    "13.1-1-give": [
+      "Expressing_publicly",
+      "Giving"
+    ],
+    "13.1-1-sell": [
+      "Commerce_sell"
+    ],
+    "13.1-pass": [
+      "Giving"
+    ],
+    "13.1-render": [
+      "Categorization"
+    ],
+    "13.2-1-1-donate": [
+      "Giving"
+    ],
+    "13.2-1-1-submit": [
+      "Giving_in",
+      "Submitting_documents"
+    ],
+    "13.2-1-1-surrender": [
+      "Surrendering_possession"
+    ],
+    "13.2-1-distribute": [
+      "Dispersal"
+    ],
+    "13.2-forgo": [
+      "Avoiding"
+    ],
+    "13.2-gift": [
+      "Giving"
+    ],
+    "13.2-relinquish": [
+      "Surrendering_possession"
+    ],
+    "13.4.1-2-provide": [
+      "Supply"
+    ],
+    "13.4.1-leave": [
+      "Forming_relationships"
+    ],
+    "13.4.2-1-equip": [
+      "Supply"
+    ],
+    "13.4.2-1-reward": [
+      "Rewards_and_punishments"
+    ],
+    "13.4.2-1-treat": [
+      "Giving"
+    ],
+    "13.5.1-1-fetch": [
+      "Bringing"
+    ],
+    "13.5.1-1-gain": [
+      "Getting"
+    ],
+    "13.5.1-1-get": [
+      "Getting"
+    ],
+    "13.5.1-1-score": [
+      "Getting"
+    ],
+    "13.5.1-1-secure": [
+      "Getting"
+    ],
+    "13.5.1-buy": [
+      "Commerce_buy"
+    ],
+    "13.5.1-call": [
+      "Contacting",
+      "Deserving",
+      "Request"
+    ],
+    "13.5.1-charter": [
+      "Renting"
+    ],
+    "13.5.1-choose": [
+      "Choosing"
+    ],
+    "13.5.1-find": [
+      "Becoming_aware",
+      "Locating"
+    ],
+    "13.5.1-gather": [
+      "Gathering_up"
+    ],
+    "13.5.1-hire": [
+      "Hiring"
+    ],
+    "13.5.1-lease": [
+      "Renting"
+    ],
+    "13.5.1-order": [
+      "Request"
+    ],
+    "13.5.1-pluck": [
+      "Grooming",
+      "Removing"
+    ],
+    "13.5.1-pull": [
+      "Cause_motion",
+      "Earnings_and_losses",
+      "Manipulation"
+    ],
+    "13.5.1-take": [
+      "Taking"
+    ],
+    "13.5.2-1-acquire": [
+      "Getting"
+    ],
+    "13.5.2-1-obtain": [
+      "Getting"
+    ],
+    "13.5.2-1-purchase": [
+      "Commerce_buy"
+    ],
+    "13.5.2-accept": [
+      "Receiving",
+      "Respond_to_proposal"
+    ],
+    "13.5.2-collect": [
+      "Commerce_collect",
+      "Gathering_up"
+    ],
+    "13.5.2-grab": [
+      "Manipulation",
+      "Taking"
+    ],
+    "13.5.2-receive": [
+      "Receiving"
+    ],
+    "13.5.2-seize": [
+      "Manipulation",
+      "Taking"
+    ],
+    "13.5.2-snatch": [
+      "Removing",
+      "Theft"
+    ],
+    "13.5.3-employ": [
+      "Employing"
+    ],
+    "13.5.3-enlist": [
+      "Becoming_a_member"
+    ],
+    "13.5.3-hire": [
+      "Hiring"
+    ],
+    "13.5.3-sign": [
+      "Hiring",
+      "Sign_agreement"
+    ],
+    "13.6.1-change": [
+      "Exchange_currency",
+      "Replacing"
+    ],
+    "13.6.1-exchange": [
+      "Exchange",
+      "Exchange_currency",
+      "Replacing"
+    ],
+    "13.6.1-trade": [
+      "Exchange"
+    ],
+    "13.6.2-1-replace": [
+      "Replacing",
+      "Take_place_of"
+    ],
+    "13.6.2-substitute": [
+      "Replacing"
+    ],
+    "13.6.2-swap": [
+      "Replacing"
+    ],
+    "13.6.2-swap_out": [
+      "Exchange"
+    ],
+    "13.6.2-switch": [
+      "Change_tool",
+      "Exchange",
+      "Replacing"
+    ],
+    "13.7-seal": [
+      "Hunting"
+    ],
+    "14-1-cram": [
+      "Education_teaching"
+    ],
+    "14-1-read": [
+      "Reading_activity",
+      "Reading_perception"
+    ],
+    "14-1-study": [
+      "Education_teaching",
+      "Scrutiny",
+      "Studying"
+    ],
+    "14-2-1-read": [
+      "Reading_activity",
+      "Reading_perception"
+    ],
+    "15.2-hold": [
+      "Becoming_silent",
+      "Detaining",
+      "Inhibit_movement"
+    ],
+    "15.2-keep": [
+      "Activity_ongoing",
+      "Avoiding",
+      "Cause_to_continue",
+      "Storing"
+    ],
+    "15.2-leave": [
+      "Forming_relationships"
+    ],
+    "15.2-store": [
+      "Storing"
+    ],
+    "16-1-hide": [
+      "Eclipse"
+    ],
+    "16-block": [
+      "Eclipse"
+    ],
+    "16-conceal": [
+      "Eclipse"
+    ],
+    "16-screen": [
+      "Eclipse"
+    ],
+    "17.1-1-1-kick": [
+      "Cause_harm"
+    ],
+    "17.1-1-1-launch": [
+      "Shoot_projectiles"
+    ],
+    "17.1-1-1-throw": [
+      "Body_movement",
+      "Cause_motion",
+      "Cause_to_amalgamate"
+    ],
+    "17.1-1-1-toss": [
+      "Cause_motion"
+    ],
+    "17.1-1-chuck": [
+      "Cause_motion"
+    ],
+    "17.1-1-fire": [
+      "Shoot_projectiles",
+      "Use_firearm"
+    ],
+    "17.1-1-fling": [
+      "Cause_motion"
+    ],
+    "17.1-1-hit": [
+      "Cause_harm",
+      "Cause_impact",
+      "Experience_bodily_harm",
+      "Hit_target",
+      "Impact"
+    ],
+    "17.1-1-hurl": [
+      "Cause_motion"
+    ],
+    "17.1-1-knock": [
+      "Cause_harm",
+      "Cause_motion"
+    ],
+    "17.1-1-pass": [
+      "Giving"
+    ],
+    "17.1-1-pitch": [
+      "Cause_motion"
+    ],
+    "17.1-1-punt": [
+      "Cause_motion"
+    ],
+    "17.1-1-shoot": [
+      "Shoot_projectiles"
+    ],
+    "17.1-1-shove": [
+      "Cause_motion"
+    ],
+    "17.1-1-slam": [
+      "Cause_impact",
+      "Impact",
+      "Judgment_communication"
+    ],
+    "17.1-1-slap": [
+      "Cause_impact"
+    ],
+    "17.1-1-smash": [
+      "Cause_harm",
+      "Cause_to_fragment",
+      "Impact"
+    ],
+    "17.1-cast": [
+      "Cause_motion"
+    ],
+    "17.1-discard": [
+      "Removing"
+    ],
+    "17.2-shower": [
+      "Placing"
+    ],
+    "17.2-stone": [
+      "Cause_harm"
+    ],
+    "18.1-1-batter": [
+      "Abusing",
+      "Cause_harm"
+    ],
+    "18.1-1-beat": [
+      "Cause_harm"
+    ],
+    "18.1-1-bump": [
+      "Impact"
+    ],
+    "18.1-1-butt": [
+      "Cause_harm"
+    ],
+    "18.1-1-hammer": [
+      "Cause_harm"
+    ],
+    "18.1-1-hit": [
+      "Cause_harm",
+      "Cause_impact",
+      "Experience_bodily_harm",
+      "Hit_target",
+      "Impact"
+    ],
+    "18.1-1-kick": [
+      "Cause_harm"
+    ],
+    "18.1-1-knock": [
+      "Cause_harm",
+      "Cause_motion"
+    ],
+    "18.1-1-lash": [
+      "Cause_harm"
+    ],
+    "18.1-1-slap": [
+      "Cause_harm",
+      "Cause_impact",
+      "Impact"
+    ],
+    "18.1-1-smack": [
+      "Cause_harm",
+      "Cause_impact",
+      "Experience_bodily_harm",
+      "Impact"
+    ],
+    "18.1-1-smash": [
+      "Cause_harm",
+      "Cause_to_fragment",
+      "Impact"
+    ],
+    "18.1-1-strike": [
+      "Attack",
+      "Cause_harm",
+      "Cause_impact",
+      "Impact"
+    ],
+    "18.1-bang": [
+      "Cause_impact",
+      "Impact",
+      "Motion_noise"
+    ],
+    "18.1-click": [
+      "Cause_impact",
+      "Impact",
+      "Motion_noise"
+    ],
+    "18.1-thump": [
+      "Cause_impact",
+      "Impact"
+    ],
+    "18.2-chop": [
+      "Cutting"
+    ],
+    "18.2-claw": [
+      "Cause_harm"
+    ],
+    "18.2-kick": [
+      "Cause_harm"
+    ],
+    "18.2-punch": [
+      "Cause_harm"
+    ],
+    "18.2-scratch": [
+      "Damaging"
+    ],
+    "18.2-slice": [
+      "Cause_harm",
+      "Cutting"
+    ],
+    "18.2-stab": [
+      "Cause_harm"
+    ],
+    "18.3-belt": [
+      "Cause_harm"
+    ],
+    "18.3-club": [
+      "Cause_harm"
+    ],
+    "18.3-paddle": [
+      "Corporal_punishment"
+    ],
+    "18.3-slam": [
+      "Cause_impact",
+      "Impact",
+      "Judgment_communication"
+    ],
+    "18.3-thump": [
+      "Cause_impact",
+      "Impact",
+      "Make_noise"
+    ],
+    "18.3-whip": [
+      "Cause_harm"
+    ],
+    "18.4-1-bang": [
+      "Cause_impact",
+      "Impact",
+      "Motion_noise"
+    ],
+    "18.4-1-bump": [
+      "Impact"
+    ],
+    "18.4-1-butt": [
+      "Cause_harm"
+    ],
+    "18.4-1-clash": [
+      "Impact"
+    ],
+    "18.4-1-collide": [
+      "Cause_impact",
+      "Impact"
+    ],
+    "18.4-1-crack": [
+      "Cause_harm"
+    ],
+    "18.4-1-crash": [
+      "Cause_impact",
+      "Impact"
+    ],
+    "18.4-1-crunch": [
+      "Impact",
+      "Make_noise",
+      "Motion_noise"
+    ],
+    "18.4-1-hammer": [
+      "Cause_harm"
+    ],
+    "18.4-1-knock": [
+      "Cause_harm",
+      "Cause_motion"
+    ],
+    "18.4-1-ram": [
+      "Cause_impact"
+    ],
+    "18.4-1-slam": [
+      "Cause_impact",
+      "Impact",
+      "Judgment_communication"
+    ],
+    "18.4-1-slap": [
+      "Cause_harm",
+      "Cause_impact",
+      "Impact"
+    ],
+    "18.4-1-smack": [
+      "Cause_harm",
+      "Cause_impact",
+      "Experience_bodily_harm",
+      "Impact"
+    ],
+    "18.4-1-smash": [
+      "Cause_harm",
+      "Cause_to_fragment",
+      "Impact"
+    ],
+    "18.4-1-strike": [
+      "Attack",
+      "Cause_harm",
+      "Cause_impact",
+      "Impact"
+    ],
+    "18.4-1-thud": [
+      "Cause_impact",
+      "Impact",
+      "Motion_noise"
+    ],
+    "18.4-hit": [
+      "Cause_harm",
+      "Cause_impact",
+      "Experience_bodily_harm",
+      "Hit_target",
+      "Impact"
+    ],
+    "18.4-run": [
+      "Self_motion"
+    ],
+    "19-stick": [
+      "Attaching",
+      "Being_attached",
+      "Cause_motion",
+      "Placing"
+    ],
+    "20-1-grasp": [
+      "Manipulation"
+    ],
+    "20-1-graze": [
+      "Cause_impact",
+      "Experience_bodily_harm",
+      "Impact"
+    ],
+    "20-1-grip": [
+      "Manipulation"
+    ],
+    "20-1-grope": [
+      "Manipulation"
+    ],
+    "20-1-kiss": [
+      "Manipulation"
+    ],
+    "20-1-lick": [
+      "Manipulation"
+    ],
+    "20-1-massage": [
+      "Manipulation"
+    ],
+    "20-1-pinch": [
+      "Manipulation"
+    ],
+    "20-1-rub": [
+      "Manipulation",
+      "Placing"
+    ],
+    "20-1-squeeze": [
+      "Manipulation"
+    ],
+    "20-1-sting": [
+      "Cause_harm",
+      "Perception_body"
+    ],
+    "20-1-stroke": [
+      "Manipulation"
+    ],
+    "20-1-tickle": [
+      "Perception_body"
+    ],
+    "20-1-touch": [
+      "Manipulation"
+    ],
+    "20-1-tug": [
+      "Cause_motion",
+      "Manipulation"
+    ],
+    "20-1-tweak": [
+      "Manipulation"
+    ],
+    "20-1-wring": [
+      "Manipulation"
+    ],
+    "21.1-1-chip": [
+      "Cause_to_fragment",
+      "Damaging"
+    ],
+    "21.1-1-chop": [
+      "Cutting"
+    ],
+    "21.1-1-cut": [
+      "Cause_harm",
+      "Cutting",
+      "Experience_bodily_harm"
+    ],
+    "21.1-1-rip": [
+      "Cause_to_fragment",
+      "Damaging"
+    ],
+    "21.1-1-scrape": [
+      "Friction",
+      "Make_noise",
+      "Removing"
+    ],
+    "21.1-1-scratch": [
+      "Damaging"
+    ],
+    "21.1-1-slice": [
+      "Cause_harm",
+      "Cutting"
+    ],
+    "21.2-1-chip": [
+      "Cause_to_fragment",
+      "Damaging"
+    ],
+    "21.2-1-cleave": [
+      "Cause_to_fragment"
+    ],
+    "21.2-1-crumble": [
+      "Grinding"
+    ],
+    "21.2-1-crumple": [
+      "Body_movement"
+    ],
+    "21.2-1-crunch": [
+      "Grinding"
+    ],
+    "21.2-1-crush": [
+      "Cause_harm",
+      "Grinding",
+      "Reshaping"
+    ],
+    "21.2-1-flake": [
+      "Grinding"
+    ],
+    "21.2-1-flatten": [
+      "Reshaping"
+    ],
+    "21.2-1-grate": [
+      "Grinding"
+    ],
+    "21.2-1-grind": [
+      "Grinding"
+    ],
+    "21.2-1-mash": [
+      "Grinding"
+    ],
+    "21.2-1-mince": [
+      "Cutting"
+    ],
+    "21.2-1-nick": [
+      "Damaging"
+    ],
+    "21.2-1-pulverize": [
+      "Grinding"
+    ],
+    "21.2-1-slice": [
+      "Cause_harm",
+      "Cutting"
+    ],
+    "21.2-1-smash": [
+      "Cause_harm",
+      "Cause_to_fragment",
+      "Impact"
+    ],
+    "21.2-2-carve": [
+      "Create_representation"
+    ],
+    "21.2-2-chop": [
+      "Cutting"
+    ],
+    "21.2-2-punch": [
+      "Cause_harm"
+    ],
+    "21.2-2-spear": [
+      "Cause_harm"
+    ],
+    "22.1-1-1-blend": [
+      "Amalgamation",
+      "Cause_to_amalgamate"
+    ],
+    "22.1-1-1-combine": [
+      "Cause_to_amalgamate"
+    ],
+    "22.1-1-1-compound": [
+      "Cause_to_amalgamate"
+    ],
+    "22.1-1-1-fuse": [
+      "Amalgamation",
+      "Attaching",
+      "Cause_to_amalgamate"
+    ],
+    "22.1-1-1-meld": [
+      "Cause_to_amalgamate"
+    ],
+    "22.1-1-1-merge": [
+      "Amalgamation",
+      "Cause_to_amalgamate"
+    ],
+    "22.1-1-1-mix": [
+      "Cause_to_amalgamate"
+    ],
+    "22.1-1-consolidate": [
+      "Cause_to_amalgamate"
+    ],
+    "22.1-2-1-connect": [
+      "Attaching"
+    ],
+    "22.1-2-1-join": [
+      "Attaching",
+      "Cause_to_amalgamate"
+    ],
+    "22.1-2-1-pair": [
+      "Cause_to_amalgamate"
+    ],
+    "22.1-2-tie": [
+      "Attaching",
+      "Closure",
+      "Immobilization",
+      "Knot_creation",
+      "Rope_manipulation"
+    ],
+    "22.2-1-1-consolidate": [
+      "Cause_to_amalgamate"
+    ],
+    "22.2-2-1-coincide": [
+      "Simultaneity"
+    ],
+    "22.2-2-1-consolidate": [
+      "Cause_to_amalgamate"
+    ],
+    "22.2-2-1-harmonize": [
+      "Compatibility"
+    ],
+    "22.2-2-1-unify": [
+      "Amalgamation",
+      "Cause_to_amalgamate"
+    ],
+    "22.2-2-1-unite": [
+      "Amalgamation",
+      "Cause_to_amalgamate"
+    ],
+    "22.2-2-compare": [
+      "Evaluative_comparison"
+    ],
+    "22.2-2-confuse": [
+      "Experiencer_obj"
+    ],
+    "22.2-2-pair": [
+      "Cause_to_amalgamate"
+    ],
+    "22.2-2-team": [
+      "Collaboration"
+    ],
+    "22.2-2-total": [
+      "Adding_up",
+      "Amounting_to"
+    ],
+    "22.2-3-1-1-marry": [
+      "Forming_relationships"
+    ],
+    "22.2-3-1-1-wed": [
+      "Forming_relationships"
+    ],
+    "22.3-1-1-fuse": [
+      "Amalgamation",
+      "Attaching",
+      "Cause_to_amalgamate"
+    ],
+    "22.3-1-lump": [
+      "Cause_to_amalgamate"
+    ],
+    "22.3-2-1-attach": [
+      "Attaching"
+    ],
+    "22.3-2-1-bind": [
+      "Attaching"
+    ],
+    "22.3-2-1-bond": [
+      "Attaching"
+    ],
+    "22.3-2-1-fasten": [
+      "Attaching",
+      "Closure"
+    ],
+    "22.3-2-1-jumble": [
+      "Cause_to_amalgamate"
+    ],
+    "22.3-2-1-moor": [
+      "Attaching"
+    ],
+    "22.3-2-1-package": [
+      "Placing"
+    ],
+    "22.3-2-1-secure": [
+      "Attaching"
+    ],
+    "22.3-2-1-weld": [
+      "Attaching",
+      "Building"
+    ],
+    "22.3-2-collect": [
+      "Gathering_up"
+    ],
+    "22.3-2-fix": [
+      "Attaching"
+    ],
+    "22.3-2-gather": [
+      "Gathering_up"
+    ],
+    "22.3-2-herd": [
+      "Gathering_up"
+    ],
+    "22.3-2-pair": [
+      "Cause_to_amalgamate"
+    ],
+    "22.3-2-roll": [
+      "Reshaping"
+    ],
+    "22.3-2-sew": [
+      "Attaching"
+    ],
+    "22.3-2-shake": [
+      "Body_movement",
+      "Cause_to_move_in_place",
+      "Moving_in_place"
+    ],
+    "22.3-2-shuffle": [
+      "Body_movement"
+    ],
+    "22.3-2-stick": [
+      "Attaching",
+      "Being_attached",
+      "Cause_motion",
+      "Placing"
+    ],
+    "22.4-1-gum": [
+      "Attaching"
+    ],
+    "22.4-1-paste": [
+      "Attaching"
+    ],
+    "22.4-buckle": [
+      "Closure"
+    ],
+    "22.4-cement": [
+      "Attaching"
+    ],
+    "22.4-chain": [
+      "Attaching"
+    ],
+    "22.4-glue": [
+      "Attaching",
+      "Building"
+    ],
+    "22.4-hitch": [
+      "Attaching"
+    ],
+    "22.4-hook": [
+      "Attaching"
+    ],
+    "22.4-knot": [
+      "Rope_manipulation"
+    ],
+    "22.4-lash": [
+      "Attaching"
+    ],
+    "22.4-moor": [
+      "Attaching"
+    ],
+    "22.4-nail": [
+      "Attaching"
+    ],
+    "22.4-pin": [
+      "Attaching"
+    ],
+    "22.4-plaster": [
+      "Attaching"
+    ],
+    "22.4-rivet": [
+      "Attaching"
+    ],
+    "22.4-seal": [
+      "Closure"
+    ],
+    "22.4-strap": [
+      "Attaching"
+    ],
+    "22.4-tack": [
+      "Attaching"
+    ],
+    "22.4-tape": [
+      "Attaching"
+    ],
+    "22.4-tie": [
+      "Attaching",
+      "Closure",
+      "Immobilization",
+      "Knot_creation",
+      "Rope_manipulation"
+    ],
+    "22.4-wire": [
+      "Attaching"
+    ],
+    "22.4-zip": [
+      "Closure"
+    ],
+    "22.6-go": [
+      "Compatibility"
+    ],
+    "23.1-1-differentiate": [
+      "Differentiation"
+    ],
+    "23.1-1-divorce": [
+      "Forming_relationships"
+    ],
+    "23.1-2-separate": [
+      "Forming_relationships"
+    ],
+    "23.2-blow": [
+      "Breathing"
+    ],
+    "23.2-break": [
+      "Cause_harm",
+      "Cause_to_fragment",
+      "Experience_bodily_harm"
+    ],
+    "23.2-cut": [
+      "Cause_harm",
+      "Cutting",
+      "Experience_bodily_harm"
+    ],
+    "23.2-draw": [
+      "Cause_motion"
+    ],
+    "23.2-kick": [
+      "Cause_harm"
+    ],
+    "23.2-pull": [
+      "Cause_motion",
+      "Earnings_and_losses",
+      "Manipulation"
+    ],
+    "23.2-push": [
+      "Cause_change_of_position_on_a_scale",
+      "Cause_motion",
+      "Manipulation"
+    ],
+    "23.2-rip": [
+      "Cause_to_fragment",
+      "Damaging"
+    ],
+    "23.2-roll": [
+      "Body_movement",
+      "Cause_motion",
+      "Mass_motion",
+      "Motion"
+    ],
+    "23.2-shove": [
+      "Cause_motion"
+    ],
+    "23.2-slip": [
+      "Dressing",
+      "Undressing"
+    ],
+    "23.2-snap": [
+      "Cause_to_fragment"
+    ],
+    "23.2-split": [
+      "Cause_to_fragment"
+    ],
+    "23.2-tear": [
+      "Cause_to_fragment",
+      "Damaging",
+      "Experience_bodily_harm"
+    ],
+    "23.2-tug": [
+      "Cause_motion"
+    ],
+    "23.2-yank": [
+      "Cause_motion",
+      "Manipulation"
+    ],
+    "23.3-carve": [
+      "Create_representation"
+    ],
+    "23.3-detach": [
+      "Attaching",
+      "Becoming_detached",
+      "Detaching"
+    ],
+    "23.3-pare": [
+      "Cutting"
+    ],
+    "23.3-sift": [
+      "Scouring"
+    ],
+    "23.3-slice": [
+      "Cause_harm",
+      "Cutting"
+    ],
+    "23.4-differ": [
+      "Similarity"
+    ],
+    "24-glaze": [
+      "Filling"
+    ],
+    "24-paint": [
+      "Create_physical_artwork",
+      "Create_representation",
+      "Filling"
+    ],
+    "24-stain": [
+      "Processing_materials"
+    ],
+    "25.1-paint": [
+      "Create_physical_artwork",
+      "Create_representation"
+    ],
+    "25.1-sign": [
+      "Hiring",
+      "Sign_agreement",
+      "Text_creation"
+    ],
+    "25.2-1-print": [
+      "Text_creation"
+    ],
+    "25.2-1-type": [
+      "Text_creation"
+    ],
+    "25.2-copy": [
+      "Duplication",
+      "Imitating"
+    ],
+    "25.2-forge": [
+      "Forging"
+    ],
+    "25.2-spell": [
+      "Spelling_and_pronouncing"
+    ],
+    "25.3-adorn": [
+      "Filling"
+    ],
+    "25.3-decorate": [
+      "Distributed_position",
+      "Filling"
+    ],
+    "25.3-embellish": [
+      "Filling"
+    ],
+    "25.4-copy": [
+      "Duplication"
+    ],
+    "25.4-film": [
+      "Behind_the_scenes"
+    ],
+    "25.4-forge": [
+      "Forging"
+    ],
+    "25.4-photograph": [
+      "Create_representation"
+    ],
+    "25.4-record": [
+      "Recording"
+    ],
+    "25.4-tally": [
+      "Adding_up"
+    ],
+    "25.4-type": [
+      "Text_creation"
+    ],
+    "26.1-1-build": [
+      "Building"
+    ],
+    "26.1-1-carve": [
+      "Create_representation"
+    ],
+    "26.1-1-make": [
+      "Building",
+      "Cause_change",
+      "Cooking_creation",
+      "Intentionally_create",
+      "Manufacturing"
+    ],
+    "26.1-1-shape": [
+      "Reshaping"
+    ],
+    "26.1-arrange": [
+      "Arranging",
+      "Placing"
+    ],
+    "26.1-assemble": [
+      "Building",
+      "Creating"
+    ],
+    "26.1-bake": [
+      "Cooking_creation"
+    ],
+    "26.1-cast": [
+      "Create_physical_artwork"
+    ],
+    "26.1-cook": [
+      "Absorb_heat",
+      "Apply_heat",
+      "Cooking_creation"
+    ],
+    "26.1-develop": [
+      "Coming_to_be"
+    ],
+    "26.1-erect": [
+      "Building"
+    ],
+    "26.1-fashion": [
+      "Building"
+    ],
+    "26.1-fold": [
+      "Reshaping"
+    ],
+    "26.1-grow": [
+      "Cause_expansion",
+      "Expansion"
+    ],
+    "26.1-roll": [
+      "Reshaping"
+    ],
+    "26.1-spin": [
+      "Processing_materials"
+    ],
+    "26.2.2-raise": [
+      "Growing_food"
+    ],
+    "26.3-1-bake": [
+      "Cooking_creation"
+    ],
+    "26.3-1-blend": [
+      "Amalgamation",
+      "Cause_to_amalgamate"
+    ],
+    "26.3-1-clear": [
+      "Emptying",
+      "Removing"
+    ],
+    "26.3-1-cook": [
+      "Absorb_heat",
+      "Apply_heat",
+      "Cooking_creation"
+    ],
+    "26.3-1-fix": [
+      "Activity_prepare"
+    ],
+    "26.3-1-invent": [
+      "Achieving_first"
+    ],
+    "26.3-1-kindle": [
+      "Cause_to_start",
+      "Setting_fire"
+    ],
+    "26.3-1-light": [
+      "Setting_fire"
+    ],
+    "26.3-1-mix": [
+      "Cause_to_amalgamate"
+    ],
+    "26.3-1-prepare": [
+      "Activity_prepare",
+      "Cooking_creation"
+    ],
+    "26.3-1-roll": [
+      "Reshaping"
+    ],
+    "26.3-1-run": [
+      "Leadership",
+      "Operating_a_system"
+    ],
+    "26.3-2-boil": [
+      "Absorb_heat",
+      "Apply_heat",
+      "Cause_harm"
+    ],
+    "26.3-2-broil": [
+      "Apply_heat"
+    ],
+    "26.3-2-fry": [
+      "Apply_heat"
+    ],
+    "26.3-2-grill": [
+      "Apply_heat"
+    ],
+    "26.3-2-pour": [
+      "Mass_motion"
+    ],
+    "26.3-2-roast": [
+      "Apply_heat"
+    ],
+    "26.3-2-set": [
+      "Arranging",
+      "Intentionally_create"
+    ],
+    "26.3-2-wash": [
+      "Grooming"
+    ],
+    "26.4-coin": [
+      "Achieving_first"
+    ],
+    "26.4-concoct": [
+      "Cooking_creation"
+    ],
+    "26.4-construct": [
+      "Building"
+    ],
+    "26.4-create": [
+      "Cause_to_start",
+      "Creating",
+      "Intentionally_create"
+    ],
+    "26.4-fabricate": [
+      "Manufacturing"
+    ],
+    "26.4-form": [
+      "Creating",
+      "Reshaping"
+    ],
+    "26.4-manufacture": [
+      "Manufacturing"
+    ],
+    "26.4-produce": [
+      "Behind_the_scenes",
+      "Cause_to_start",
+      "Intentionally_create",
+      "Manufacturing"
+    ],
+    "26.5-bend": [
+      "Reshaping"
+    ],
+    "26.5-collect": [
+      "Gathering_up"
+    ],
+    "26.5-flux": [
+      "Cause_change_of_phase"
+    ],
+    "26.5-fold": [
+      "Reshaping"
+    ],
+    "26.5-melt": [
+      "Cause_change_of_phase",
+      "Change_of_phase"
+    ],
+    "26.5-shake": [
+      "Body_movement",
+      "Cause_to_move_in_place",
+      "Moving_in_place"
+    ],
+    "26.5-squeeze": [
+      "Manipulation"
+    ],
+    "26.5-whip": [
+      "Cause_harm"
+    ],
+    "26.5-wind": [
+      "Motion"
+    ],
+    "26.6.1-1-change": [
+      "Cause_change",
+      "Undergo_change"
+    ],
+    "26.6.1-1-convert": [
+      "Cause_change",
+      "Exchange_currency"
+    ],
+    "26.6.1-1-turn": [
+      "Cause_change",
+      "Undergo_change"
+    ],
+    "26.6.1-transform": [
+      "Cause_change"
+    ],
+    "26.6.1-translate": [
+      "Categorization",
+      "Have_as_translation_equivalent",
+      "Translating"
+    ],
+    "26.6.2-return": [
+      "Arriving",
+      "Resurrection"
+    ],
+    "26.6.2-turn": [
+      "Becoming",
+      "Undergo_change"
+    ],
+    "26.9-conform": [
+      "Compliance"
+    ],
+    "27.2-lead": [
+      "Causation"
+    ],
+    "29.1-adopt": [
+      "Adopt_selection"
+    ],
+    "29.1-appoint": [
+      "Appointing"
+    ],
+    "29.1-crown": [
+      "Change_of_leadership"
+    ],
+    "29.1-designate": [
+      "Appointing",
+      "Linguistic_meaning"
+    ],
+    "29.1-elect": [
+      "Change_of_leadership"
+    ],
+    "29.1-name": [
+      "Name_conferral"
+    ],
+    "29.1-ordain": [
+      "Rite"
+    ],
+    "29.1-proclaim": [
+      "Statement"
+    ],
+    "29.1-want": [
+      "Desiring"
+    ],
+    "29.10-classify": [
+      "Categorization"
+    ],
+    "29.10-grade": [
+      "Assessing"
+    ],
+    "29.10-lump": [
+      "Cause_to_amalgamate"
+    ],
+    "29.10-sort": [
+      "Differentiation"
+    ],
+    "29.2-1-1-define": [
+      "Communicate_categorization"
+    ],
+    "29.2-1-1-describe": [
+      "Communicate_categorization"
+    ],
+    "29.2-1-1-identify": [
+      "Verification"
+    ],
+    "29.2-1-1-imagine": [
+      "Awareness"
+    ],
+    "29.2-1-1-portray": [
+      "Communicate_categorization"
+    ],
+    "29.2-1-1-remember": [
+      "Memory",
+      "Remembering_experience",
+      "Remembering_information"
+    ],
+    "29.2-1-1-represent": [
+      "Communicate_categorization"
+    ],
+    "29.2-1-2-report": [
+      "Statement"
+    ],
+    "29.2-1-2-reveal": [
+      "Reveal_secret"
+    ],
+    "29.2-1-characterize": [
+      "Distinctiveness"
+    ],
+    "29.2-1-conceive": [
+      "Awareness",
+      "Categorization"
+    ],
+    "29.2-1-view": [
+      "Categorization"
+    ],
+    "29.2-adopt": [
+      "Adopt_selection"
+    ],
+    "29.2-cast": [
+      "Behind_the_scenes"
+    ],
+    "29.2-classify": [
+      "Categorization"
+    ],
+    "29.2-count": [
+      "Being_in_category",
+      "Categorization"
+    ],
+    "29.2-depict": [
+      "Communicate_categorization"
+    ],
+    "29.2-interpret": [
+      "Categorization"
+    ],
+    "29.2-peg": [
+      "Categorization"
+    ],
+    "29.2-perceive": [
+      "Categorization"
+    ],
+    "29.2-rank": [
+      "Occupy_rank"
+    ],
+    "29.2-regard": [
+      "Categorization",
+      "Regard"
+    ],
+    "29.2-treat": [
+      "Communicate_categorization",
+      "Topic"
+    ],
+    "29.3-brand": [
+      "Labeling"
+    ],
+    "29.3-call": [
+      "Labeling",
+      "Referring_by_name",
+      "Simple_naming"
+    ],
+    "29.3-consecrate": [
+      "Rite"
+    ],
+    "29.3-crown": [
+      "Change_of_leadership"
+    ],
+    "29.3-dub": [
+      "Name_conferral"
+    ],
+    "29.3-label": [
+      "Labeling"
+    ],
+    "29.3-name": [
+      "Name_conferral"
+    ],
+    "29.3-pronounce": [
+      "Verdict"
+    ],
+    "29.3-term": [
+      "Labeling",
+      "Simple_naming"
+    ],
+    "29.4-1-1-1-declare": [
+      "Statement"
+    ],
+    "29.4-1-1-2-find": [
+      "Coming_to_believe"
+    ],
+    "29.4-1-1-3-profess": [
+      "Statement"
+    ],
+    "29.4-1-1-prove": [
+      "Evidence",
+      "Reasoning"
+    ],
+    "29.4-1-maintain": [
+      "Statement"
+    ],
+    "29.4-2-proclaim": [
+      "Statement"
+    ],
+    "29.5-1-anticipate": [
+      "Expectation"
+    ],
+    "29.5-1-foretell": [
+      "Omen",
+      "Predicting"
+    ],
+    "29.5-1-guess": [
+      "Coming_to_believe"
+    ],
+    "29.5-1-infer": [
+      "Coming_to_believe"
+    ],
+    "29.5-1-presume": [
+      "Awareness"
+    ],
+    "29.5-admit": [
+      "Reveal_secret"
+    ],
+    "29.5-deny": [
+      "Affirm_or_deny"
+    ],
+    "29.6-1-behave": [
+      "Conduct"
+    ],
+    "29.6-2-pose": [
+      "Posing_as"
+    ],
+    "29.6-2-serve": [
+      "Assistance"
+    ],
+    "29.6-behave": [
+      "Conduct"
+    ],
+    "29.6-count": [
+      "Being_in_category",
+      "Categorization"
+    ],
+    "29.6-rank": [
+      "Occupy_rank"
+    ],
+    "29.7-outlaw": [
+      "Prohibiting_or_licensing"
+    ],
+    "29.8-1-1-star": [
+      "Performers_and_roles"
+    ],
+    "29.8-1-bully": [
+      "Manipulate_into_doing"
+    ],
+    "29.8-1-coach": [
+      "Education_teaching"
+    ],
+    "29.8-1-escort": [
+      "Cotheme"
+    ],
+    "29.8-1-host": [
+      "Guest_and_host"
+    ],
+    "29.8-1-partner": [
+      "Collaboration"
+    ],
+    "29.8-1-pioneer": [
+      "Achieving_first"
+    ],
+    "29.8-1-usher": [
+      "Cotheme"
+    ],
+    "29.8-volunteer": [
+      "Commitment"
+    ],
+    "29.9-1-1-1-consider": [
+      "Categorization",
+      "Cogitation"
+    ],
+    "29.9-1-acknowledge": [
+      "Statement"
+    ],
+    "29.9-1-deem": [
+      "Categorization"
+    ],
+    "29.9-1-reckon": [
+      "Awareness"
+    ],
+    "29.9-2-suppose": [
+      "Opinion"
+    ],
+    "29.9-2-suspect": [
+      "Awareness"
+    ],
+    "29.9-2-think": [
+      "Opinion",
+      "Regard"
+    ],
+    "29.90-1-make": [
+      "Causation"
+    ],
+    "29.90-drive": [
+      "Cause_motion"
+    ],
+    "29.90-take": [
+      "Cause_to_fragment"
+    ],
+    "30.1-1-1-1-hear": [
+      "Perception_experience"
+    ],
+    "30.1-1-1-feel": [
+      "Perception_experience"
+    ],
+    "30.1-1-1-notice": [
+      "Becoming_aware"
+    ],
+    "30.1-1-1-perceive": [
+      "Perception_experience"
+    ],
+    "30.1-1-1-see": [
+      "Categorization",
+      "Grasp",
+      "Perception_experience"
+    ],
+    "30.1-1-taste": [
+      "Perception_experience"
+    ],
+    "30.2-discover": [
+      "Becoming_aware"
+    ],
+    "30.2-experience": [
+      "Feeling"
+    ],
+    "30.2-note": [
+      "Becoming_aware"
+    ],
+    "30.2-observe": [
+      "Becoming_aware"
+    ],
+    "30.2-perceive": [
+      "Perception_experience"
+    ],
+    "30.2-recognize": [
+      "Becoming_aware"
+    ],
+    "30.2-sniff": [
+      "Perception_active"
+    ],
+    "30.2-spot": [
+      "Becoming_aware"
+    ],
+    "30.2-spy": [
+      "Perception_active"
+    ],
+    "30.2-view": [
+      "Perception_active"
+    ],
+    "30.3-attend": [
+      "Attention",
+      "Perception_active"
+    ],
+    "30.3-check": [
+      "Scrutiny"
+    ],
+    "30.3-glance": [
+      "Perception_active"
+    ],
+    "30.3-listen": [
+      "Perception_active",
+      "Seeking"
+    ],
+    "30.3-look": [
+      "Perception_active",
+      "Scrutiny"
+    ],
+    "30.3-peep": [
+      "Perception_active"
+    ],
+    "30.3-peer": [
+      "Perception_active"
+    ],
+    "30.3-sniff": [
+      "Perception_active"
+    ],
+    "30.3-squint": [
+      "Perception_active"
+    ],
+    "30.3-stare": [
+      "Perception_active"
+    ],
+    "30.4-feel": [
+      "Appearance",
+      "Feeling",
+      "Perception_experience"
+    ],
+    "30.4-look": [
+      "Appearance",
+      "Give_impression",
+      "Perception_active",
+      "Scrutiny"
+    ],
+    "30.4-smell": [
+      "Chemical-sense_description"
+    ],
+    "30.4-sound": [
+      "Appearance"
+    ],
+    "31.1-aggravate": [
+      "Experiencer_obj"
+    ],
+    "31.1-alarm": [
+      "Experiencer_obj"
+    ],
+    "31.1-amaze": [
+      "Experiencer_obj"
+    ],
+    "31.1-amuse": [
+      "Cause_to_experience"
+    ],
+    "31.1-anger": [
+      "Experiencer_obj"
+    ],
+    "31.1-arouse": [
+      "Experiencer_obj"
+    ],
+    "31.1-baffle": [
+      "Experiencer_obj"
+    ],
+    "31.1-bewitch": [
+      "Experiencer_obj"
+    ],
+    "31.1-boggle": [
+      "Experiencer_obj"
+    ],
+    "31.1-calm": [
+      "Experiencer_obj"
+    ],
+    "31.1-charm": [
+      "Experiencer_obj"
+    ],
+    "31.1-cheer": [
+      "Experiencer_obj"
+    ],
+    "31.1-comfort": [
+      "Experiencer_obj"
+    ],
+    "31.1-concern": [
+      "Cause_emotion"
+    ],
+    "31.1-confuse": [
+      "Experiencer_obj"
+    ],
+    "31.1-convince": [
+      "Eventive_cognizer_affecting",
+      "Suasion"
+    ],
+    "31.1-delight": [
+      "Experiencer_obj"
+    ],
+    "31.1-depress": [
+      "Experiencer_obj"
+    ],
+    "31.1-devastate": [
+      "Experiencer_obj"
+    ],
+    "31.1-disappoint": [
+      "Experiencer_obj"
+    ],
+    "31.1-discourage": [
+      "Experiencer_obj"
+    ],
+    "31.1-disturb": [
+      "Experiencer_obj"
+    ],
+    "31.1-divert": [
+      "Cause_to_experience"
+    ],
+    "31.1-embarrass": [
+      "Experiencer_obj"
+    ],
+    "31.1-enchant": [
+      "Experiencer_obj"
+    ],
+    "31.1-engage": [
+      "Experiencer_obj",
+      "Intentionally_act"
+    ],
+    "31.1-entertain": [
+      "Cause_to_experience",
+      "Experiencer_obj"
+    ],
+    "31.1-entice": [
+      "Subjective_influence"
+    ],
+    "31.1-exasperate": [
+      "Experiencer_obj"
+    ],
+    "31.1-fascinate": [
+      "Experiencer_obj"
+    ],
+    "31.1-frighten": [
+      "Experiencer_obj"
+    ],
+    "31.1-frustrate": [
+      "Experiencer_obj"
+    ],
+    "31.1-harass": [
+      "Experiencer_obj",
+      "Manipulate_into_doing"
+    ],
+    "31.1-impress": [
+      "Experiencer_obj"
+    ],
+    "31.1-inspire": [
+      "Subjective_influence"
+    ],
+    "31.1-interest": [
+      "Experiencer_obj"
+    ],
+    "31.1-intimidate": [
+      "Experiencer_obj"
+    ],
+    "31.1-intrigue": [
+      "Experiencer_obj"
+    ],
+    "31.1-irritate": [
+      "Experiencer_obj"
+    ],
+    "31.1-madden": [
+      "Experiencer_obj"
+    ],
+    "31.1-obsess": [
+      "Emotion_active"
+    ],
+    "31.1-offend": [
+      "Experiencer_obj"
+    ],
+    "31.1-outrage": [
+      "Experiencer_obj"
+    ],
+    "31.1-puzzle": [
+      "Experiencer_obj"
+    ],
+    "31.1-reassure": [
+      "Experiencer_obj"
+    ],
+    "31.1-refresh": [
+      "Rejuvenation"
+    ],
+    "31.1-rejuvenate": [
+      "Rejuvenation"
+    ],
+    "31.1-repel": [
+      "Experiencer_obj"
+    ],
+    "31.1-revolt": [
+      "Experiencer_obj"
+    ],
+    "31.1-satisfy": [
+      "Experiencer_obj"
+    ],
+    "31.1-shake": [
+      "Experiencer_obj"
+    ],
+    "31.1-shame": [
+      "Experiencer_obj"
+    ],
+    "31.1-shock": [
+      "Experiencer_obj"
+    ],
+    "31.1-sicken": [
+      "Experiencer_obj"
+    ],
+    "31.1-sober": [
+      "Experiencer_obj"
+    ],
+    "31.1-spook": [
+      "Experiencer_obj"
+    ],
+    "31.1-stagger": [
+      "Experiencer_obj"
+    ],
+    "31.1-stimulate": [
+      "Experiencer_obj"
+    ],
+    "31.1-sting": [
+      "Experiencer_obj"
+    ],
+    "31.1-stir": [
+      "Experiencer_obj"
+    ],
+    "31.1-strike": [
+      "Attack",
+      "Cause_harm",
+      "Cause_impact",
+      "Impact"
+    ],
+    "31.1-stun": [
+      "Experiencer_obj"
+    ],
+    "31.1-surprise": [
+      "Experiencer_obj"
+    ],
+    "31.1-tempt": [
+      "Subjective_influence"
+    ],
+    "31.1-terrorize": [
+      "Cause_to_experience"
+    ],
+    "31.1-thrill": [
+      "Experiencer_obj"
+    ],
+    "31.1-tickle": [
+      "Experiencer_obj"
+    ],
+    "31.1-torment": [
+      "Cause_to_experience",
+      "Experiencer_obj"
+    ],
+    "31.1-torture": [
+      "Cause_harm"
+    ],
+    "31.1-transport": [
+      "Bringing"
+    ],
+    "31.1-upset": [
+      "Experiencer_obj"
+    ],
+    "31.1-vex": [
+      "Experiencer_obj"
+    ],
+    "31.1-worry": [
+      "Emotion_active",
+      "Experiencer_obj"
+    ],
+    "31.2-1-regret": [
+      "Experiencer_focus"
+    ],
+    "31.2-admire": [
+      "Judgment",
+      "Perception_active"
+    ],
+    "31.2-believe": [
+      "Awareness",
+      "Certainty"
+    ],
+    "31.2-exalt": [
+      "Judgment"
+    ],
+    "31.2-favor": [
+      "Partiality",
+      "Preference"
+    ],
+    "31.2-prefer": [
+      "Partiality",
+      "Preference"
+    ],
+    "31.2-prize": [
+      "Judgment"
+    ],
+    "31.2-reaffirm": [
+      "Statement"
+    ],
+    "31.2-respect": [
+      "Judgment"
+    ],
+    "31.2-suffer": [
+      "Catastrophe"
+    ],
+    "31.2-support": [
+      "Taking_sides"
+    ],
+    "31.2-trust": [
+      "Certainty",
+      "Trust"
+    ],
+    "31.2-value": [
+      "Judgment"
+    ],
+    "31.3-die": [
+      "Death"
+    ],
+    "31.3-lose_it": [
+      "Losing_it"
+    ],
+    "32.1-1-1-desire": [
+      "Desiring"
+    ],
+    "32.1-1-1-need": [
+      "Needing"
+    ],
+    "32.1-1-1-prefer": [
+      "Partiality",
+      "Preference"
+    ],
+    "32.1-1-1-want": [
+      "Desiring",
+      "Possession"
+    ],
+    "32.1-crave": [
+      "Desiring"
+    ],
+    "32.1-desire": [
+      "Desiring"
+    ],
+    "32.2-1-ache": [
+      "Desiring"
+    ],
+    "32.2-1-crave": [
+      "Desiring"
+    ],
+    "32.2-1-hope": [
+      "Desiring"
+    ],
+    "32.2-1-hunger": [
+      "Desiring"
+    ],
+    "32.2-1-itch": [
+      "Desiring"
+    ],
+    "32.2-1-pray": [
+      "Rite"
+    ],
+    "32.2-1-wish": [
+      "Desiring"
+    ],
+    "32.2-1-yearn": [
+      "Desiring"
+    ],
+    "33.1-1-1-herald": [
+      "Heralding"
+    ],
+    "33.1-1-approve": [
+      "Deny_or_grant_permission"
+    ],
+    "33.1-1-assail": [
+      "Attack"
+    ],
+    "33.1-1-belittle": [
+      "Judgment_communication"
+    ],
+    "33.1-1-bless": [
+      "Rite"
+    ],
+    "33.1-1-commend": [
+      "Judgment_communication"
+    ],
+    "33.1-1-denigrate": [
+      "Judgment_communication"
+    ],
+    "33.1-1-forgive": [
+      "Forgiveness"
+    ],
+    "33.1-1-scold": [
+      "Judgment_direct_address"
+    ],
+    "33.1-1-shame": [
+      "Experiencer_obj"
+    ],
+    "33.2-1-punish": [
+      "Rewards_and_punishments"
+    ],
+    "34.1-analyse": [
+      "Scrutiny"
+    ],
+    "34.1-assess": [
+      "Assessing"
+    ],
+    "34.1-evaluate": [
+      "Assessing"
+    ],
+    "34.1-inspect": [
+      "Inspecting"
+    ],
+    "34.1-scan": [
+      "Reading_perception",
+      "Scrutiny"
+    ],
+    "34.1-scrutinize": [
+      "Scrutiny"
+    ],
+    "34.1-study": [
+      "Scrutiny"
+    ],
+    "34.1-survey": [
+      "Scrutiny"
+    ],
+    "34.1-watch": [
+      "Perception_active",
+      "Seeking"
+    ],
+    "35.1-feel": [
+      "Perception_active",
+      "Seeking"
+    ],
+    "35.1-hunt": [
+      "Seeking"
+    ],
+    "35.2-check": [
+      "Scrutiny"
+    ],
+    "35.2-dive": [
+      "Path_shape"
+    ],
+    "35.2-nose": [
+      "Seeking"
+    ],
+    "35.2-probe": [
+      "Criminal_investigation",
+      "Scrutiny"
+    ],
+    "35.2-scour": [
+      "Scrutiny"
+    ],
+    "35.2-search": [
+      "Scrutiny"
+    ],
+    "35.2-shop": [
+      "Shopping"
+    ],
+    "35.2-sift": [
+      "Scouring"
+    ],
+    "35.2-sweep": [
+      "Scouring",
+      "Scrutiny"
+    ],
+    "35.2-watch": [
+      "Seeking"
+    ],
+    "35.3-smell": [
+      "Perception_active",
+      "Perception_experience"
+    ],
+    "35.3-stalk": [
+      "Cotheme"
+    ],
+    "35.4-inspect": [
+      "Inspecting"
+    ],
+    "35.4-investigate": [
+      "Criminal_investigation",
+      "Research",
+      "Scrutiny"
+    ],
+    "35.4-monitor": [
+      "Scrutiny"
+    ],
+    "35.4-observe": [
+      "Becoming_aware"
+    ],
+    "35.4-raid": [
+      "Attack"
+    ],
+    "35.4-scan": [
+      "Reading_activity",
+      "Scrutiny"
+    ],
+    "35.4-scrutinize": [
+      "Scrutiny"
+    ],
+    "35.4-survey": [
+      "Scrutiny"
+    ],
+    "35.4-test": [
+      "Examination",
+      "Operational_testing"
+    ],
+    "35.4-tour": [
+      "Travel"
+    ],
+    "35.5-1-grope": [
+      "Seeking"
+    ],
+    "35.5-fumble": [
+      "Bungling",
+      "Manipulation",
+      "Seeking"
+    ],
+    "35.5-go": [
+      "Scrutiny"
+    ],
+    "35.5-listen": [
+      "Perception_active",
+      "Seeking"
+    ],
+    "35.5-look": [
+      "Perception_active",
+      "Scrutiny"
+    ],
+    "35.6-nose": [
+      "Seeking"
+    ],
+    "36.1.1-1-agree": [
+      "Compatibility"
+    ],
+    "36.1.1-collaborate": [
+      "Collaboration"
+    ],
+    "36.1.1-communicate": [
+      "Communication"
+    ],
+    "36.1.1-concur": [
+      "Be_in_agreement_on_assessment"
+    ],
+    "36.1.1-cooperate": [
+      "Collaboration"
+    ],
+    "36.1.1-correspond": [
+      "Communication"
+    ],
+    "36.1.2-1-agree": [
+      "Agree_or_refuse_to_act",
+      "Be_in_agreement_on_assessment",
+      "Make_agreement_on_action"
+    ],
+    "36.1.2-1-debate": [
+      "Discussion"
+    ],
+    "36.1.2-1-decide": [
+      "Deciding"
+    ],
+    "36.2-court": [
+      "Personal_relationship"
+    ],
+    "36.2-date": [
+      "Personal_relationship"
+    ],
+    "36.2-divorce": [
+      "Forming_relationships"
+    ],
+    "36.2-kiss": [
+      "Manipulation"
+    ],
+    "36.2-marry": [
+      "Forming_relationships"
+    ],
+    "36.3-1-meet": [
+      "Make_acquaintance"
+    ],
+    "36.3-1-play": [
+      "Competition"
+    ],
+    "36.3-1-visit": [
+      "Arriving",
+      "Visiting"
+    ],
+    "36.3-2-battle": [
+      "Hostile_encounter"
+    ],
+    "36.3-2-debate": [
+      "Discussion"
+    ],
+    "36.3-2-fight": [
+      "Hostile_encounter",
+      "Quarreling"
+    ],
+    "36.4-1-battle": [
+      "Hostile_encounter"
+    ],
+    "36.4-1-fight": [
+      "Hostile_encounter",
+      "Quarreling"
+    ],
+    "37.1.1-1-1-show": [
+      "Evidence",
+      "Reasoning"
+    ],
+    "37.1.1-1-1-teach": [
+      "Education_teaching"
+    ],
+    "37.1.1-1-1-tell": [
+      "Request",
+      "Telling"
+    ],
+    "37.1.1-1-1-write": [
+      "Text_creation"
+    ],
+    "37.1.1-communicate": [
+      "Communication"
+    ],
+    "37.1.1-justify": [
+      "Deserving",
+      "Justifying"
+    ],
+    "37.1.1-outline": [
+      "Summarizing"
+    ],
+    "37.1.1-preach": [
+      "Speak_on_topic",
+      "Statement"
+    ],
+    "37.1.1-summarize": [
+      "Summarizing"
+    ],
+    "37.1.2-ask": [
+      "Questioning"
+    ],
+    "37.1.2-inquire": [
+      "Questioning"
+    ],
+    "37.1.3-question": [
+      "Questioning"
+    ],
+    "37.10-acknowledge": [
+      "Statement"
+    ],
+    "37.10-admit": [
+      "Reveal_secret"
+    ],
+    "37.10-confess": [
+      "Reveal_secret"
+    ],
+    "37.10-proclaim": [
+      "Statement"
+    ],
+    "37.10-reveal": [
+      "Reveal_secret"
+    ],
+    "37.11-1-1-comment": [
+      "Statement"
+    ],
+    "37.11-1-preach": [
+      "Speak_on_topic",
+      "Statement"
+    ],
+    "37.11-1-speak": [
+      "Statement"
+    ],
+    "37.11-1-testify": [
+      "Evidence"
+    ],
+    "37.11-1-write": [
+      "Text_creation"
+    ],
+    "37.11-2-dwell": [
+      "Cogitation"
+    ],
+    "37.12-tout": [
+      "Judgment_communication"
+    ],
+    "37.13-assure": [
+      "Telling"
+    ],
+    "37.13-promise": [
+      "Commitment"
+    ],
+    "37.2-apprise": [
+      "Telling"
+    ],
+    "37.2-inform": [
+      "Telling"
+    ],
+    "37.3-babble": [
+      "Communication_manner"
+    ],
+    "37.3-bark": [
+      "Communication_noise",
+      "Make_noise"
+    ],
+    "37.3-blare": [
+      "Make_noise"
+    ],
+    "37.3-bluster": [
+      "Communication_manner"
+    ],
+    "37.3-boom": [
+      "Make_noise"
+    ],
+    "37.3-call": [
+      "Referring_by_name"
+    ],
+    "37.3-chant": [
+      "Communication_manner"
+    ],
+    "37.3-crow": [
+      "Communication_noise"
+    ],
+    "37.3-cry": [
+      "Communication_noise"
+    ],
+    "37.3-grumble": [
+      "Complaining"
+    ],
+    "37.3-gurgle": [
+      "Communication_noise",
+      "Make_noise",
+      "Motion_noise"
+    ],
+    "37.3-hiss": [
+      "Communication_noise"
+    ],
+    "37.3-howl": [
+      "Communication_noise",
+      "Make_noise",
+      "Motion_noise"
+    ],
+    "37.3-mumble": [
+      "Communication_manner"
+    ],
+    "37.3-murmur": [
+      "Communication_noise"
+    ],
+    "37.3-mutter": [
+      "Communication_manner"
+    ],
+    "37.3-purr": [
+      "Communication_noise"
+    ],
+    "37.3-roar": [
+      "Communication_noise"
+    ],
+    "37.3-scream": [
+      "Communication_noise"
+    ],
+    "37.3-shout": [
+      "Communication_manner"
+    ],
+    "37.3-snarl": [
+      "Communication_noise",
+      "Make_noise"
+    ],
+    "37.3-thunder": [
+      "Communication_noise"
+    ],
+    "37.3-trumpet": [
+      "Communication_noise"
+    ],
+    "37.3-wail": [
+      "Communication_noise"
+    ],
+    "37.3-whine": [
+      "Communication_noise"
+    ],
+    "37.3-whistle": [
+      "Make_noise"
+    ],
+    "37.3-yell": [
+      "Communication_noise"
+    ],
+    "37.4.2-get": [
+      "Contacting"
+    ],
+    "37.4.2-reach": [
+      "Contacting"
+    ],
+    "37.5-speak": [
+      "Chatting"
+    ],
+    "37.5-talk": [
+      "Chatting"
+    ],
+    "37.6-1-debate": [
+      "Discussion"
+    ],
+    "37.6-chatter": [
+      "Communication_manner"
+    ],
+    "37.6-confer": [
+      "Discussion"
+    ],
+    "37.6-joke": [
+      "Chatting",
+      "Prevarication"
+    ],
+    "37.7-1-1-announce": [
+      "Statement"
+    ],
+    "37.7-1-1-claim": [
+      "Statement"
+    ],
+    "37.7-1-1-declare": [
+      "Statement"
+    ],
+    "37.7-1-1-mention": [
+      "Statement"
+    ],
+    "37.7-1-1-propose": [
+      "Statement"
+    ],
+    "37.7-1-1-recount": [
+      "Statement"
+    ],
+    "37.7-1-1-relate": [
+      "Statement"
+    ],
+    "37.7-1-1-say": [
+      "Statement",
+      "Text_creation"
+    ],
+    "37.7-1-1-volunteer": [
+      "Commitment"
+    ],
+    "37.7-1-disclose": [
+      "Reveal_secret"
+    ],
+    "37.7-1-utter": [
+      "Text_creation"
+    ],
+    "37.7-go": [
+      "Speak_on_topic"
+    ],
+    "37.8-bitch": [
+      "Complaining"
+    ],
+    "37.8-boast": [
+      "Bragging"
+    ],
+    "37.8-complain": [
+      "Complaining"
+    ],
+    "37.8-grumble": [
+      "Complaining"
+    ],
+    "37.9-1-admonish": [
+      "Attempt_suasion",
+      "Judgment_direct_address"
+    ],
+    "37.9-1-advise": [
+      "Attempt_suasion",
+      "Telling"
+    ],
+    "37.9-1-caution": [
+      "Statement"
+    ],
+    "37.9-assure": [
+      "Telling"
+    ],
+    "37.9-notify": [
+      "Telling"
+    ],
+    "38-bark": [
+      "Communication_noise",
+      "Make_noise"
+    ],
+    "38-boom": [
+      "Make_noise"
+    ],
+    "38-buzz": [
+      "Motion_noise"
+    ],
+    "38-call": [
+      "Referring_by_name"
+    ],
+    "38-croak": [
+      "Make_noise"
+    ],
+    "38-crow": [
+      "Communication_noise"
+    ],
+    "38-hiss": [
+      "Communication_noise"
+    ],
+    "38-howl": [
+      "Communication_noise",
+      "Make_noise",
+      "Motion_noise"
+    ],
+    "38-peep": [
+      "Cause_to_make_noise",
+      "Make_noise"
+    ],
+    "38-purr": [
+      "Make_noise",
+      "Motion_noise"
+    ],
+    "38-rattle": [
+      "Make_noise"
+    ],
+    "38-roar": [
+      "Communication_noise",
+      "Make_noise"
+    ],
+    "38-snarl": [
+      "Communication_noise",
+      "Make_noise"
+    ],
+    "38-thunder": [
+      "Make_noise",
+      "Motion_noise"
+    ],
+    "38-trumpet": [
+      "Make_noise"
+    ],
+    "38-wail": [
+      "Communication_noise"
+    ],
+    "38-whine": [
+      "Make_noise",
+      "Motion_noise"
+    ],
+    "38-whistle": [
+      "Make_noise"
+    ],
+    "38-yell": [
+      "Communication_noise"
+    ],
+    "39.1-1-eat": [
+      "Ingestion"
+    ],
+    "39.1-2-drink": [
+      "Ingestion"
+    ],
+    "39.1-3-use": [
+      "Ingest_substance"
+    ],
+    "39.2-1-chew": [
+      "Grinding"
+    ],
+    "39.2-1-lick": [
+      "Manipulation"
+    ],
+    "39.2-1-nibble": [
+      "Ingestion"
+    ],
+    "39.2-2-lap": [
+      "Ingestion"
+    ],
+    "39.4-consume": [
+      "Ingestion"
+    ],
+    "39.4-devour": [
+      "Ingestion"
+    ],
+    "39.4-down": [
+      "Ingestion"
+    ],
+    "39.4-have": [
+      "Ingestion"
+    ],
+    "39.4-imbibe": [
+      "Ingestion"
+    ],
+    "39.4-ingest": [
+      "Ingestion"
+    ],
+    "39.4-take": [
+      "Ingest_substance"
+    ],
+    "39.5-dine": [
+      "Ingestion"
+    ],
+    "39.5-feast": [
+      "Ingestion"
+    ],
+    "39.6-feed": [
+      "Ingestion"
+    ],
+    "39.6-flourish": [
+      "Thriving"
+    ],
+    "39.6-survive": [
+      "Surviving"
+    ],
+    "39.7-nurse": [
+      "Ingestion"
+    ],
+    "39.8-take": [
+      "Ingest_substance"
+    ],
+    "40.1.1-blink": [
+      "Body_movement"
+    ],
+    "40.1.2-1-breathe": [
+      "Breathing"
+    ],
+    "40.1.2-1-hawk": [
+      "Make_noise"
+    ],
+    "40.1.2-spit": [
+      "Excreting"
+    ],
+    "40.1.3-1-regurgitate": [
+      "Excreting"
+    ],
+    "40.1.3-2-inhale": [
+      "Breathing"
+    ],
+    "40.2-howl": [
+      "Communication_noise",
+      "Make_noise",
+      "Motion_noise"
+    ],
+    "40.2-laugh": [
+      "Make_noise"
+    ],
+    "40.2-sigh": [
+      "Breathing"
+    ],
+    "40.2-smile": [
+      "Making_faces"
+    ],
+    "40.2-snort": [
+      "Communication_noise"
+    ],
+    "40.2-whistle": [
+      "Make_noise"
+    ],
+    "40.3.2-bare": [
+      "Wearing"
+    ],
+    "40.3.2-bat": [
+      "Body_movement"
+    ],
+    "40.3.2-blow": [
+      "Breathing"
+    ],
+    "40.3.2-click": [
+      "Make_noise"
+    ],
+    "40.3.2-cock": [
+      "Body_movement"
+    ],
+    "40.3.2-cross": [
+      "Body_movement"
+    ],
+    "40.3.2-flap": [
+      "Body_movement"
+    ],
+    "40.3.2-flex": [
+      "Body_movement"
+    ],
+    "40.3.2-grind": [
+      "Body_movement"
+    ],
+    "40.3.2-hang": [
+      "Body_movement"
+    ],
+    "40.3.2-kick": [
+      "Cause_harm"
+    ],
+    "40.3.2-open": [
+      "Body_movement"
+    ],
+    "40.3.2-raise": [
+      "Building"
+    ],
+    "40.3.2-roll": [
+      "Body_movement",
+      "Cause_motion",
+      "Mass_motion",
+      "Motion"
+    ],
+    "40.3.2-rub": [
+      "Manipulation",
+      "Placing"
+    ],
+    "40.3.2-shake": [
+      "Body_movement",
+      "Cause_to_move_in_place",
+      "Moving_in_place"
+    ],
+    "40.3.2-shuffle": [
+      "Body_movement"
+    ],
+    "40.3.2-smack": [
+      "Body_movement"
+    ],
+    "40.3.2-stamp": [
+      "Body_movement"
+    ],
+    "40.3.2-stretch": [
+      "Body_movement",
+      "Expansion"
+    ],
+    "40.3.2-toss": [
+      "Body_movement"
+    ],
+    "40.3.2-turn": [
+      "Cause_to_move_in_place",
+      "Change_direction",
+      "Moving_in_place"
+    ],
+    "40.3.2-twitch": [
+      "Body_movement"
+    ],
+    "40.3.2-wring": [
+      "Manipulation"
+    ],
+    "40.3.2-wrinkle": [
+      "Body_movement"
+    ],
+    "40.3.3-bob": [
+      "Body_movement"
+    ],
+    "40.5-shrink": [
+      "Avoiding"
+    ],
+    "40.6-shake": [
+      "Body_movement",
+      "Cause_to_move_in_place",
+      "Moving_in_place"
+    ],
+    "40.6-shiver": [
+      "Body_movement"
+    ],
+    "40.7-suffocate": [
+      "Death",
+      "Killing"
+    ],
+    "40.8.1-ail": [
+      "Perception_body"
+    ],
+    "40.8.1-burn": [
+      "Perception_body"
+    ],
+    "40.8.1-hurt": [
+      "Cause_harm",
+      "Experience_bodily_harm",
+      "Perception_body"
+    ],
+    "40.8.2-ache": [
+      "Perception_body"
+    ],
+    "40.8.2-burn": [
+      "Perception_body"
+    ],
+    "40.8.2-prickle": [
+      "Perception_body"
+    ],
+    "40.8.2-spin": [
+      "Cause_to_move_in_place",
+      "Moving_in_place",
+      "Perception_body"
+    ],
+    "40.8.2-sting": [
+      "Cause_harm",
+      "Perception_body"
+    ],
+    "40.8.2-tickle": [
+      "Perception_body"
+    ],
+    "40.8.3-1-1-break": [
+      "Cause_harm",
+      "Cause_to_fragment",
+      "Experience_bodily_harm"
+    ],
+    "40.8.3-1-1-chip": [
+      "Cause_to_fragment",
+      "Damaging"
+    ],
+    "40.8.3-1-1-fracture": [
+      "Cause_harm",
+      "Cause_to_fragment"
+    ],
+    "40.8.3-1-1-pull": [
+      "Experience_bodily_harm"
+    ],
+    "40.8.3-1-1-splinter": [
+      "Cause_to_fragment"
+    ],
+    "40.8.3-1-1-split": [
+      "Cause_to_fragment"
+    ],
+    "40.8.3-1-1-tear": [
+      "Cause_to_fragment",
+      "Damaging",
+      "Experience_bodily_harm"
+    ],
+    "40.8.3-1-1-turn": [
+      "Cause_to_move_in_place",
+      "Change_direction",
+      "Moving_in_place"
+    ],
+    "40.8.3-1-1-twist": [
+      "Experience_bodily_harm"
+    ],
+    "40.8.3-2-bump": [
+      "Impact"
+    ],
+    "40.8.3-2-burn": [
+      "Cause_harm",
+      "Experience_bodily_harm"
+    ],
+    "40.8.3-2-cut": [
+      "Cause_harm",
+      "Cutting",
+      "Experience_bodily_harm"
+    ],
+    "40.8.3-2-hurt": [
+      "Cause_harm",
+      "Experience_bodily_harm",
+      "Perception_body"
+    ],
+    "40.8.3-2-nick": [
+      "Damaging"
+    ],
+    "40.8.3-2-scald": [
+      "Apply_heat"
+    ],
+    "40.8.3-2-scratch": [
+      "Damaging"
+    ],
+    "40.8.3-2-strain": [
+      "Experience_bodily_harm"
+    ],
+    "40.8.4-sicken": [
+      "Experiencer_obj"
+    ],
+    "41.1.1-bathe": [
+      "Grooming"
+    ],
+    "41.1.1-change": [
+      "Exchange_currency",
+      "Replacing"
+    ],
+    "41.1.1-dress": [
+      "Dressing"
+    ],
+    "41.1.1-lave": [
+      "Grooming"
+    ],
+    "41.1.1-shave": [
+      "Grooming"
+    ],
+    "41.1.1-shower": [
+      "Grooming"
+    ],
+    "41.1.1-strip": [
+      "Emptying",
+      "Removing"
+    ],
+    "41.1.1-wash": [
+      "Grooming"
+    ],
+    "41.1.2-groom": [
+      "Grooming"
+    ],
+    "41.2.1-brush": [
+      "Grooming"
+    ],
+    "41.2.1-shave": [
+      "Grooming"
+    ],
+    "41.2.1-wash": [
+      "Grooming"
+    ],
+    "41.2.2-brush": [
+      "Grooming"
+    ],
+    "41.2.2-curl": [
+      "Hair_configuration"
+    ],
+    "41.2.2-cut": [
+      "Cause_harm",
+      "Cutting",
+      "Experience_bodily_harm"
+    ],
+    "41.2.2-paint": [
+      "Create_physical_artwork",
+      "Create_representation"
+    ],
+    "41.2.2-pluck": [
+      "Grooming",
+      "Removing"
+    ],
+    "41.2.2-rinse": [
+      "Removing"
+    ],
+    "41.3.1-wear": [
+      "Wearing"
+    ],
+    "41.3.2-dress": [
+      "Dressing"
+    ],
+    "42.1-1-kill": [
+      "Killing"
+    ],
+    "42.1-assassinate": [
+      "Killing"
+    ],
+    "42.1-dispatch": [
+      "Killing"
+    ],
+    "42.1-eliminate": [
+      "Killing",
+      "Removing"
+    ],
+    "42.1-execute": [
+      "Execution"
+    ],
+    "42.1-liquidate": [
+      "Killing"
+    ],
+    "42.1-murder": [
+      "Killing"
+    ],
+    "42.1-slaughter": [
+      "Killing"
+    ],
+    "42.2-crucify": [
+      "Killing"
+    ],
+    "42.2-drown": [
+      "Death",
+      "Killing"
+    ],
+    "42.2-hang": [
+      "Execution"
+    ],
+    "42.2-shoot": [
+      "Hit_target",
+      "Shoot_projectiles",
+      "Use_firearm"
+    ],
+    "42.2-smother": [
+      "Killing"
+    ],
+    "42.2-stab": [
+      "Cause_harm"
+    ],
+    "42.2-stone": [
+      "Cause_harm"
+    ],
+    "42.2-suffocate": [
+      "Killing"
+    ],
+    "42.3-conquer": [
+      "Conquering"
+    ],
+    "42.3-hush": [
+      "Becoming_silent",
+      "Silencing"
+    ],
+    "42.3-silence": [
+      "Becoming_silent",
+      "Killing",
+      "Silencing"
+    ],
+    "42.3-smother": [
+      "Killing"
+    ],
+    "43.1-flame": [
+      "Light_movement",
+      "Location_of_light"
+    ],
+    "43.1-flare": [
+      "Light_movement",
+      "Location_of_light"
+    ],
+    "43.1-flash": [
+      "Light_movement",
+      "Location_of_light"
+    ],
+    "43.1-gleam": [
+      "Location_of_light"
+    ],
+    "43.1-glow": [
+      "Light_movement",
+      "Location_of_light"
+    ],
+    "43.1-shine": [
+      "Light_movement",
+      "Location_of_light"
+    ],
+    "43.1-sparkle": [
+      "Light_movement"
+    ],
+    "43.2-babble": [
+      "Make_noise"
+    ],
+    "43.2-bang": [
+      "Cause_impact",
+      "Impact",
+      "Motion_noise"
+    ],
+    "43.2-blare": [
+      "Make_noise"
+    ],
+    "43.2-blast": [
+      "Cause_to_make_noise",
+      "Make_noise",
+      "Sound_movement"
+    ],
+    "43.2-boom": [
+      "Make_noise"
+    ],
+    "43.2-buzz": [
+      "Motion_noise"
+    ],
+    "43.2-chatter": [
+      "Impact",
+      "Make_noise"
+    ],
+    "43.2-clack": [
+      "Motion_noise"
+    ],
+    "43.2-click": [
+      "Cause_impact",
+      "Impact",
+      "Make_noise",
+      "Motion_noise"
+    ],
+    "43.2-clump": [
+      "Motion_noise"
+    ],
+    "43.2-crackle": [
+      "Motion_noise"
+    ],
+    "43.2-crash": [
+      "Motion_noise"
+    ],
+    "43.2-crunch": [
+      "Impact",
+      "Make_noise",
+      "Motion_noise"
+    ],
+    "43.2-explode": [
+      "Change_position_on_a_scale"
+    ],
+    "43.2-gurgle": [
+      "Communication_noise",
+      "Make_noise",
+      "Motion_noise"
+    ],
+    "43.2-hiss": [
+      "Fluidic_motion",
+      "Impact",
+      "Make_noise",
+      "Motion_noise"
+    ],
+    "43.2-howl": [
+      "Communication_noise",
+      "Make_noise",
+      "Motion_noise"
+    ],
+    "43.2-hum": [
+      "Make_noise"
+    ],
+    "43.2-murmur": [
+      "Communication_noise"
+    ],
+    "43.2-plop": [
+      "Impact",
+      "Make_noise"
+    ],
+    "43.2-plunk": [
+      "Impact"
+    ],
+    "43.2-purr": [
+      "Make_noise",
+      "Motion_noise"
+    ],
+    "43.2-rattle": [
+      "Make_noise"
+    ],
+    "43.2-ring": [
+      "Cause_to_make_noise",
+      "Make_noise"
+    ],
+    "43.2-roar": [
+      "Communication_noise",
+      "Make_noise",
+      "Motion_noise"
+    ],
+    "43.2-roll": [
+      "Sound_movement"
+    ],
+    "43.2-rustle": [
+      "Cause_impact",
+      "Make_noise",
+      "Motion_noise"
+    ],
+    "43.2-scream": [
+      "Make_noise"
+    ],
+    "43.2-sizzle": [
+      "Absorb_heat",
+      "Make_noise"
+    ],
+    "43.2-sound": [
+      "Make_noise"
+    ],
+    "43.2-splash": [
+      "Cause_fluidic_motion",
+      "Filling",
+      "Fluidic_motion",
+      "Motion_noise"
+    ],
+    "43.2-sputter": [
+      "Communication_noise"
+    ],
+    "43.2-squelch": [
+      "Motion_noise"
+    ],
+    "43.2-strike": [
+      "Attack",
+      "Cause_harm",
+      "Cause_impact",
+      "Impact"
+    ],
+    "43.2-thud": [
+      "Cause_impact",
+      "Impact",
+      "Motion_noise"
+    ],
+    "43.2-thump": [
+      "Make_noise"
+    ],
+    "43.2-thunder": [
+      "Make_noise",
+      "Motion_noise"
+    ],
+    "43.2-trumpet": [
+      "Make_noise"
+    ],
+    "43.2-wail": [
+      "Communication_noise",
+      "Make_noise"
+    ],
+    "43.2-whine": [
+      "Make_noise",
+      "Motion_noise"
+    ],
+    "43.2-whistle": [
+      "Make_noise"
+    ],
+    "43.3-reek": [
+      "Chemical-sense_description"
+    ],
+    "43.3-smell": [
+      "Chemical-sense_description"
+    ],
+    "43.3-stink": [
+      "Chemical-sense_description"
+    ],
+    "43.4-give": [
+      "Emitting"
+    ],
+    "44-damage": [
+      "Damaging"
+    ],
+    "44-demolish": [
+      "Destroying"
+    ],
+    "44-destroy": [
+      "Destroying"
+    ],
+    "44-devastate": [
+      "Destroying"
+    ],
+    "44-exterminate": [
+      "Killing"
+    ],
+    "44-level": [
+      "Destroying"
+    ],
+    "44-mutilate": [
+      "Cause_harm"
+    ],
+    "44-obliterate": [
+      "Destroying"
+    ],
+    "44-ruin": [
+      "Bungling"
+    ],
+    "44-shatter": [
+      "Cause_to_fragment"
+    ],
+    "44-vaporize": [
+      "Destroying"
+    ],
+    "45.1-break": [
+      "Cause_harm",
+      "Cause_to_fragment",
+      "Experience_bodily_harm",
+      "Render_nonfunctional"
+    ],
+    "45.1-chip": [
+      "Cause_to_fragment",
+      "Damaging"
+    ],
+    "45.1-cleave": [
+      "Cause_to_fragment"
+    ],
+    "45.1-crack": [
+      "Cause_harm"
+    ],
+    "45.1-crash": [
+      "Cause_impact",
+      "Impact"
+    ],
+    "45.1-crush": [
+      "Cause_harm",
+      "Grinding",
+      "Reshaping"
+    ],
+    "45.1-dissolve": [
+      "Cause_to_fragment",
+      "Dispersal"
+    ],
+    "45.1-fracture": [
+      "Cause_harm",
+      "Cause_to_fragment"
+    ],
+    "45.1-rip": [
+      "Cause_to_fragment",
+      "Damaging"
+    ],
+    "45.1-shatter": [
+      "Cause_to_fragment"
+    ],
+    "45.1-sliver": [
+      "Cause_to_fragment"
+    ],
+    "45.1-smash": [
+      "Cause_harm",
+      "Cause_to_fragment",
+      "Impact"
+    ],
+    "45.1-snap": [
+      "Cause_to_fragment"
+    ],
+    "45.1-splinter": [
+      "Cause_to_fragment"
+    ],
+    "45.1-split": [
+      "Cause_to_fragment"
+    ],
+    "45.1-tear": [
+      "Cause_to_fragment",
+      "Damaging",
+      "Experience_bodily_harm"
+    ],
+    "45.2-bend": [
+      "Body_movement",
+      "Reshaping"
+    ],
+    "45.2-crumple": [
+      "Body_movement"
+    ],
+    "45.2-fold": [
+      "Reshaping"
+    ],
+    "45.2-roll": [
+      "Reshaping"
+    ],
+    "45.2-stretch": [
+      "Body_movement",
+      "Expansion"
+    ],
+    "45.2-warp": [
+      "Reshaping"
+    ],
+    "45.2-wrinkle": [
+      "Body_movement"
+    ],
+    "45.3-bake": [
+      "Cooking_creation"
+    ],
+    "45.3-boil": [
+      "Absorb_heat",
+      "Apply_heat",
+      "Cause_harm"
+    ],
+    "45.3-broil": [
+      "Apply_heat"
+    ],
+    "45.3-brown": [
+      "Apply_heat"
+    ],
+    "45.3-cook": [
+      "Absorb_heat",
+      "Apply_heat",
+      "Cooking_creation"
+    ],
+    "45.3-fry": [
+      "Apply_heat"
+    ],
+    "45.3-grill": [
+      "Apply_heat"
+    ],
+    "45.3-heat": [
+      "Cause_temperature_change",
+      "Change_of_temperature"
+    ],
+    "45.3-roast": [
+      "Apply_heat"
+    ],
+    "45.3-scald": [
+      "Apply_heat"
+    ],
+    "45.3-simmer": [
+      "Absorb_heat",
+      "Apply_heat"
+    ],
+    "45.3-stew": [
+      "Absorb_heat",
+      "Apply_heat"
+    ],
+    "45.3-warm_up": [
+      "Cause_of_temperature"
+    ],
+    "45.4-1-awaken": [
+      "Cause_to_wake"
+    ],
+    "45.4-1-dry": [
+      "Cause_to_be_dry"
+    ],
+    "45.4-1-melt": [
+      "Cause_change_of_phase",
+      "Change_of_phase"
+    ],
+    "45.4-1-set": [
+      "Change_of_consistency"
+    ],
+    "45.4-activate": [
+      "Change_operational_state"
+    ],
+    "45.4-age": [
+      "Aging"
+    ],
+    "45.4-alter": [
+      "Cause_change"
+    ],
+    "45.4-blunt": [
+      "Cause_to_be_sharp"
+    ],
+    "45.4-burn": [
+      "Cause_harm",
+      "Experience_bodily_harm"
+    ],
+    "45.4-change": [
+      "Cause_change",
+      "Undergo_change"
+    ],
+    "45.4-chill": [
+      "Cause_temperature_change",
+      "Change_of_temperature"
+    ],
+    "45.4-clear": [
+      "Emptying",
+      "Removing"
+    ],
+    "45.4-close": [
+      "Body_movement",
+      "Closure"
+    ],
+    "45.4-collect": [
+      "Gathering_up"
+    ],
+    "45.4-combust": [
+      "Catching_fire"
+    ],
+    "45.4-condense": [
+      "Change_of_phase"
+    ],
+    "45.4-contract": [
+      "Expansion"
+    ],
+    "45.4-cool": [
+      "Cause_temperature_change",
+      "Change_of_temperature"
+    ],
+    "45.4-crumble": [
+      "Grinding"
+    ],
+    "45.4-dampen": [
+      "Cause_to_be_wet"
+    ],
+    "45.4-decrease": [
+      "Cause_change_of_position_on_a_scale",
+      "Change_position_on_a_scale"
+    ],
+    "45.4-dehydrate": [
+      "Cause_to_be_dry"
+    ],
+    "45.4-diminish": [
+      "Change_position_on_a_scale"
+    ],
+    "45.4-disperse": [
+      "Dispersal"
+    ],
+    "45.4-dissolve": [
+      "Cause_to_fragment",
+      "Dispersal"
+    ],
+    "45.4-double": [
+      "Change_position_on_a_scale"
+    ],
+    "45.4-drain": [
+      "Emptying",
+      "Removing"
+    ],
+    "45.4-dull": [
+      "Cause_to_be_sharp"
+    ],
+    "45.4-ease": [
+      "Cure"
+    ],
+    "45.4-empty": [
+      "Emptying",
+      "Removing"
+    ],
+    "45.4-enlarge": [
+      "Cause_expansion",
+      "Expansion"
+    ],
+    "45.4-evaporate": [
+      "Cause_change_of_phase",
+      "Change_of_phase"
+    ],
+    "45.4-expand": [
+      "Cause_expansion",
+      "Expansion"
+    ],
+    "45.4-fill": [
+      "Filling"
+    ],
+    "45.4-flatten": [
+      "Reshaping"
+    ],
+    "45.4-flood": [
+      "Filling"
+    ],
+    "45.4-grow": [
+      "Cause_expansion",
+      "Expansion"
+    ],
+    "45.4-halt": [
+      "Activity_stop",
+      "Halt"
+    ],
+    "45.4-harden": [
+      "Cause_change_of_consistency",
+      "Change_of_consistency"
+    ],
+    "45.4-hasten": [
+      "Self_motion"
+    ],
+    "45.4-heal": [
+      "Cure",
+      "Recovery"
+    ],
+    "45.4-heat": [
+      "Cause_temperature_change",
+      "Change_of_temperature"
+    ],
+    "45.4-hydrate": [
+      "Cause_to_be_wet"
+    ],
+    "45.4-ignite": [
+      "Setting_fire"
+    ],
+    "45.4-improve": [
+      "Cause_to_make_progress"
+    ],
+    "45.4-increase": [
+      "Change_position_on_a_scale"
+    ],
+    "45.4-indurate": [
+      "Cause_change_of_consistency",
+      "Change_of_consistency"
+    ],
+    "45.4-inflate": [
+      "Cause_expansion",
+      "Expansion"
+    ],
+    "45.4-kindle": [
+      "Cause_to_start",
+      "Setting_fire"
+    ],
+    "45.4-lengthen": [
+      "Cause_expansion",
+      "Expansion"
+    ],
+    "45.4-liquefy": [
+      "Cause_change_of_phase",
+      "Change_of_phase"
+    ],
+    "45.4-multiply": [
+      "Proliferating_in_number"
+    ],
+    "45.4-open": [
+      "Body_movement",
+      "Closure"
+    ],
+    "45.4-operate": [
+      "Being_in_operation",
+      "Operating_a_system",
+      "Using"
+    ],
+    "45.4-petrify": [
+      "Experiencer_obj"
+    ],
+    "45.4-propagate": [
+      "Giving_birth"
+    ],
+    "45.4-pulverize": [
+      "Grinding"
+    ],
+    "45.4-quiet": [
+      "Becoming_silent",
+      "Silencing"
+    ],
+    "45.4-quieten": [
+      "Becoming_silent"
+    ],
+    "45.4-scorch": [
+      "Absorb_heat"
+    ],
+    "45.4-sharpen": [
+      "Cause_to_be_sharp"
+    ],
+    "45.4-shorten": [
+      "Change_event_duration"
+    ],
+    "45.4-shrink": [
+      "Cause_expansion",
+      "Expansion"
+    ],
+    "45.4-shut": [
+      "Body_movement"
+    ],
+    "45.4-sicken": [
+      "Experiencer_obj"
+    ],
+    "45.4-soak": [
+      "Cause_to_be_wet",
+      "Fluidic_motion",
+      "Soaking"
+    ],
+    "45.4-sober": [
+      "Experiencer_obj"
+    ],
+    "45.4-soften": [
+      "Cause_change_of_consistency"
+    ],
+    "45.4-solidify": [
+      "Cause_change_of_phase",
+      "Change_of_phase"
+    ],
+    "45.4-souse": [
+      "Cause_to_be_wet"
+    ],
+    "45.4-strengthen": [
+      "Cause_change_of_strength"
+    ],
+    "45.4-thicken": [
+      "Cause_change_of_consistency",
+      "Change_of_consistency"
+    ],
+    "45.4-thin": [
+      "Cause_change_of_consistency"
+    ],
+    "45.4-topple": [
+      "Motion_directional"
+    ],
+    "45.4-triple": [
+      "Change_position_on_a_scale"
+    ],
+    "45.4-vaporize": [
+      "Change_of_phase"
+    ],
+    "45.4-vibrate": [
+      "Cause_to_move_in_place",
+      "Moving_in_place"
+    ],
+    "45.4-wake": [
+      "Cause_to_wake",
+      "Waking_up"
+    ],
+    "45.4-warm": [
+      "Cause_temperature_change",
+      "Change_of_temperature"
+    ],
+    "45.4-weaken": [
+      "Cause_change_of_strength"
+    ],
+    "45.4-wet": [
+      "Cause_to_be_wet"
+    ],
+    "45.5-decay": [
+      "Rotting"
+    ],
+    "45.5-decompose": [
+      "Rotting"
+    ],
+    "45.5-rot": [
+      "Rotting"
+    ],
+    "45.5-rust": [
+      "Corroding"
+    ],
+    "45.5-spoil": [
+      "Rotting"
+    ],
+    "45.5-swell": [
+      "Cause_change_of_position_on_a_scale",
+      "Cause_expansion",
+      "Change_position_on_a_scale",
+      "Expansion"
+    ],
+    "45.6.1-1-fall": [
+      "Change_position_on_a_scale"
+    ],
+    "45.6.2-raise": [
+      "Cause_change_of_position_on_a_scale"
+    ],
+    "45.7-enhance": [
+      "Cause_change_of_position_on_a_scale"
+    ],
+    "45.7-obscure": [
+      "Eclipse"
+    ],
+    "45.7-silence": [
+      "Becoming_silent",
+      "Killing",
+      "Silencing"
+    ],
+    "45.8-die": [
+      "Death"
+    ],
+    "45.8-give": [
+      "Giving_in",
+      "Surrendering"
+    ],
+    "46-camp": [
+      "Residence"
+    ],
+    "46-dwell": [
+      "Residence"
+    ],
+    "46-lodge": [
+      "Residence"
+    ],
+    "46-reside": [
+      "Residence"
+    ],
+    "46-settle": [
+      "Colonization"
+    ],
+    "46-squat": [
+      "Residence"
+    ],
+    "46-stay": [
+      "Avoiding",
+      "Residence",
+      "State_continue"
+    ],
+    "47.1-1-live": [
+      "Residence"
+    ],
+    "47.1-languish": [
+      "Thriving"
+    ],
+    "47.1-remain": [
+      "Existence",
+      "Left_to_do",
+      "Remainder"
+    ],
+    "47.1-reside": [
+      "Residence"
+    ],
+    "47.2-flow": [
+      "Fluidic_motion"
+    ],
+    "47.2-propagate": [
+      "Giving_birth"
+    ],
+    "47.3-bob": [
+      "Body_movement"
+    ],
+    "47.3-creep": [
+      "Self_motion"
+    ],
+    "47.3-dance": [
+      "Self_motion"
+    ],
+    "47.3-drift": [
+      "Motion"
+    ],
+    "47.3-flap": [
+      "Body_movement"
+    ],
+    "47.3-float": [
+      "Motion"
+    ],
+    "47.3-quiver": [
+      "Moving_in_place"
+    ],
+    "47.3-rock": [
+      "Moving_in_place"
+    ],
+    "47.3-rotate": [
+      "Cause_to_move_in_place",
+      "Moving_in_place"
+    ],
+    "47.3-shake": [
+      "Body_movement",
+      "Cause_to_move_in_place",
+      "Moving_in_place"
+    ],
+    "47.3-vibrate": [
+      "Cause_to_move_in_place",
+      "Moving_in_place"
+    ],
+    "47.3-wave": [
+      "Moving_in_place"
+    ],
+    "47.4-echo": [
+      "Sound_movement"
+    ],
+    "47.4-reverberate": [
+      "Sound_movement"
+    ],
+    "47.4-roll": [
+      "Sound_movement"
+    ],
+    "47.4-sound": [
+      "Make_noise"
+    ],
+    "47.5.1-1-crawl": [
+      "Abounding_with",
+      "Self_motion"
+    ],
+    "47.5.1-1-creep": [
+      "Self_motion"
+    ],
+    "47.5.1-1-hop": [
+      "Self_motion"
+    ],
+    "47.5.1-1-swim": [
+      "Self_motion"
+    ],
+    "47.5.2-accumulate": [
+      "Amassing"
+    ],
+    "47.5.2-amass": [
+      "Gathering_up"
+    ],
+    "47.5.2-assemble": [
+      "Assemble",
+      "Gathering_up"
+    ],
+    "47.5.2-collect": [
+      "Gathering_up"
+    ],
+    "47.5.2-convene": [
+      "Gathering_up"
+    ],
+    "47.5.2-flock": [
+      "Mass_motion"
+    ],
+    "47.5.2-gather": [
+      "Gathering_up"
+    ],
+    "47.5.2-herd": [
+      "Gathering_up"
+    ],
+    "47.5.3-buzz": [
+      "Motion_noise"
+    ],
+    "47.6-lean": [
+      "Change_posture",
+      "Posture"
+    ],
+    "47.6-lie": [
+      "Being_located",
+      "Change_posture",
+      "Posture"
+    ],
+    "47.6-rise": [
+      "Path_shape",
+      "Sidereal_appearance"
+    ],
+    "47.6-squat": [
+      "Change_posture",
+      "Posture"
+    ],
+    "47.7-1-run": [
+      "Fluidic_motion"
+    ],
+    "47.7-angle": [
+      "Motion_directional"
+    ],
+    "47.7-cascade": [
+      "Fluidic_motion"
+    ],
+    "47.7-crawl": [
+      "Self_motion"
+    ],
+    "47.7-cross": [
+      "Body_movement",
+      "Path_shape",
+      "Traversing"
+    ],
+    "47.7-cut": [
+      "Change_direction",
+      "Intentional_traversing"
+    ],
+    "47.7-dive": [
+      "Path_shape"
+    ],
+    "47.7-go": [
+      "Motion"
+    ],
+    "47.7-mount": [
+      "Traversing"
+    ],
+    "47.7-round": [
+      "Path_shape"
+    ],
+    "47.7-weave": [
+      "Motion",
+      "Path_shape"
+    ],
+    "47.7-wind": [
+      "Path_shape"
+    ],
+    "47.8-1-adjoin": [
+      "Adjacency"
+    ],
+    "47.8-1-cross": [
+      "Body_movement",
+      "Path_shape"
+    ],
+    "47.8-1-touch": [
+      "Impact"
+    ],
+    "47.8-border": [
+      "Locative_relation"
+    ],
+    "47.8-cap": [
+      "Closure"
+    ],
+    "47.8-cloak": [
+      "Eclipse"
+    ],
+    "47.8-cover": [
+      "Distributed_position",
+      "Eclipse",
+      "Filling"
+    ],
+    "47.8-fill": [
+      "Distributed_position",
+      "Filling"
+    ],
+    "47.8-follow": [
+      "Cotheme"
+    ],
+    "47.8-head": [
+      "Leadership"
+    ],
+    "47.8-neighbor": [
+      "Adjacency"
+    ],
+    "47.8-precede": [
+      "Relative_time"
+    ],
+    "47.8-predate": [
+      "Relative_time"
+    ],
+    "47.8-skirt": [
+      "Path_shape"
+    ],
+    "47.8-traverse": [
+      "Path_shape",
+      "Traversing"
+    ],
+    "47.8-wreathe": [
+      "Distributed_position",
+      "Filling"
+    ],
+    "48.1.1-appear": [
+      "Coming_to_be"
+    ],
+    "48.1.1-arise": [
+      "Coming_to_be"
+    ],
+    "48.1.1-awaken": [
+      "Cause_to_wake"
+    ],
+    "48.1.1-develop": [
+      "Coming_to_be"
+    ],
+    "48.1.1-emerge": [
+      "Coming_to_be",
+      "Departing"
+    ],
+    "48.1.1-erupt": [
+      "Process_start"
+    ],
+    "48.1.1-evolve": [
+      "Coming_to_be"
+    ],
+    "48.1.1-flow": [
+      "Fluidic_motion"
+    ],
+    "48.1.1-form": [
+      "Coming_to_be",
+      "Reshaping"
+    ],
+    "48.1.1-gush": [
+      "Fluidic_motion"
+    ],
+    "48.1.1-plop": [
+      "Impact",
+      "Make_noise"
+    ],
+    "48.1.1-spill": [
+      "Fluidic_motion"
+    ],
+    "48.1.1-spread": [
+      "Dispersal"
+    ],
+    "48.1.1-steal": [
+      "Self_motion"
+    ],
+    "48.1.1-stream": [
+      "Mass_motion"
+    ],
+    "48.1.2-declare": [
+      "Statement"
+    ],
+    "48.1.2-define": [
+      "Communicate_categorization"
+    ],
+    "48.1.2-expose": [
+      "Reveal_secret"
+    ],
+    "48.1.2-express": [
+      "Encoding",
+      "Expressing_publicly"
+    ],
+    "48.1.2-form": [
+      "Coming_to_be",
+      "Reshaping"
+    ],
+    "48.1.2-propose": [
+      "Statement"
+    ],
+    "48.1.2-reveal": [
+      "Evidence"
+    ],
+    "48.1.2-show": [
+      "Evidence",
+      "Reasoning"
+    ],
+    "48.1.2-suggest": [
+      "Evidence"
+    ],
+    "48.2-1-expire": [
+      "Death"
+    ],
+    "48.2-die": [
+      "Death"
+    ],
+    "49.2-hold": [
+      "Manipulation"
+    ],
+    "50-bend": [
+      "Body_movement",
+      "Change_posture",
+      "Posture"
+    ],
+    "50-flop": [
+      "Moving_in_place"
+    ],
+    "50-hang": [
+      "Filling",
+      "Placing"
+    ],
+    "50-lean": [
+      "Change_posture",
+      "Posture"
+    ],
+    "50-lie": [
+      "Being_located",
+      "Change_posture",
+      "Posture"
+    ],
+    "50-plop": [
+      "Impact",
+      "Make_noise"
+    ],
+    "50-rise": [
+      "Change_posture",
+      "Getting_up",
+      "Motion_directional",
+      "Path_shape",
+      "Sidereal_appearance"
+    ],
+    "50-sit": [
+      "Change_posture",
+      "Placing",
+      "Posture"
+    ],
+    "50-squat": [
+      "Change_posture",
+      "Posture"
+    ],
+    "50-stand": [
+      "Being_located",
+      "Change_posture",
+      "Placing",
+      "Posture"
+    ],
+    "51.1-1-advance": [
+      "Progression"
+    ],
+    "51.1-1-fall": [
+      "Motion_directional"
+    ],
+    "51.1-cut": [
+      "Change_direction",
+      "Intentional_traversing"
+    ],
+    "51.1-get": [
+      "Arriving"
+    ],
+    "51.2-1-leave": [
+      "Departing",
+      "Quitting"
+    ],
+    "51.2-split": [
+      "Quitting_a_place"
+    ],
+    "51.3.1-drift": [
+      "Motion"
+    ],
+    "51.3.1-drop": [
+      "Body_movement",
+      "Change_position_on_a_scale",
+      "Change_posture",
+      "Motion_directional"
+    ],
+    "51.3.1-float": [
+      "Motion"
+    ],
+    "51.3.1-glide": [
+      "Motion"
+    ],
+    "51.3.1-move": [
+      "Cause_change_of_position_on_a_scale",
+      "Cause_motion",
+      "Change_position_on_a_scale",
+      "Motion"
+    ],
+    "51.3.1-roll": [
+      "Body_movement",
+      "Cause_motion",
+      "Mass_motion",
+      "Motion"
+    ],
+    "51.3.1-rotate": [
+      "Cause_to_move_in_place",
+      "Moving_in_place"
+    ],
+    "51.3.1-slide": [
+      "Cause_motion",
+      "Motion"
+    ],
+    "51.3.1-spin": [
+      "Cause_to_move_in_place",
+      "Moving_in_place",
+      "Perception_body"
+    ],
+    "51.3.1-spiral": [
+      "Motion"
+    ],
+    "51.3.1-swing": [
+      "Body_movement",
+      "Cause_to_move_in_place",
+      "Change_direction",
+      "Motion",
+      "Moving_in_place",
+      "Self_motion"
+    ],
+    "51.3.1-turn": [
+      "Cause_to_move_in_place",
+      "Change_direction",
+      "Moving_in_place"
+    ],
+    "51.3.1-wind": [
+      "Motion",
+      "Path_shape"
+    ],
+    "51.3.2-1-hop": [
+      "Self_motion"
+    ],
+    "51.3.2-1-leap": [
+      "Traversing"
+    ],
+    "51.3.2-1-pad": [
+      "Self_motion"
+    ],
+    "51.3.2-1-stride": [
+      "Self_motion"
+    ],
+    "51.3.2-1-swim": [
+      "Self_motion"
+    ],
+    "51.3.2-1-tramp": [
+      "Self_motion"
+    ],
+    "51.3.2-1-travel": [
+      "Travel"
+    ],
+    "51.3.2-1-wander": [
+      "Self_motion"
+    ],
+    "51.3.2-2-1-jog": [
+      "Self_motion"
+    ],
+    "51.3.2-2-1-jump": [
+      "Change_position_on_a_scale",
+      "Self_motion",
+      "Traversing"
+    ],
+    "51.3.2-2-1-march": [
+      "Self_motion"
+    ],
+    "51.3.2-2-1-run": [
+      "Cause_motion",
+      "Self_motion"
+    ],
+    "51.3.2-2-1-rush": [
+      "Fluidic_motion",
+      "Self_motion"
+    ],
+    "51.3.2-2-1-walk": [
+      "Cotheme",
+      "Self_motion"
+    ],
+    "51.3.2-2-back": [
+      "Self_motion"
+    ],
+    "51.3.2-2-float": [
+      "Motion"
+    ],
+    "51.3.2-2-hasten": [
+      "Self_motion"
+    ],
+    "51.3.2-2-hobble": [
+      "Self_motion"
+    ],
+    "51.3.2-2-hurry": [
+      "Self_motion"
+    ],
+    "51.3.2-2-roll": [
+      "Body_movement",
+      "Cause_motion",
+      "Mass_motion",
+      "Motion"
+    ],
+    "51.3.2-2-skip": [
+      "Self_motion"
+    ],
+    "51.3.2-2-slide": [
+      "Cause_motion",
+      "Motion"
+    ],
+    "51.3.2-2-sneak": [
+      "Self_motion"
+    ],
+    "51.3.2-2-tack": [
+      "Operate_vehicle",
+      "Self_motion"
+    ],
+    "51.3.2-2-trip": [
+      "Self_motion"
+    ],
+    "51.3.2-2-trot": [
+      "Self_motion"
+    ],
+    "51.3.2-amble": [
+      "Self_motion"
+    ],
+    "51.3.2-bolt": [
+      "Fleeing",
+      "Quitting_a_place"
+    ],
+    "51.3.2-bound": [
+      "Self_motion"
+    ],
+    "51.3.2-charge": [
+      "Attack"
+    ],
+    "51.3.2-clamber": [
+      "Self_motion"
+    ],
+    "51.3.2-climb": [
+      "Change_position_on_a_scale",
+      "Intentional_traversing",
+      "Self_motion"
+    ],
+    "51.3.2-clump": [
+      "Motion_noise"
+    ],
+    "51.3.2-crawl": [
+      "Self_motion"
+    ],
+    "51.3.2-creep": [
+      "Self_motion"
+    ],
+    "51.3.2-hike": [
+      "Self_motion"
+    ],
+    "51.3.2-lurch": [
+      "Self_motion"
+    ],
+    "51.3.2-mince": [
+      "Self_motion"
+    ],
+    "51.3.2-scramble": [
+      "Self_motion"
+    ],
+    "51.3.2-scuttle": [
+      "Self_motion"
+    ],
+    "51.3.2-shuffle": [
+      "Body_movement",
+      "Self_motion"
+    ],
+    "51.3.2-slog": [
+      "Self_motion"
+    ],
+    "51.3.2-spring": [
+      "Self_motion"
+    ],
+    "51.3.2-stagger": [
+      "Self_motion"
+    ],
+    "51.3.2-step": [
+      "Quitting",
+      "Self_motion"
+    ],
+    "51.3.2-stumble": [
+      "Self_motion"
+    ],
+    "51.3.2-swagger": [
+      "Self_motion"
+    ],
+    "51.3.2-tread": [
+      "Self_motion"
+    ],
+    "51.3.2-weave": [
+      "Motion",
+      "Path_shape"
+    ],
+    "51.4.1-1-cycle": [
+      "Operate_vehicle"
+    ],
+    "51.4.1-balloon": [
+      "Operate_vehicle"
+    ],
+    "51.4.1-ferry": [
+      "Bringing"
+    ],
+    "51.4.1-punt": [
+      "Cause_motion",
+      "Operate_vehicle"
+    ],
+    "51.4.1-sledge": [
+      "Operate_vehicle"
+    ],
+    "51.4.2-paddle": [
+      "Operate_vehicle"
+    ],
+    "51.4.2-ride": [
+      "Ride_vehicle"
+    ],
+    "51.4.3-take": [
+      "Ride_vehicle"
+    ],
+    "51.5-dance": [
+      "Self_motion"
+    ],
+    "51.5-shuffle": [
+      "Self_motion"
+    ],
+    "51.6-chase": [
+      "Cotheme"
+    ],
+    "51.6-follow": [
+      "Cotheme"
+    ],
+    "51.6-shadow": [
+      "Cotheme"
+    ],
+    "51.6-tail": [
+      "Cotheme"
+    ],
+    "51.6-trail": [
+      "Cotheme"
+    ],
+    "51.7-accompany": [
+      "Cotheme"
+    ],
+    "51.7-escort": [
+      "Cotheme"
+    ],
+    "51.7-guide": [
+      "Cotheme"
+    ],
+    "51.7-lead": [
+      "Cotheme"
+    ],
+    "51.8-make": [
+      "Arriving"
+    ],
+    "51.8-reach": [
+      "Arriving",
+      "Change_position_on_a_scale",
+      "Path_shape"
+    ],
+    "52-avoid": [
+      "Avoiding",
+      "Preventing_or_letting"
+    ],
+    "52-circumvent": [
+      "Compliance"
+    ],
+    "52-dodge": [
+      "Avoiding",
+      "Dodging"
+    ],
+    "52-duck": [
+      "Avoiding"
+    ],
+    "52-elude": [
+      "Elusive_goal",
+      "Evading"
+    ],
+    "52-evade": [
+      "Avoiding",
+      "Evading"
+    ],
+    "52-forgo": [
+      "Avoiding"
+    ],
+    "52-shun": [
+      "Avoiding"
+    ],
+    "53.1-1-delay": [
+      "Change_event_time"
+    ],
+    "53.2-hasten": [
+      "Self_motion"
+    ],
+    "53.2-hurry": [
+      "Self_motion"
+    ],
+    "53.2-rush": [
+      "Fluidic_motion",
+      "Self_motion"
+    ],
+    "54.2-carry": [
+      "Bearing_arms",
+      "Bringing"
+    ],
+    "54.2-cost": [
+      "Expensiveness"
+    ],
+    "54.2-take": [
+      "Taking_time"
+    ],
+    "54.3-carry": [
+      "Bearing_arms",
+      "Bringing"
+    ],
+    "54.3-contain": [
+      "Containing",
+      "Inclusion"
+    ],
+    "54.3-hold": [
+      "Containing"
+    ],
+    "54.3-house": [
+      "Containing",
+      "Provide_lodging"
+    ],
+    "54.3-serve": [
+      "Assistance"
+    ],
+    "54.3-take": [
+      "Capacity"
+    ],
+    "54.4-assess": [
+      "Assessing"
+    ],
+    "54.4-estimate": [
+      "Estimating"
+    ],
+    "54.4-rate": [
+      "Assessing"
+    ],
+    "54.4-value": [
+      "Assessing"
+    ],
+    "54.5-bill": [
+      "Billing"
+    ],
+    "54.5-charge": [
+      "Commerce_collect"
+    ],
+    "54.5-fine": [
+      "Fining"
+    ],
+    "55.1-1-1-start_off": [
+      "Process_start"
+    ],
+    "55.1-set_out": [
+      "Setting_out"
+    ],
+    "55.2-accomplish": [
+      "Accomplishment"
+    ],
+    "55.2-achieve": [
+      "Accomplishment"
+    ],
+    "55.3-continue": [
+      "Activity_ongoing",
+      "Process_continue"
+    ],
+    "55.4-cut": [
+      "Change_operational_state"
+    ],
+    "55.5-1-establish": [
+      "Intentionally_create"
+    ],
+    "55.5-1-found": [
+      "Intentionally_create"
+    ],
+    "55.5-1-implement": [
+      "Execute_plan"
+    ],
+    "55.5-1-institute": [
+      "Execute_plan"
+    ],
+    "55.5-1-launch": [
+      "Activity_start",
+      "Launch_process"
+    ],
+    "55.5-1-plant": [
+      "Placing"
+    ],
+    "55.5-1-prepare": [
+      "Activity_prepare",
+      "Cooking_creation"
+    ],
+    "55.5-1-simulate": [
+      "Feigning"
+    ],
+    "55.5-pioneer": [
+      "Achieving_first"
+    ],
+    "55.6-hold": [
+      "Change_event_time",
+      "Holding_off_on"
+    ],
+    "55.6-maintain": [
+      "Activity_ongoing"
+    ],
+    "57-blow": [
+      "Motion"
+    ],
+    "57-clear": [
+      "Emptying",
+      "Removing"
+    ],
+    "57-freeze": [
+      "Cause_change_of_phase"
+    ],
+    "57-hail": [
+      "Precipitation"
+    ],
+    "57-howl": [
+      "Communication_noise",
+      "Make_noise",
+      "Motion_noise"
+    ],
+    "57-roar": [
+      "Make_noise",
+      "Motion_noise"
+    ],
+    "57-shower": [
+      "Mass_motion"
+    ],
+    "57-snow": [
+      "Precipitation"
+    ],
+    "57-sprinkle": [
+      "Precipitation"
+    ],
+    "57-storm": [
+      "Weather"
+    ],
+    "57-thunder": [
+      "Make_noise"
+    ],
+    "58.2-request": [
+      "Request"
+    ],
+    "59.1-lead": [
+      "Causation"
+    ],
+    "61.2-1-mean": [
+      "Purpose"
+    ],
+    "62-aim": [
+      "Purpose"
+    ],
+    "62-expect": [
+      "Expectation",
+      "Opinion"
+    ],
+    "62-plan": [
+      "Purpose"
+    ],
+    "62-wish": [
+      "Desiring"
+    ],
+    "66-1-waste": [
+      "Frugality"
+    ],
+    "68-1-pay": [
+      "Commerce_pay"
+    ],
+    "68-waste": [
+      "Frugality"
+    ],
+    "70-bank": [
+      "Reliance_on_expectation"
+    ],
+    "70-count": [
+      "Reliance"
+    ],
+    "70-depend": [
+      "Reliance"
+    ],
+    "70-figure": [
+      "Opinion"
+    ],
+    "70-reckon": [
+      "Awareness"
+    ],
+    "70-rely": [
+      "Reliance"
+    ],
+    "71-conspire": [
+      "Collaboration"
+    ],
+    "71-partner": [
+      "Collaboration"
+    ],
+    "71-sin": [
+      "Misdeed"
+    ],
+    "72.1-1-1-aid": [
+      "Assistance"
+    ],
+    "72.1-1-1-assist": [
+      "Assistance"
+    ],
+    "72.1-1-1-help": [
+      "Assistance"
+    ],
+    "73.2-work": [
+      "Work"
+    ],
+    "74-1-1-manage": [
+      "Success_or_failure",
+      "Successful_action"
+    ],
+    "74-1-succeed": [
+      "Success_or_failure",
+      "Successful_action"
+    ],
+    "76-constrain": [
+      "Hindering"
+    ],
+    "76-reduce": [
+      "Cause_change_of_position_on_a_scale"
+    ],
+    "78-1-1-confirm": [
+      "Evidence",
+      "Statement",
+      "Verification"
+    ],
+    "78-1-1-demonstrate": [
+      "Evidence",
+      "Reasoning"
+    ],
+    "78-1-1-disclose": [
+      "Reveal_secret"
+    ],
+    "78-1-1-prove": [
+      "Evidence",
+      "Reasoning"
+    ],
+    "78-1-1-reveal": [
+      "Evidence"
+    ],
+    "78-1-1-show": [
+      "Evidence",
+      "Reasoning"
+    ],
+    "78-1-1-suggest": [
+      "Evidence"
+    ],
+    "78-anticipate": [
+      "Expectation"
+    ],
+    "78-denote": [
+      "Linguistic_meaning"
+    ],
+    "78-expose": [
+      "Reveal_secret"
+    ],
+    "79-commit": [
+      "Commitment",
+      "Imposing_obligation"
+    ],
+    "80-1-acquit": [
+      "Verdict"
+    ],
+    "80-1-clear": [
+      "Emptying",
+      "Removing"
+    ],
+    "80-1-release": [
+      "Releasing"
+    ],
+    "81-accuse": [
+      "Judgment",
+      "Judgment_communication",
+      "Notification_of_charges"
+    ],
+    "81-condemn": [
+      "Judgment_communication"
+    ],
+    "81-suspect": [
+      "Suspicion"
+    ],
+    "82-3-retire": [
+      "Quitting"
+    ],
+    "82-3-retreat": [
+      "Quitting_a_place"
+    ],
+    "83-1-1-manage": [
+      "Success_or_failure"
+    ],
+    "83-deal": [
+      "Resolve_problem"
+    ],
+    "84-1-1-hear": [
+      "Hearsay"
+    ],
+    "84-1-1-study": [
+      "Scrutiny"
+    ],
+    "84-ascertain": [
+      "Coming_to_believe"
+    ],
+    "84-deduce": [
+      "Coming_to_believe"
+    ],
+    "84-discover": [
+      "Becoming_aware"
+    ],
+    "84-find": [
+      "Becoming_aware",
+      "Locating"
+    ],
+    "84-guess": [
+      "Coming_to_believe"
+    ],
+    "84-rationalize": [
+      "Justifying"
+    ],
+    "84-realize": [
+      "Coming_to_believe"
+    ],
+    "84-solve": [
+      "Resolve_problem"
+    ],
+    "86.2-1-concern": [
+      "Topic"
+    ],
+    "86.2-2-refer": [
+      "Referring_by_name"
+    ],
+    "87.1-focus": [
+      "Emphasizing"
+    ],
+    "87.2-1-apprehend": [
+      "Grasp"
+    ],
+    "87.2-1-comprehend": [
+      "Grasp"
+    ],
+    "87.2-1-follow": [
+      "Cotheme"
+    ],
+    "87.2-1-grasp": [
+      "Grasp"
+    ],
+    "87.2-1-read": [
+      "Reading_perception"
+    ],
+    "88.1-1-wonder": [
+      "Cogitation"
+    ],
+    "88.1-1-worry": [
+      "Emotion_active",
+      "Experiencer_obj"
+    ],
+    "88.2-sympathize": [
+      "Emotion_directed"
+    ],
+    "9.1-1-deposit": [
+      "Placing"
+    ],
+    "9.1-1-insert": [
+      "Placing"
+    ],
+    "9.1-1-install": [
+      "Change_of_leadership",
+      "Installing"
+    ],
+    "9.1-1-park": [
+      "Placing"
+    ],
+    "9.1-1-plant": [
+      "Filling",
+      "Placing"
+    ],
+    "9.1-2-place": [
+      "Placing"
+    ],
+    "9.1-2-put": [
+      "Building",
+      "Causation",
+      "Change_event_time",
+      "Cooking_creation",
+      "Dressing",
+      "Execution",
+      "Imprisonment",
+      "Ingestion",
+      "Placing"
+    ],
+    "9.1-2-set": [
+      "Placing"
+    ],
+    "9.1-2-stick": [
+      "Attaching",
+      "Being_attached",
+      "Cause_motion",
+      "Placing"
+    ],
+    "9.1-arrange": [
+      "Arranging",
+      "Placing"
+    ],
+    "9.1-immerse": [
+      "Placing"
+    ],
+    "9.1-implant": [
+      "Placing"
+    ],
+    "9.1-lodge": [
+      "Placing"
+    ],
+    "9.1-mount": [
+      "Attaching"
+    ],
+    "9.1-position": [
+      "Placing"
+    ],
+    "9.1-situate": [
+      "Placing"
+    ],
+    "9.10-1-lodge": [
+      "Residence"
+    ],
+    "9.10-bag": [
+      "Placing"
+    ],
+    "9.10-bottle": [
+      "Placing"
+    ],
+    "9.10-box": [
+      "Placing"
+    ],
+    "9.10-can": [
+      "Preserving"
+    ],
+    "9.10-file": [
+      "Placing"
+    ],
+    "9.10-house": [
+      "Containing",
+      "Provide_lodging"
+    ],
+    "9.10-imprison": [
+      "Imprisonment"
+    ],
+    "9.10-jail": [
+      "Imprisonment"
+    ],
+    "9.10-sheathe": [
+      "Placing"
+    ],
+    "9.2-1-hang": [
+      "Filling",
+      "Placing"
+    ],
+    "9.2-1-lean": [
+      "Placing"
+    ],
+    "9.2-1-perch": [
+      "Placing"
+    ],
+    "9.2-1-rest": [
+      "Placing",
+      "State_continue"
+    ],
+    "9.2-1-sit": [
+      "Change_posture",
+      "Placing",
+      "Posture"
+    ],
+    "9.2-1-stand": [
+      "Being_located",
+      "Change_posture",
+      "Placing",
+      "Posture"
+    ],
+    "9.2-lay": [
+      "Placing"
+    ],
+    "9.3-1-1-bang": [
+      "Cause_impact",
+      "Impact",
+      "Motion_noise"
+    ],
+    "9.3-1-1-hammer": [
+      "Cause_harm"
+    ],
+    "9.3-1-1-push": [
+      "Cause_change_of_position_on_a_scale",
+      "Cause_motion",
+      "Manipulation"
+    ],
+    "9.3-1-1-shake": [
+      "Body_movement",
+      "Cause_to_move_in_place",
+      "Moving_in_place"
+    ],
+    "9.3-1-1-squeeze": [
+      "Cause_to_move_in_place"
+    ],
+    "9.3-1-tuck": [
+      "Placing"
+    ],
+    "9.3-1-wring": [
+      "Manipulation"
+    ],
+    "9.4-back": [
+      "Self_motion"
+    ],
+    "9.4-drop": [
+      "Body_movement",
+      "Change_position_on_a_scale",
+      "Change_posture",
+      "Motion_directional"
+    ],
+    "9.4-lift": [
+      "Body_movement"
+    ],
+    "9.4-raise": [
+      "Building"
+    ],
+    "9.5-dribble": [
+      "Fluidic_motion"
+    ],
+    "9.5-drip": [
+      "Cause_fluidic_motion"
+    ],
+    "9.5-pour": [
+      "Mass_motion"
+    ],
+    "9.5-spew": [
+      "Excreting",
+      "Fluidic_motion"
+    ],
+    "9.5-spill": [
+      "Fluidic_motion"
+    ],
+    "9.6-1-curl": [
+      "Hair_configuration"
+    ],
+    "9.6-1-hook": [
+      "Attaching"
+    ],
+    "9.6-1-swing": [
+      "Body_movement",
+      "Cause_to_move_in_place",
+      "Change_direction",
+      "Motion",
+      "Moving_in_place",
+      "Self_motion"
+    ],
+    "9.6-roll": [
+      "Reshaping"
+    ],
+    "9.6-rotate": [
+      "Cause_to_move_in_place",
+      "Moving_in_place"
+    ],
+    "9.6-spin": [
+      "Cause_to_move_in_place",
+      "Moving_in_place",
+      "Perception_body"
+    ],
+    "9.6-wind": [
+      "Motion"
+    ],
+    "9.7-1-1-cram": [
+      "Filling",
+      "Placing"
+    ],
+    "9.7-1-1-crowd": [
+      "Filling",
+      "Mass_motion"
+    ],
+    "9.7-1-1-jam": [
+      "Filling"
+    ],
+    "9.7-1-1-pack": [
+      "Filling",
+      "Placing"
+    ],
+    "9.7-1-1-pile": [
+      "Placing"
+    ],
+    "9.7-1-hang": [
+      "Filling",
+      "Placing"
+    ],
+    "9.7-1-plaster": [
+      "Attaching",
+      "Filling"
+    ],
+    "9.7-1-pump": [
+      "Cause_fluidic_motion",
+      "Filling"
+    ],
+    "9.7-1-rub": [
+      "Manipulation",
+      "Placing"
+    ],
+    "9.7-1-scatter": [
+      "Dispersal",
+      "Filling"
+    ],
+    "9.7-1-seed": [
+      "Filling"
+    ],
+    "9.7-1-sew": [
+      "Attaching"
+    ],
+    "9.7-1-shower": [
+      "Filling",
+      "Placing"
+    ],
+    "9.7-1-smear": [
+      "Filling",
+      "Placing"
+    ],
+    "9.7-1-sow": [
+      "Filling",
+      "Planting"
+    ],
+    "9.7-1-splash": [
+      "Cause_fluidic_motion",
+      "Filling",
+      "Fluidic_motion",
+      "Motion_noise"
+    ],
+    "9.7-1-spray": [
+      "Cause_fluidic_motion",
+      "Filling"
+    ],
+    "9.7-1-spread": [
+      "Dispersal",
+      "Filling"
+    ],
+    "9.7-1-sprinkle": [
+      "Dispersal",
+      "Filling"
+    ],
+    "9.7-1-squirt": [
+      "Cause_fluidic_motion",
+      "Filling"
+    ],
+    "9.7-1-stick": [
+      "Attaching",
+      "Being_attached",
+      "Cause_motion",
+      "Placing"
+    ],
+    "9.7-1-wrap": [
+      "Filling",
+      "Placing"
+    ],
+    "9.7-2-drape": [
+      "Filling",
+      "Placing"
+    ],
+    "9.7-2-dust": [
+      "Filling",
+      "Placing"
+    ],
+    "9.7-2-heap": [
+      "Filling",
+      "Placing"
+    ],
+    "9.7-2-load": [
+      "Filling",
+      "Placing"
+    ],
+    "9.7-2-plant": [
+      "Filling",
+      "Placing"
+    ],
+    "9.7-2-seed": [
+      "Filling"
+    ],
+    "9.7-2-stuff": [
+      "Filling",
+      "Placing"
+    ],
+    "9.8-1-adorn": [
+      "Distributed_position",
+      "Filling"
+    ],
+    "9.8-1-block": [
+      "Eclipse"
+    ],
+    "9.8-1-cloak": [
+      "Distributed_position",
+      "Eclipse"
+    ],
+    "9.8-1-coat": [
+      "Distributed_position"
+    ],
+    "9.8-1-cover": [
+      "Distributed_position",
+      "Eclipse",
+      "Filling"
+    ],
+    "9.8-1-deck": [
+      "Distributed_position"
+    ],
+    "9.8-1-decorate": [
+      "Distributed_position"
+    ],
+    "9.8-1-line": [
+      "Distributed_position"
+    ],
+    "9.8-1-pave": [
+      "Distributed_position",
+      "Filling"
+    ],
+    "9.8-1-saturate": [
+      "Cause_to_be_wet"
+    ],
+    "9.8-1-shroud": [
+      "Eclipse",
+      "Hiding_objects"
+    ],
+    "9.8-1-soak": [
+      "Cause_to_be_wet",
+      "Fluidic_motion",
+      "Soaking"
+    ],
+    "9.8-1-stain": [
+      "Processing_materials"
+    ],
+    "9.8-dot": [
+      "Distributed_position"
+    ],
+    "9.8-embellish": [
+      "Filling"
+    ],
+    "9.8-endow": [
+      "Giving"
+    ],
+    "9.8-enrich": [
+      "Processing_materials"
+    ],
+    "9.8-fill": [
+      "Filling"
+    ],
+    "9.8-flood": [
+      "Filling"
+    ],
+    "9.8-inject": [
+      "Filling",
+      "Placing"
+    ],
+    "9.8-lash": [
+      "Attaching"
+    ],
+    "9.8-mask": [
+      "Hiding_objects"
+    ],
+    "9.9-cap": [
+      "Closure"
+    ],
+    "9.9-cloak": [
+      "Distributed_position",
+      "Eclipse"
+    ],
+    "9.9-crown": [
+      "Change_of_leadership"
+    ],
+    "9.9-glaze": [
+      "Filling"
+    ],
+    "9.9-insulate": [
+      "Protecting"
+    ],
+    "9.9-plaster": [
+      "Attaching",
+      "Filling"
+    ],
+    "9.9-poison": [
+      "Cause_harm"
+    ],
+    "9.9-seed": [
+      "Filling"
+    ],
+    "9.9-stain": [
+      "Processing_materials"
+    ],
+    "9.9-wreathe": [
+      "Distributed_position"
+    ],
+    "91-count": [
+      "Importance"
+    ],
+    "92-1-commit": [
+      "Institutionalization"
+    ],
+    "92-detain": [
+      "Detaining"
+    ],
+    "93-adopt": [
+      "Adopt_selection"
+    ],
+    "93-assume": [
+      "Adopt_selection"
+    ],
+    "93-follow": [
+      "Compliance"
+    ],
+    "93-take": [
+      "Change_of_leadership",
+      "Conquering"
+    ],
+    "94-1-chance": [
+      "Daring"
+    ],
+    "94-venture": [
+      "Daring",
+      "Self_motion"
+    ],
+    "95.1-fall": [
+      "Conquering"
+    ],
+    "95.2.2-lead": [
+      "Leadership"
+    ],
+    "95.3-work": [
+      "Being_employed"
+    ],
+    "97.2-conceive": [
+      "Awareness",
+      "Categorization"
+    ],
+    "97.2-conclude": [
+      "Coming_to_believe"
+    ],
+    "97.2-deduce": [
+      "Coming_to_believe"
+    ],
+    "97.2-infer": [
+      "Coming_to_believe"
+    ],
+    "97.2-prove": [
+      "Evidence",
+      "Reasoning"
+    ],
+    "97.2-rationalize": [
+      "Justifying"
+    ],
+    "98-confront": [
+      "Confronting_problem",
+      "Hostile_encounter"
+    ],
+    "98-face": [
+      "Confronting_problem"
+    ],
+    "99-secure": [
+      "Getting"
+    ]
+  },
+  "resource": "semlink",
+  "role_aliases": {
+    "beneficiary": "beneficiary",
+    "destination": "destination",
+    "goal": "destination",
+    "instrument": "instrument",
+    "location": "location",
+    "recipient": "destination",
+    "source": "source",
+    "topic": "topic"
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,8628 @@
+{
+  "resource": "verbnet",
+  "roles": {
+    "abase": {
+      "with": "instrument"
+    },
+    "abate": {
+      "with": "instrument"
+    },
+    "abbreviate": {
+      "with": "instrument"
+    },
+    "abduct": {
+      "for": "beneficiary"
+    },
+    "abnegate": {
+      "to": "destination"
+    },
+    "abound": {
+      "with": "location"
+    },
+    "abrade": {
+      "with": "instrument"
+    },
+    "abridge": {
+      "with": "instrument"
+    },
+    "absolve": {
+      "of": "source"
+    },
+    "absorb": {
+      "from": "source"
+    },
+    "accelerate": {
+      "with": "instrument"
+    },
+    "accept": {
+      "from": "source"
+    },
+    "accommodate": {
+      "to": "destination"
+    },
+    "accord": {
+      "for": "beneficiary",
+      "to": "destination"
+    },
+    "accrue": {
+      "from": "source"
+    },
+    "accumulate": {
+      "from": "source"
+    },
+    "acetify": {
+      "with": "instrument"
+    },
+    "acidify": {
+      "with": "instrument"
+    },
+    "acknowledge": {
+      "to": "destination"
+    },
+    "acquaint": {
+      "of": "topic"
+    },
+    "acquire": {
+      "for": "destination"
+    },
+    "acquit": {
+      "of": "source"
+    },
+    "activate": {
+      "with": "instrument"
+    },
+    "adapt": {
+      "to": "destination"
+    },
+    "add": {
+      "to": "destination"
+    },
+    "address": {
+      "with": "destination"
+    },
+    "adjust": {
+      "to": "destination"
+    },
+    "admit": {
+      "to": "destination"
+    },
+    "admonish": {
+      "about": "topic",
+      "on": "source"
+    },
+    "adorn": {
+      "in": "destination",
+      "with": "destination"
+    },
+    "advance": {
+      "with": "instrument"
+    },
+    "advertise": {
+      "for": "location"
+    },
+    "advise": {
+      "about": "topic",
+      "on": "source"
+    },
+    "affix": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "africanize": {
+      "with": "instrument"
+    },
+    "age": {
+      "with": "instrument"
+    },
+    "agglomerate": {
+      "with": "instrument"
+    },
+    "agree": {
+      "with": "topic"
+    },
+    "air": {
+      "with": "instrument"
+    },
+    "alcoholize": {
+      "with": "instrument"
+    },
+    "alert": {
+      "about": "topic",
+      "of": "topic",
+      "on": "destination"
+    },
+    "alkalify": {
+      "with": "instrument"
+    },
+    "alkalize": {
+      "with": "instrument"
+    },
+    "allege": {
+      "to": "destination"
+    },
+    "alleviate": {
+      "of": "source",
+      "with": "instrument"
+    },
+    "ally": {
+      "with": "beneficiary"
+    },
+    "alter": {
+      "with": "instrument"
+    },
+    "ameliorate": {
+      "with": "instrument"
+    },
+    "americanize": {
+      "with": "instrument"
+    },
+    "amplify": {
+      "with": "instrument"
+    },
+    "anchor": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "anesthetize": {
+      "with": "instrument"
+    },
+    "anglicize": {
+      "with": "instrument"
+    },
+    "animate": {
+      "with": "instrument"
+    },
+    "annex": {
+      "for": "beneficiary"
+    },
+    "annihilate": {
+      "with": "instrument"
+    },
+    "annotate": {
+      "with": "destination"
+    },
+    "announce": {
+      "to": "destination"
+    },
+    "anoint": {
+      "with": "destination"
+    },
+    "applique": {
+      "with": "destination"
+    },
+    "apprise": {
+      "of": "topic"
+    },
+    "approach": {
+      "with": "instrument"
+    },
+    "appropriate": {
+      "from": "source"
+    },
+    "arch": {
+      "in": "destination"
+    },
+    "archive": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "argue": {
+      "about": "topic",
+      "with": "topic"
+    },
+    "aromatize": {
+      "with": "destination"
+    },
+    "arrange": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary",
+      "with": "instrument"
+    },
+    "arrogate": {
+      "from": "source"
+    },
+    "ascertain": {
+      "for": "beneficiary",
+      "to": "destination"
+    },
+    "ask": {
+      "about": "topic",
+      "of": "topic"
+    },
+    "asphalt": {
+      "with": "destination"
+    },
+    "asphyxiate": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "assassinate": {
+      "with": "instrument"
+    },
+    "assemble": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "assert": {
+      "to": "destination"
+    },
+    "assimilate": {
+      "from": "source",
+      "to": "destination"
+    },
+    "assure": {
+      "about": "topic",
+      "for": "beneficiary",
+      "of": "topic",
+      "on": "destination",
+      "to": "destination"
+    },
+    "atomize": {
+      "with": "instrument"
+    },
+    "attain": {
+      "at": "beneficiary",
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "attenuate": {
+      "with": "instrument"
+    },
+    "augment": {
+      "with": "instrument"
+    },
+    "author": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "autograph": {
+      "with": "destination"
+    },
+    "baa": {
+      "with": "destination"
+    },
+    "babble": {
+      "about": "topic",
+      "for": "destination",
+      "with": "location"
+    },
+    "back": {
+      "to": "source"
+    },
+    "back down": {
+      "from": "source"
+    },
+    "back off": {
+      "from": "source"
+    },
+    "back out": {
+      "of": "source"
+    },
+    "backfill": {
+      "with": "instrument"
+    },
+    "bag": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "bait": {
+      "with": "destination"
+    },
+    "bake": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "in": "instrument",
+      "of": "beneficiary",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "balance": {
+      "with": "instrument"
+    },
+    "band": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "bandage": {
+      "with": "destination"
+    },
+    "bang": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "banish": {
+      "to": "destination"
+    },
+    "bank": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "banter": {
+      "about": "topic",
+      "with": "topic"
+    },
+    "barbecue": {
+      "for": "beneficiary",
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "barbeque": {
+      "for": "beneficiary",
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "bare": {
+      "in": "destination"
+    },
+    "barf": {
+      "on": "destination"
+    },
+    "bargain": {
+      "about": "topic",
+      "on": "topic",
+      "with": "topic"
+    },
+    "barge": {
+      "to": "destination"
+    },
+    "bark": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "barrack": {
+      "at": "location",
+      "in": "location",
+      "on": "destination",
+      "with": "location"
+    },
+    "barter": {
+      "for": "destination"
+    },
+    "base": {
+      "on": "source"
+    },
+    "bash": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "bastardize": {
+      "with": "instrument"
+    },
+    "bat": {
+      "in": "destination"
+    },
+    "bathe": {
+      "in": "destination"
+    },
+    "batter": {
+      "with": "instrument"
+    },
+    "bawl": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "bay": {
+      "with": "destination"
+    },
+    "beach": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "bead": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary",
+      "with": "destination"
+    },
+    "beam": {
+      "in": "destination",
+      "with": "location"
+    },
+    "beat": {
+      "in": "destination",
+      "with": "instrument"
+    },
+    "beautify": {
+      "with": "instrument"
+    },
+    "beckon": {
+      "in": "destination"
+    },
+    "bed": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "bedew": {
+      "with": "instrument"
+    },
+    "beep": {
+      "with": "location"
+    },
+    "befriend": {
+      "with": "beneficiary"
+    },
+    "begin": {
+      "with": "instrument"
+    },
+    "behead": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "belch": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "bellow": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "bellyache": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "belt": {
+      "for": "beneficiary",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "bench": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "bend": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "benefit": {
+      "by": "beneficiary",
+      "from": "beneficiary"
+    },
+    "bereave": {
+      "of": "destination"
+    },
+    "berth": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "bestrew": {
+      "with": "destination"
+    },
+    "betroth": {
+      "to": "destination"
+    },
+    "bicker": {
+      "about": "topic"
+    },
+    "biff": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "bifurcate": {
+      "with": "instrument"
+    },
+    "bike": {
+      "to": "destination"
+    },
+    "billet": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "billow": {
+      "with": "location"
+    },
+    "bin": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "bind": {
+      "in": "destination"
+    },
+    "birch": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "bisect": {
+      "with": "instrument"
+    },
+    "bitch": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "bite": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "bivouac": {
+      "at": "location",
+      "in": "location",
+      "with": "location"
+    },
+    "blabber": {
+      "to": "destination"
+    },
+    "black": {
+      "with": "destination"
+    },
+    "blacken": {
+      "with": "instrument"
+    },
+    "blacktop": {
+      "with": "destination"
+    },
+    "blanch": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "blanket": {
+      "in": "destination",
+      "with": "destination"
+    },
+    "blare": {
+      "about": "topic",
+      "for": "destination",
+      "with": "location"
+    },
+    "blast": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "blat": {
+      "with": "destination"
+    },
+    "blaze": {
+      "with": "location"
+    },
+    "bleach": {
+      "with": "instrument"
+    },
+    "bleat": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "bleed": {
+      "for": "beneficiary",
+      "from": "source",
+      "on": "destination"
+    },
+    "blemish": {
+      "with": "instrument"
+    },
+    "blend": {
+      "for": "beneficiary"
+    },
+    "blight": {
+      "with": "instrument"
+    },
+    "blindfold": {
+      "with": "destination"
+    },
+    "blink": {
+      "in": "destination",
+      "with": "location"
+    },
+    "blitz": {
+      "with": "instrument"
+    },
+    "block": {
+      "from": "beneficiary",
+      "in": "destination"
+    },
+    "blockade": {
+      "with": "destination"
+    },
+    "bloody": {
+      "with": "instrument"
+    },
+    "bloom": {
+      "with": "location"
+    },
+    "blossom": {
+      "with": "location"
+    },
+    "blot": {
+      "with": "destination"
+    },
+    "blow": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "in": "destination",
+      "of": "beneficiary"
+    },
+    "blubber": {
+      "about": "topic",
+      "for": "destination",
+      "in": "destination"
+    },
+    "bludgeon": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "blunt": {
+      "with": "instrument"
+    },
+    "blur": {
+      "with": "instrument"
+    },
+    "bluster": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "board": {
+      "at": "location",
+      "in": "location",
+      "with": "destination"
+    },
+    "boast": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "bob": {
+      "to": "destination"
+    },
+    "boil": {
+      "for": "beneficiary",
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "boil down": {
+      "from": "source",
+      "to": "destination"
+    },
+    "bolshevize": {
+      "with": "instrument"
+    },
+    "bolster": {
+      "through": "instrument",
+      "with": "instrument"
+    },
+    "bolt": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "bombard": {
+      "with": "destination"
+    },
+    "bond": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "bonk": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "boogie": {
+      "to": "destination"
+    },
+    "book": {
+      "at": "beneficiary",
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "boom": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "boost": {
+      "through": "instrument",
+      "with": "instrument"
+    },
+    "boot": {
+      "to": "destination"
+    },
+    "bop": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "bore": {
+      "for": "location",
+      "through": "location",
+      "with": "instrument"
+    },
+    "borrow": {
+      "from": "source"
+    },
+    "botch": {
+      "with": "instrument"
+    },
+    "bottle": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "bottlefeed": {
+      "to": "destination"
+    },
+    "bounce": {
+      "to": "source"
+    },
+    "bow": {
+      "to": "destination"
+    },
+    "bow out": {
+      "of": "source"
+    },
+    "bowdlerize": {
+      "with": "instrument"
+    },
+    "bowl": {
+      "to": "source"
+    },
+    "box": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "bracket": {
+      "in": "destination",
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "brag": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "brain": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "braise": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "brand": {
+      "with": "destination"
+    },
+    "brave": {
+      "with": "instrument"
+    },
+    "brawl": {
+      "about": "topic"
+    },
+    "bray": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "bread": {
+      "with": "destination"
+    },
+    "break": {
+      "of": "source",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "break apart": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "break down": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "break up": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "breast": {
+      "with": "instrument"
+    },
+    "breastfeed": {
+      "to": "destination"
+    },
+    "brew": {
+      "for": "beneficiary"
+    },
+    "brick": {
+      "with": "destination"
+    },
+    "bridle": {
+      "with": "destination"
+    },
+    "brief": {
+      "about": "topic",
+      "of": "topic",
+      "on": "destination"
+    },
+    "brighten": {
+      "with": "instrument"
+    },
+    "bring about": {
+      "with": "instrument"
+    },
+    "bring out": {
+      "with": "instrument"
+    },
+    "bring up": {
+      "with": "instrument"
+    },
+    "bristle": {
+      "with": "location"
+    },
+    "broadcast": {
+      "about": "topic",
+      "for": "destination",
+      "to": "destination"
+    },
+    "broaden": {
+      "with": "instrument"
+    },
+    "broil": {
+      "for": "beneficiary",
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "bronze": {
+      "with": "destination"
+    },
+    "brood": {
+      "about": "topic"
+    },
+    "brown": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "bruise": {
+      "with": "instrument"
+    },
+    "brush": {
+      "with": "instrument"
+    },
+    "bubble": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "buckle": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "buffet": {
+      "with": "destination"
+    },
+    "build": {
+      "from": "beneficiary",
+      "of": "beneficiary",
+      "on": "source"
+    },
+    "bulge": {
+      "with": "location"
+    },
+    "bullet": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "bump": {
+      "with": "instrument"
+    },
+    "bungle": {
+      "with": "instrument"
+    },
+    "bunk": {
+      "at": "location",
+      "in": "location",
+      "with": "location"
+    },
+    "buoy": {
+      "through": "instrument",
+      "with": "instrument"
+    },
+    "burble": {
+      "about": "topic",
+      "for": "destination",
+      "with": "location"
+    },
+    "burgle": {
+      "of": "destination"
+    },
+    "burn": {
+      "with": "location"
+    },
+    "burr": {
+      "with": "location"
+    },
+    "burrow": {
+      "for": "location",
+      "through": "location"
+    },
+    "burst": {
+      "with": "instrument"
+    },
+    "bus": {
+      "to": "destination"
+    },
+    "bushwhack": {
+      "with": "instrument"
+    },
+    "bustle": {
+      "with": "location"
+    },
+    "butcher": {
+      "for": "beneficiary",
+      "with": "instrument"
+    },
+    "butt": {
+      "with": "instrument"
+    },
+    "butter": {
+      "with": "destination"
+    },
+    "button": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "buttonhole": {
+      "with": "destination"
+    },
+    "buttress": {
+      "through": "instrument",
+      "with": "instrument"
+    },
+    "buy": {
+      "at": "beneficiary",
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "buzz": {
+      "with": "location"
+    },
+    "cabbage": {
+      "for": "beneficiary"
+    },
+    "cable": {
+      "about": "topic",
+      "for": "destination",
+      "on": "instrument",
+      "to": "destination"
+    },
+    "cackle": {
+      "about": "topic",
+      "for": "destination",
+      "in": "destination",
+      "with": "destination"
+    },
+    "cadge": {
+      "from": "source"
+    },
+    "cage": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "calcify": {
+      "with": "instrument"
+    },
+    "calk": {
+      "with": "destination"
+    },
+    "call": {
+      "about": "topic",
+      "at": "beneficiary",
+      "for": "beneficiary",
+      "from": "source",
+      "with": "destination"
+    },
+    "calm down": {
+      "with": "instrument"
+    },
+    "camouflage": {
+      "with": "destination"
+    },
+    "camp": {
+      "at": "location",
+      "in": "location",
+      "with": "location"
+    },
+    "can": {
+      "from": "source",
+      "in": "destination",
+      "on": "destination"
+    },
+    "cancan": {
+      "to": "destination"
+    },
+    "cane": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "canter": {
+      "to": "source"
+    },
+    "canvass": {
+      "for": "location"
+    },
+    "cap": {
+      "with": "destination"
+    },
+    "capacitate": {
+      "with": "instrument"
+    },
+    "capsize": {
+      "with": "instrument"
+    },
+    "caramelize": {
+      "with": "instrument"
+    },
+    "carbonify": {
+      "with": "instrument"
+    },
+    "carbonize": {
+      "with": "instrument"
+    },
+    "caress": {
+      "with": "instrument"
+    },
+    "carjack": {
+      "for": "beneficiary"
+    },
+    "carol": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "carpet": {
+      "in": "destination",
+      "with": "destination"
+    },
+    "carry": {
+      "in": "location",
+      "to": "destination"
+    },
+    "carry on": {
+      "through": "instrument"
+    },
+    "cart": {
+      "to": "destination"
+    },
+    "carve": {
+      "from": "beneficiary",
+      "of": "beneficiary",
+      "with": "instrument"
+    },
+    "case": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "cash": {
+      "for": "destination",
+      "from": "source",
+      "on": "destination"
+    },
+    "cast": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "castrate": {
+      "with": "instrument"
+    },
+    "catalogue": {
+      "in": "destination"
+    },
+    "catch": {
+      "at": "beneficiary",
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "categorize": {
+      "in": "destination"
+    },
+    "caterwaul": {
+      "about": "topic",
+      "to": "destination",
+      "with": "location"
+    },
+    "catholicize": {
+      "with": "instrument"
+    },
+    "caulk": {
+      "with": "destination"
+    },
+    "cauterize": {
+      "with": "instrument"
+    },
+    "caution": {
+      "about": "topic",
+      "on": "source"
+    },
+    "caw": {
+      "with": "destination"
+    },
+    "cellar": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "cement": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "center": {
+      "on": "topic"
+    },
+    "centralize": {
+      "with": "instrument"
+    },
+    "chafe": {
+      "with": "instrument"
+    },
+    "chain": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "chamfer": {
+      "with": "instrument"
+    },
+    "change": {
+      "for": "destination",
+      "with": "instrument"
+    },
+    "channel": {
+      "in": "destination"
+    },
+    "chant": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "char": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "charbroil": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "charcoal broil": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "charge": {
+      "with": "destination"
+    },
+    "charter": {
+      "at": "beneficiary",
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "chat": {
+      "about": "topic",
+      "with": "topic"
+    },
+    "chatter": {
+      "about": "topic",
+      "for": "destination",
+      "with": "topic"
+    },
+    "cheapen": {
+      "with": "instrument"
+    },
+    "cheat": {
+      "of": "destination"
+    },
+    "check": {
+      "for": "location"
+    },
+    "cheep": {
+      "with": "destination"
+    },
+    "cheer up": {
+      "with": "instrument"
+    },
+    "chicken out": {
+      "of": "source"
+    },
+    "chill": {
+      "with": "instrument"
+    },
+    "chime": {
+      "with": "location"
+    },
+    "chink": {
+      "with": "location"
+    },
+    "chip": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "chir": {
+      "with": "location"
+    },
+    "chirp": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "chirrup": {
+      "with": "destination"
+    },
+    "chisel": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "chitchat": {
+      "about": "topic",
+      "with": "topic"
+    },
+    "chitter": {
+      "with": "destination"
+    },
+    "chlorinate": {
+      "with": "instrument"
+    },
+    "choke": {
+      "with": "destination"
+    },
+    "choose": {
+      "at": "beneficiary",
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "chop": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "chortle": {
+      "about": "topic",
+      "for": "destination",
+      "in": "destination"
+    },
+    "christianize": {
+      "with": "instrument"
+    },
+    "chrome": {
+      "with": "destination"
+    },
+    "chuckle": {
+      "about": "topic",
+      "for": "destination",
+      "in": "destination"
+    },
+    "chug": {
+      "with": "location"
+    },
+    "chunk": {
+      "in": "destination"
+    },
+    "churn": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "cinch": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "circumcise": {
+      "with": "instrument"
+    },
+    "circumscribe": {
+      "with": "instrument"
+    },
+    "civilize": {
+      "with": "instrument"
+    },
+    "clack": {
+      "with": "location"
+    },
+    "clamp": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "clang": {
+      "with": "location"
+    },
+    "clank": {
+      "with": "location"
+    },
+    "clap": {
+      "in": "destination",
+      "with": "location"
+    },
+    "clarify": {
+      "with": "instrument"
+    },
+    "clash": {
+      "about": "topic",
+      "with": "location"
+    },
+    "clasp": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "class": {
+      "in": "destination"
+    },
+    "classify": {
+      "in": "destination"
+    },
+    "clatter": {
+      "with": "location"
+    },
+    "claw": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "clay": {
+      "with": "destination"
+    },
+    "clean": {
+      "for": "beneficiary",
+      "of": "destination",
+      "with": "instrument"
+    },
+    "cleanse": {
+      "of": "source"
+    },
+    "clear": {
+      "for": "beneficiary",
+      "of": "source",
+      "with": "instrument"
+    },
+    "cleave": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "clench": {
+      "in": "destination"
+    },
+    "click": {
+      "in": "destination",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "cling": {
+      "with": "location"
+    },
+    "clink": {
+      "with": "location"
+    },
+    "clip": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "cloak": {
+      "in": "destination",
+      "with": "destination"
+    },
+    "clobber": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "clog": {
+      "to": "destination",
+      "with": "destination"
+    },
+    "cloister": {
+      "from": "beneficiary",
+      "in": "destination",
+      "on": "destination"
+    },
+    "clomp": {
+      "with": "location"
+    },
+    "close": {
+      "in": "destination",
+      "with": "destination"
+    },
+    "cloud": {
+      "with": "instrument"
+    },
+    "clout": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "club": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "cluck": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "clump": {
+      "with": "location"
+    },
+    "clunk": {
+      "with": "location"
+    },
+    "clutter": {
+      "with": "destination"
+    },
+    "coagulate": {
+      "with": "instrument"
+    },
+    "coal": {
+      "with": "destination"
+    },
+    "coarsen": {
+      "with": "instrument"
+    },
+    "coast": {
+      "from": "destination",
+      "to": "destination"
+    },
+    "coat": {
+      "in": "destination"
+    },
+    "cock": {
+      "in": "destination"
+    },
+    "coddle": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "code": {
+      "in": "destination"
+    },
+    "coif": {
+      "with": "instrument"
+    },
+    "coin": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "collaborate": {
+      "about": "topic",
+      "on": "topic",
+      "with": "topic"
+    },
+    "collapse": {
+      "with": "instrument"
+    },
+    "collect": {
+      "from": "source",
+      "with": "instrument"
+    },
+    "collide": {
+      "about": "topic",
+      "with": "topic"
+    },
+    "collude": {
+      "with": "beneficiary"
+    },
+    "comb": {
+      "for": "location"
+    },
+    "combat": {
+      "with": "instrument"
+    },
+    "combust": {
+      "with": "instrument"
+    },
+    "commandeer": {
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "commence": {
+      "with": "instrument"
+    },
+    "comment": {
+      "about": "topic"
+    },
+    "commercialize": {
+      "with": "instrument"
+    },
+    "commiserate": {
+      "about": "topic",
+      "on": "topic",
+      "with": "topic"
+    },
+    "commit": {
+      "to": "destination"
+    },
+    "communicate": {
+      "about": "topic",
+      "from": "source",
+      "on": "topic",
+      "to": "destination",
+      "with": "topic"
+    },
+    "compact": {
+      "with": "instrument"
+    },
+    "compete": {
+      "about": "topic"
+    },
+    "compile": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "complain": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "compress": {
+      "with": "instrument"
+    },
+    "compromise": {
+      "about": "topic",
+      "on": "topic",
+      "with": "topic"
+    },
+    "compute": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "con": {
+      "for": "source"
+    },
+    "conceal": {
+      "from": "beneficiary"
+    },
+    "conceive": {
+      "from": "source"
+    },
+    "concentrate": {
+      "on": "topic"
+    },
+    "conclude": {
+      "from": "source"
+    },
+    "concoct": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "concur": {
+      "about": "topic",
+      "on": "topic",
+      "with": "topic"
+    },
+    "condense": {
+      "with": "instrument"
+    },
+    "confer": {
+      "about": "topic",
+      "with": "topic"
+    },
+    "confess": {
+      "to": "destination"
+    },
+    "configure": {
+      "with": "instrument"
+    },
+    "confine": {
+      "to": "destination"
+    },
+    "confiscate": {
+      "for": "beneficiary"
+    },
+    "conform": {
+      "to": "destination"
+    },
+    "confront": {
+      "with": "instrument"
+    },
+    "conga": {
+      "to": "destination"
+    },
+    "congeal": {
+      "with": "instrument"
+    },
+    "conk": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "connect": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "conquer": {
+      "with": "instrument"
+    },
+    "conspire": {
+      "with": "beneficiary"
+    },
+    "constellate": {
+      "in": "destination"
+    },
+    "constipate": {
+      "with": "instrument"
+    },
+    "constrain": {
+      "to": "destination"
+    },
+    "constrict": {
+      "with": "instrument"
+    },
+    "constringe": {
+      "with": "instrument"
+    },
+    "construct": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary",
+      "with": "instrument"
+    },
+    "construe": {
+      "on": "source"
+    },
+    "consult": {
+      "about": "topic",
+      "of": "topic"
+    },
+    "contain": {
+      "in": "location"
+    },
+    "contaminate": {
+      "with": "destination"
+    },
+    "contemplate": {
+      "on": "topic"
+    },
+    "contend": {
+      "about": "topic"
+    },
+    "contextualize": {
+      "with": "instrument"
+    },
+    "continue": {
+      "through": "instrument"
+    },
+    "contract": {
+      "with": "instrument"
+    },
+    "contrive": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "converge": {
+      "on": "topic"
+    },
+    "converse": {
+      "about": "topic",
+      "with": "topic"
+    },
+    "convey": {
+      "to": "destination"
+    },
+    "coo": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "cook": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "in": "instrument",
+      "of": "beneficiary",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "cook up": {
+      "for": "beneficiary"
+    },
+    "cool": {
+      "with": "instrument"
+    },
+    "coop": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "cooperate": {
+      "about": "topic",
+      "on": "topic",
+      "with": "topic"
+    },
+    "copy": {
+      "in": "location",
+      "on": "location"
+    },
+    "cork": {
+      "with": "destination"
+    },
+    "corral": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "correct": {
+      "with": "instrument"
+    },
+    "correspond": {
+      "about": "topic",
+      "on": "topic",
+      "with": "topic"
+    },
+    "corroborate": {
+      "from": "source",
+      "to": "destination"
+    },
+    "corrode": {
+      "with": "instrument"
+    },
+    "corrugate": {
+      "with": "instrument"
+    },
+    "corrupt": {
+      "with": "instrument"
+    },
+    "cosh": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "cough": {
+      "in": "destination"
+    },
+    "counsel": {
+      "about": "topic",
+      "on": "source"
+    },
+    "counter": {
+      "with": "instrument"
+    },
+    "counteract": {
+      "with": "instrument"
+    },
+    "cover": {
+      "in": "destination"
+    },
+    "cowrite": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "cozen": {
+      "for": "source"
+    },
+    "crab": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "crack": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "crackle": {
+      "with": "location"
+    },
+    "crane": {
+      "in": "destination"
+    },
+    "crash": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "crate": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "crawl": {
+      "with": "location"
+    },
+    "creak": {
+      "with": "location"
+    },
+    "crease": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "create": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "creep": {
+      "with": "location"
+    },
+    "cremate": {
+      "with": "instrument"
+    },
+    "crepitate": {
+      "with": "location"
+    },
+    "crimson": {
+      "with": "instrument"
+    },
+    "crinkle": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "crisp": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "croak": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "crochet": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "crook": {
+      "in": "destination"
+    },
+    "croon": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "crop": {
+      "with": "instrument"
+    },
+    "cross": {
+      "in": "destination"
+    },
+    "cross examine": {
+      "about": "topic"
+    },
+    "crow": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "crown": {
+      "with": "destination"
+    },
+    "crucify": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "crumb": {
+      "with": "destination"
+    },
+    "crumble": {
+      "with": "instrument"
+    },
+    "crumple": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "crunch": {
+      "with": "instrument"
+    },
+    "crush": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "cry": {
+      "about": "topic",
+      "for": "destination",
+      "in": "destination",
+      "with": "location"
+    },
+    "crystallize": {
+      "with": "instrument"
+    },
+    "cube": {
+      "with": "instrument"
+    },
+    "cuckoo": {
+      "with": "destination"
+    },
+    "cudgel": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "cuff": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "cull": {
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "cultivate": {
+      "for": "beneficiary"
+    },
+    "cup": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "curb": {
+      "with": "instrument"
+    },
+    "curdle": {
+      "with": "instrument"
+    },
+    "cure": {
+      "from": "source"
+    },
+    "curtain": {
+      "from": "beneficiary"
+    },
+    "curtsey": {
+      "to": "destination"
+    },
+    "cut": {
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "dam": {
+      "with": "destination"
+    },
+    "damage": {
+      "with": "instrument"
+    },
+    "dampen": {
+      "with": "instrument"
+    },
+    "dance": {
+      "to": "destination"
+    },
+    "dapple": {
+      "in": "destination"
+    },
+    "darken": {
+      "with": "instrument"
+    },
+    "dart": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "dash": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "date": {
+      "with": "destination"
+    },
+    "de escalate": {
+      "with": "instrument"
+    },
+    "deafen": {
+      "with": "instrument"
+    },
+    "deal": {
+      "to": "destination"
+    },
+    "debase": {
+      "with": "instrument"
+    },
+    "debate": {
+      "with": "topic"
+    },
+    "decapitate": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "decelerate": {
+      "with": "instrument"
+    },
+    "decentralize": {
+      "with": "instrument"
+    },
+    "decimate": {
+      "with": "instrument"
+    },
+    "deck": {
+      "in": "destination"
+    },
+    "declare": {
+      "to": "destination"
+    },
+    "decompress": {
+      "with": "instrument"
+    },
+    "deconstruct": {
+      "with": "instrument"
+    },
+    "decorate": {
+      "in": "destination",
+      "with": "destination"
+    },
+    "decrease": {
+      "with": "instrument"
+    },
+    "dedicate": {
+      "to": "destination"
+    },
+    "deduce": {
+      "from": "source"
+    },
+    "deduct": {
+      "from": "source"
+    },
+    "deep fry": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "deepen": {
+      "with": "instrument"
+    },
+    "define": {
+      "to": "destination"
+    },
+    "deflate": {
+      "with": "instrument"
+    },
+    "deflect": {
+      "with": "instrument"
+    },
+    "defraud": {
+      "for": "source"
+    },
+    "defrost": {
+      "with": "instrument"
+    },
+    "degenerate": {
+      "with": "instrument"
+    },
+    "degrade": {
+      "with": "instrument"
+    },
+    "dehumidify": {
+      "with": "instrument"
+    },
+    "dehydrate": {
+      "with": "instrument"
+    },
+    "deliberate": {
+      "about": "topic",
+      "on": "topic",
+      "with": "topic"
+    },
+    "delineate": {
+      "with": "instrument"
+    },
+    "deliver": {
+      "to": "destination"
+    },
+    "deluge": {
+      "with": "destination"
+    },
+    "delve": {
+      "for": "location"
+    },
+    "demagnetize": {
+      "with": "instrument"
+    },
+    "demand": {
+      "from": "source"
+    },
+    "demean": {
+      "with": "instrument"
+    },
+    "dement": {
+      "with": "instrument"
+    },
+    "demobilize": {
+      "with": "instrument"
+    },
+    "democratize": {
+      "with": "instrument"
+    },
+    "demolish": {
+      "with": "instrument"
+    },
+    "demonstrate": {
+      "from": "source",
+      "to": "destination"
+    },
+    "dent": {
+      "with": "instrument"
+    },
+    "denude": {
+      "of": "destination"
+    },
+    "deplete": {
+      "of": "destination"
+    },
+    "depopulate": {
+      "of": "destination"
+    },
+    "deport": {
+      "to": "destination"
+    },
+    "depressurize": {
+      "with": "instrument"
+    },
+    "deprive": {
+      "of": "destination"
+    },
+    "derail": {
+      "with": "instrument"
+    },
+    "derive": {
+      "for": "beneficiary",
+      "from": "source",
+      "of": "beneficiary"
+    },
+    "desalinate": {
+      "with": "instrument"
+    },
+    "desecrate": {
+      "with": "instrument"
+    },
+    "desensitize": {
+      "with": "instrument"
+    },
+    "desiccate": {
+      "with": "instrument"
+    },
+    "despoil": {
+      "of": "destination"
+    },
+    "destabilize": {
+      "with": "instrument"
+    },
+    "destroy": {
+      "with": "instrument"
+    },
+    "deteriorate": {
+      "with": "instrument"
+    },
+    "detonate": {
+      "with": "instrument"
+    },
+    "devalue": {
+      "with": "instrument"
+    },
+    "devastate": {
+      "with": "instrument"
+    },
+    "develop": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "devise": {
+      "with": "instrument"
+    },
+    "devolve": {
+      "for": "beneficiary",
+      "to": "destination"
+    },
+    "devote": {
+      "to": "destination"
+    },
+    "diaper": {
+      "with": "destination"
+    },
+    "dice": {
+      "with": "instrument"
+    },
+    "dicker": {
+      "about": "topic"
+    },
+    "differ": {
+      "about": "topic",
+      "on": "topic",
+      "with": "topic"
+    },
+    "differentiate": {
+      "from": "instrument"
+    },
+    "diffract": {
+      "with": "instrument"
+    },
+    "diffuse": {
+      "with": "instrument"
+    },
+    "dig": {
+      "for": "location",
+      "through": "location",
+      "with": "instrument"
+    },
+    "dilate": {
+      "with": "instrument"
+    },
+    "dilute": {
+      "with": "instrument"
+    },
+    "dim": {
+      "with": "instrument"
+    },
+    "diminish": {
+      "with": "instrument"
+    },
+    "ding": {
+      "with": "location"
+    },
+    "direct": {
+      "for": "beneficiary"
+    },
+    "dirty": {
+      "with": "destination"
+    },
+    "disable": {
+      "with": "instrument"
+    },
+    "disabuse": {
+      "of": "destination"
+    },
+    "disagree": {
+      "about": "topic",
+      "on": "topic",
+      "with": "topic"
+    },
+    "disarm": {
+      "of": "destination"
+    },
+    "disband": {
+      "with": "instrument"
+    },
+    "discharge": {
+      "of": "source"
+    },
+    "disclose": {
+      "to": "destination"
+    },
+    "discolor": {
+      "with": "instrument"
+    },
+    "discriminate": {
+      "with": "beneficiary"
+    },
+    "discuss": {
+      "with": "topic"
+    },
+    "disembowel": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "disencumber": {
+      "of": "source"
+    },
+    "disenfranchise": {
+      "with": "instrument"
+    },
+    "disfigure": {
+      "with": "instrument"
+    },
+    "disguise": {
+      "in": "destination"
+    },
+    "dishevel": {
+      "with": "instrument"
+    },
+    "disinfect": {
+      "with": "instrument"
+    },
+    "disintegrate": {
+      "with": "instrument"
+    },
+    "disinter": {
+      "with": "instrument"
+    },
+    "dislocate": {
+      "with": "instrument"
+    },
+    "dismiss": {
+      "from": "source"
+    },
+    "disorganize": {
+      "with": "instrument"
+    },
+    "dispatch": {
+      "to": "destination",
+      "with": "instrument"
+    },
+    "dispel": {
+      "with": "instrument"
+    },
+    "disperse": {
+      "with": "instrument"
+    },
+    "display": {
+      "to": "destination"
+    },
+    "dispossess": {
+      "of": "destination"
+    },
+    "disprove": {
+      "from": "source"
+    },
+    "dispute": {
+      "about": "topic"
+    },
+    "disseminate": {
+      "to": "destination"
+    },
+    "dissipate": {
+      "with": "instrument"
+    },
+    "dissolve": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "dissuade": {
+      "from": "beneficiary"
+    },
+    "distend": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "distinguish": {
+      "from": "instrument"
+    },
+    "distribute": {
+      "to": "destination"
+    },
+    "dive": {
+      "for": "location"
+    },
+    "diversify": {
+      "with": "instrument"
+    },
+    "divest": {
+      "of": "destination"
+    },
+    "divide": {
+      "with": "instrument"
+    },
+    "divulge": {
+      "to": "destination"
+    },
+    "dock": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "dong": {
+      "with": "location"
+    },
+    "dope": {
+      "with": "destination"
+    },
+    "dot": {
+      "with": "destination"
+    },
+    "double": {
+      "with": "instrument"
+    },
+    "douse": {
+      "in": "destination"
+    },
+    "downshift": {
+      "with": "instrument"
+    },
+    "drag": {
+      "for": "location",
+      "to": "destination"
+    },
+    "drain": {
+      "of": "destination",
+      "with": "instrument"
+    },
+    "draw": {
+      "to": "destination"
+    },
+    "drawl": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "dredge": {
+      "for": "location"
+    },
+    "drench": {
+      "in": "destination"
+    },
+    "dribble": {
+      "from": "source",
+      "of": "location",
+      "on": "destination",
+      "with": "location"
+    },
+    "drift": {
+      "to": "source"
+    },
+    "drill": {
+      "with": "instrument"
+    },
+    "drip": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "drive": {
+      "to": "destination"
+    },
+    "drone": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "drool": {
+      "from": "source",
+      "of": "location",
+      "on": "destination",
+      "with": "location"
+    },
+    "drop": {
+      "from": "source"
+    },
+    "drown": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "drug": {
+      "with": "destination"
+    },
+    "drum": {
+      "in": "destination",
+      "with": "instrument"
+    },
+    "drydock": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "dull": {
+      "with": "instrument"
+    },
+    "dwell": {
+      "about": "topic",
+      "at": "location",
+      "in": "location",
+      "on": "topic",
+      "with": "location"
+    },
+    "e mail": {
+      "about": "topic",
+      "for": "destination",
+      "to": "destination"
+    },
+    "earn": {
+      "for": "destination",
+      "from": "source",
+      "on": "destination"
+    },
+    "ease": {
+      "of": "source",
+      "with": "instrument"
+    },
+    "echo": {
+      "with": "location"
+    },
+    "edge": {
+      "in": "destination"
+    },
+    "edify": {
+      "with": "instrument"
+    },
+    "educate": {
+      "about": "topic",
+      "of": "topic",
+      "on": "destination"
+    },
+    "efface": {
+      "with": "instrument"
+    },
+    "effeminate": {
+      "with": "instrument"
+    },
+    "effervesce": {
+      "with": "location"
+    },
+    "elaborate": {
+      "about": "topic"
+    },
+    "elbow": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "electrocute": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "eliminate": {
+      "with": "instrument"
+    },
+    "elucidate": {
+      "from": "source",
+      "to": "destination"
+    },
+    "emaciate": {
+      "with": "instrument"
+    },
+    "emanate": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "emancipate": {
+      "for": "beneficiary",
+      "of": "source"
+    },
+    "emasculate": {
+      "with": "instrument"
+    },
+    "embellish": {
+      "with": "destination"
+    },
+    "embezzle": {
+      "for": "beneficiary"
+    },
+    "embitter": {
+      "with": "instrument"
+    },
+    "emblazon": {
+      "with": "destination"
+    },
+    "emboss": {
+      "with": "destination"
+    },
+    "embrocate": {
+      "with": "instrument"
+    },
+    "embroider": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary",
+      "with": "destination"
+    },
+    "empty": {
+      "with": "instrument"
+    },
+    "emulsify": {
+      "with": "instrument"
+    },
+    "enact": {
+      "for": "beneficiary"
+    },
+    "encircle": {
+      "with": "destination"
+    },
+    "encourage": {
+      "about": "topic",
+      "of": "topic",
+      "on": "destination"
+    },
+    "encrust": {
+      "in": "destination"
+    },
+    "endorse": {
+      "with": "destination"
+    },
+    "endow": {
+      "with": "destination"
+    },
+    "energize": {
+      "with": "instrument"
+    },
+    "engage": {
+      "in": "destination"
+    },
+    "engrave": {
+      "with": "destination"
+    },
+    "enhance": {
+      "with": "instrument"
+    },
+    "enlarge": {
+      "with": "instrument"
+    },
+    "enquire": {
+      "about": "topic",
+      "of": "topic"
+    },
+    "enrich": {
+      "with": "destination"
+    },
+    "enroll": {
+      "in": "destination"
+    },
+    "enslave": {
+      "with": "instrument"
+    },
+    "ensure": {
+      "for": "beneficiary"
+    },
+    "entangle": {
+      "in": "destination"
+    },
+    "enunciate": {
+      "with": "instrument"
+    },
+    "epoxy": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "equalize": {
+      "with": "instrument"
+    },
+    "equilibrate": {
+      "with": "instrument"
+    },
+    "erect": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "escalate": {
+      "with": "instrument"
+    },
+    "establish": {
+      "on": "source",
+      "with": "instrument"
+    },
+    "etch": {
+      "with": "destination"
+    },
+    "eternalize": {
+      "with": "instrument"
+    },
+    "eternize": {
+      "with": "instrument"
+    },
+    "europeanize": {
+      "with": "instrument"
+    },
+    "euthanize": {
+      "with": "instrument"
+    },
+    "evacuate": {
+      "to": "destination"
+    },
+    "evaporate": {
+      "with": "instrument"
+    },
+    "even": {
+      "with": "instrument"
+    },
+    "evicerate": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "exacerbate": {
+      "with": "instrument"
+    },
+    "exact": {
+      "from": "source"
+    },
+    "examine": {
+      "for": "location"
+    },
+    "excavate": {
+      "for": "location"
+    },
+    "exceed": {
+      "with": "instrument"
+    },
+    "exchange": {
+      "for": "destination"
+    },
+    "exclaim": {
+      "to": "destination"
+    },
+    "exclude": {
+      "from": "destination"
+    },
+    "execute": {
+      "with": "instrument"
+    },
+    "exfoliate": {
+      "with": "instrument"
+    },
+    "exhibit": {
+      "to": "destination"
+    },
+    "exhume": {
+      "with": "instrument"
+    },
+    "exile": {
+      "to": "destination"
+    },
+    "exonerate": {
+      "of": "source"
+    },
+    "expand": {
+      "with": "instrument"
+    },
+    "expel": {
+      "from": "source",
+      "to": "destination"
+    },
+    "explain": {
+      "from": "source",
+      "to": "destination"
+    },
+    "explicate": {
+      "from": "source",
+      "to": "destination"
+    },
+    "explode": {
+      "with": "instrument"
+    },
+    "explore": {
+      "for": "location"
+    },
+    "export": {
+      "to": "destination"
+    },
+    "expose": {
+      "to": "destination"
+    },
+    "expound": {
+      "from": "source",
+      "to": "destination"
+    },
+    "express": {
+      "to": "destination"
+    },
+    "expropriate": {
+      "with": "instrument"
+    },
+    "exrete": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "exterminate": {
+      "with": "instrument"
+    },
+    "extirpate": {
+      "with": "instrument"
+    },
+    "extort": {
+      "for": "beneficiary"
+    },
+    "extradite": {
+      "to": "destination"
+    },
+    "exude": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "fabricate": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "face": {
+      "in": "destination",
+      "with": "instrument"
+    },
+    "fade": {
+      "with": "instrument"
+    },
+    "fake": {
+      "with": "instrument"
+    },
+    "fanaticize": {
+      "with": "instrument"
+    },
+    "fashion": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "fasten": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "fatten": {
+      "with": "instrument"
+    },
+    "fax": {
+      "about": "topic",
+      "for": "destination",
+      "to": "destination"
+    },
+    "feather": {
+      "with": "destination"
+    },
+    "federalize": {
+      "with": "instrument"
+    },
+    "federate": {
+      "with": "instrument"
+    },
+    "feed": {
+      "in": "location",
+      "to": "destination"
+    },
+    "feel": {
+      "for": "location"
+    },
+    "feign": {
+      "with": "instrument"
+    },
+    "feminize": {
+      "with": "instrument"
+    },
+    "fence": {
+      "about": "topic",
+      "with": "destination"
+    },
+    "ferry": {
+      "to": "destination"
+    },
+    "fertilize": {
+      "with": "instrument"
+    },
+    "fess up": {
+      "to": "destination"
+    },
+    "fester": {
+      "with": "location"
+    },
+    "festoon": {
+      "in": "destination"
+    },
+    "fetch": {
+      "for": "destination",
+      "from": "source",
+      "on": "destination"
+    },
+    "fetter": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "feud": {
+      "about": "topic"
+    },
+    "figure out": {
+      "about": "source",
+      "from": "source"
+    },
+    "filch": {
+      "for": "beneficiary"
+    },
+    "file": {
+      "in": "destination",
+      "on": "destination",
+      "with": "instrument"
+    },
+    "fill": {
+      "with": "destination"
+    },
+    "fillet": {
+      "with": "instrument"
+    },
+    "find": {
+      "at": "beneficiary",
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "find out": {
+      "about": "source",
+      "from": "source"
+    },
+    "fire": {
+      "from": "source"
+    },
+    "firm": {
+      "with": "instrument"
+    },
+    "fish": {
+      "for": "location"
+    },
+    "fissure": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "fit": {
+      "in": "location",
+      "to": "destination"
+    },
+    "fix": {
+      "for": "beneficiary"
+    },
+    "fixate": {
+      "on": "topic"
+    },
+    "fizz": {
+      "with": "location"
+    },
+    "fizzle": {
+      "with": "location"
+    },
+    "flagellate": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "flail": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "flake": {
+      "with": "instrument"
+    },
+    "flame": {
+      "with": "location"
+    },
+    "flap": {
+      "in": "destination"
+    },
+    "flare": {
+      "with": "location"
+    },
+    "flash": {
+      "in": "destination",
+      "with": "location"
+    },
+    "flatten": {
+      "with": "instrument"
+    },
+    "flaunt": {
+      "to": "destination"
+    },
+    "fleck": {
+      "with": "destination"
+    },
+    "fleece": {
+      "for": "source"
+    },
+    "flex": {
+      "in": "destination",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "flick": {
+      "in": "destination"
+    },
+    "flicker": {
+      "with": "location"
+    },
+    "flirt": {
+      "about": "topic",
+      "with": "topic"
+    },
+    "float": {
+      "to": "source"
+    },
+    "flog": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "flood": {
+      "with": "destination"
+    },
+    "floss": {
+      "with": "instrument"
+    },
+    "flour": {
+      "with": "destination"
+    },
+    "flouridate": {
+      "with": "instrument"
+    },
+    "flow": {
+      "with": "location"
+    },
+    "flower": {
+      "with": "location"
+    },
+    "fluff": {
+      "with": "instrument"
+    },
+    "fluoresce": {
+      "with": "location"
+    },
+    "flutter": {
+      "in": "destination"
+    },
+    "flux": {
+      "with": "location"
+    },
+    "fly": {
+      "to": "destination"
+    },
+    "foam": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "focalize": {
+      "on": "topic"
+    },
+    "focus": {
+      "on": "topic"
+    },
+    "fold": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "in": "destination",
+      "of": "beneficiary",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "fondle": {
+      "with": "instrument"
+    },
+    "forage": {
+      "for": "location"
+    },
+    "force feed": {
+      "to": "destination"
+    },
+    "force out": {
+      "from": "source"
+    },
+    "forest": {
+      "with": "destination"
+    },
+    "forge": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "in": "location",
+      "of": "beneficiary",
+      "on": "location"
+    },
+    "forgo": {
+      "to": "destination"
+    },
+    "fork": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "form": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary",
+      "to": "destination"
+    },
+    "format": {
+      "with": "instrument"
+    },
+    "formulate": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "fortify": {
+      "with": "instrument"
+    },
+    "fossilize": {
+      "with": "instrument"
+    },
+    "found": {
+      "on": "source",
+      "with": "instrument"
+    },
+    "foxtrot": {
+      "to": "destination"
+    },
+    "fracture": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "fragment": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "frame": {
+      "in": "destination",
+      "with": "destination"
+    },
+    "fray": {
+      "with": "instrument"
+    },
+    "freckle": {
+      "with": "instrument"
+    },
+    "free": {
+      "of": "source"
+    },
+    "french fry": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "freshen": {
+      "with": "instrument"
+    },
+    "frisk": {
+      "for": "location"
+    },
+    "frost": {
+      "with": "destination"
+    },
+    "froth": {
+      "with": "location"
+    },
+    "frown": {
+      "in": "destination"
+    },
+    "fructify": {
+      "with": "instrument"
+    },
+    "fry": {
+      "for": "beneficiary",
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "fuel": {
+      "with": "destination"
+    },
+    "fulfill": {
+      "with": "instrument"
+    },
+    "fumble": {
+      "for": "location",
+      "through": "location"
+    },
+    "furrow": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "fuse": {
+      "with": "instrument"
+    },
+    "fustigate": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "gab": {
+      "about": "topic",
+      "with": "topic"
+    },
+    "gabble": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "gag": {
+      "with": "destination"
+    },
+    "gain": {
+      "for": "destination",
+      "from": "source",
+      "on": "destination"
+    },
+    "gallop": {
+      "to": "source"
+    },
+    "gape": {
+      "in": "destination"
+    },
+    "garage": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "garland": {
+      "with": "destination"
+    },
+    "garnish": {
+      "with": "destination"
+    },
+    "garrotte": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "gas": {
+      "to": "instrument",
+      "with": "destination"
+    },
+    "gash": {
+      "with": "instrument"
+    },
+    "gasify": {
+      "with": "instrument"
+    },
+    "gasp": {
+      "about": "topic",
+      "for": "destination",
+      "in": "destination"
+    },
+    "gather": {
+      "at": "beneficiary",
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "gawk": {
+      "in": "destination"
+    },
+    "gear": {
+      "to": "destination"
+    },
+    "gelatinize": {
+      "with": "instrument"
+    },
+    "gentrify": {
+      "with": "instrument"
+    },
+    "genuflect": {
+      "to": "destination"
+    },
+    "germanize": {
+      "with": "instrument"
+    },
+    "gesture": {
+      "in": "destination"
+    },
+    "get": {
+      "for": "destination",
+      "from": "source",
+      "on": "destination"
+    },
+    "get away": {
+      "from": "source"
+    },
+    "get out": {
+      "of": "source"
+    },
+    "gibber": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "gift": {
+      "to": "destination"
+    },
+    "giggle": {
+      "in": "destination"
+    },
+    "gild": {
+      "with": "destination"
+    },
+    "give": {
+      "at": "destination",
+      "for": "destination",
+      "on": "destination",
+      "to": "destination"
+    },
+    "give away": {
+      "to": "destination"
+    },
+    "give back": {
+      "to": "destination"
+    },
+    "give out": {
+      "to": "destination"
+    },
+    "give the boot": {
+      "from": "source"
+    },
+    "give up": {
+      "to": "destination"
+    },
+    "gladden": {
+      "with": "instrument"
+    },
+    "glare": {
+      "in": "destination",
+      "with": "location"
+    },
+    "glass": {
+      "with": "destination"
+    },
+    "glaze": {
+      "with": "destination"
+    },
+    "gleam": {
+      "with": "location"
+    },
+    "glean": {
+      "from": "source"
+    },
+    "glide": {
+      "to": "source"
+    },
+    "glimmer": {
+      "with": "location"
+    },
+    "glint": {
+      "with": "location"
+    },
+    "glisten": {
+      "with": "location"
+    },
+    "glitter": {
+      "with": "location"
+    },
+    "globalize": {
+      "with": "instrument"
+    },
+    "glove": {
+      "with": "destination"
+    },
+    "glow": {
+      "with": "location"
+    },
+    "glower": {
+      "in": "destination"
+    },
+    "glue": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "glutenize": {
+      "with": "instrument"
+    },
+    "gnash": {
+      "in": "destination"
+    },
+    "go": {
+      "for": "beneficiary",
+      "through": "location",
+      "with": "beneficiary"
+    },
+    "go about": {
+      "with": "instrument"
+    },
+    "gobble": {
+      "with": "destination"
+    },
+    "goggle": {
+      "in": "destination"
+    },
+    "gossip": {
+      "about": "topic",
+      "with": "topic"
+    },
+    "gouge": {
+      "with": "instrument"
+    },
+    "grab": {
+      "from": "source"
+    },
+    "grace": {
+      "with": "destination"
+    },
+    "grade": {
+      "in": "destination",
+      "with": "instrument"
+    },
+    "graffiti": {
+      "with": "destination"
+    },
+    "granulate": {
+      "with": "instrument"
+    },
+    "grasp": {
+      "with": "instrument"
+    },
+    "grass": {
+      "with": "destination"
+    },
+    "grate": {
+      "with": "instrument"
+    },
+    "gravel": {
+      "with": "destination"
+    },
+    "gray": {
+      "with": "instrument"
+    },
+    "graze": {
+      "with": "instrument"
+    },
+    "grease": {
+      "with": "destination"
+    },
+    "grill": {
+      "for": "beneficiary",
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "grimace": {
+      "in": "destination"
+    },
+    "grin": {
+      "in": "destination"
+    },
+    "grind": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "in": "destination",
+      "of": "beneficiary",
+      "with": "instrument"
+    },
+    "grip": {
+      "with": "instrument"
+    },
+    "gripe": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "groan": {
+      "about": "topic",
+      "for": "destination",
+      "in": "destination",
+      "with": "destination"
+    },
+    "groove": {
+      "with": "destination"
+    },
+    "grope": {
+      "for": "location",
+      "with": "instrument"
+    },
+    "grouch": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "ground": {
+      "in": "destination",
+      "on": "source"
+    },
+    "group": {
+      "in": "destination"
+    },
+    "grouse": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "grow": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary",
+      "with": "instrument"
+    },
+    "growl": {
+      "about": "topic",
+      "for": "destination",
+      "in": "destination",
+      "with": "destination"
+    },
+    "grumble": {
+      "about": "topic",
+      "for": "destination",
+      "to": "destination"
+    },
+    "grunt": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "guarantee": {
+      "for": "beneficiary",
+      "to": "destination"
+    },
+    "guest": {
+      "at": "location",
+      "in": "location",
+      "with": "location"
+    },
+    "guffaw": {
+      "in": "destination"
+    },
+    "gull": {
+      "of": "destination"
+    },
+    "gum": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "gum up": {
+      "with": "destination"
+    },
+    "gurgle": {
+      "about": "topic",
+      "for": "destination",
+      "with": "location"
+    },
+    "gush": {
+      "about": "topic",
+      "from": "source",
+      "of": "location",
+      "to": "destination",
+      "with": "location"
+    },
+    "hack": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "haggle": {
+      "on": "topic",
+      "with": "topic"
+    },
+    "halt": {
+      "with": "instrument"
+    },
+    "halter": {
+      "with": "destination"
+    },
+    "hammer": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary",
+      "with": "instrument"
+    },
+    "hand out": {
+      "to": "destination"
+    },
+    "handcuff": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "handdeliver": {
+      "to": "destination"
+    },
+    "handfeed": {
+      "to": "destination"
+    },
+    "handle": {
+      "with": "instrument"
+    },
+    "handpaint": {
+      "with": "destination"
+    },
+    "hang": {
+      "in": "destination",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "hangar": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "hardboil": {
+      "for": "beneficiary",
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "harden": {
+      "with": "instrument"
+    },
+    "harmonize": {
+      "with": "instrument"
+    },
+    "harness": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "destination"
+    },
+    "hasten": {
+      "to": "source",
+      "with": "instrument"
+    },
+    "hat": {
+      "with": "destination"
+    },
+    "haul": {
+      "to": "destination"
+    },
+    "hawk": {
+      "at": "destination",
+      "for": "destination",
+      "on": "destination",
+      "to": "destination"
+    },
+    "head on": {
+      "with": "instrument"
+    },
+    "heal": {
+      "with": "instrument"
+    },
+    "hear": {
+      "about": "source",
+      "from": "source"
+    },
+    "heat": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "hee haw": {
+      "with": "destination"
+    },
+    "heel": {
+      "for": "beneficiary",
+      "with": "destination"
+    },
+    "heft": {
+      "to": "destination"
+    },
+    "heighten": {
+      "with": "instrument"
+    },
+    "hellenize": {
+      "with": "instrument"
+    },
+    "hem": {
+      "in": "destination"
+    },
+    "hibernate": {
+      "in": "location"
+    },
+    "hide": {
+      "from": "beneficiary"
+    },
+    "highjack": {
+      "for": "beneficiary"
+    },
+    "hijack": {
+      "from": "source"
+    },
+    "hinge": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "hint": {
+      "to": "destination"
+    },
+    "hire": {
+      "at": "beneficiary",
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "hiss": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "hit": {
+      "with": "instrument"
+    },
+    "hitch": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "hobble": {
+      "to": "source"
+    },
+    "hock": {
+      "at": "destination",
+      "for": "destination",
+      "on": "destination",
+      "to": "destination"
+    },
+    "hoist": {
+      "to": "destination"
+    },
+    "hold": {
+      "in": "location",
+      "through": "instrument"
+    },
+    "hold up": {
+      "through": "instrument",
+      "with": "instrument"
+    },
+    "holler": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "hollow": {
+      "of": "destination"
+    },
+    "honeycomb": {
+      "with": "destination"
+    },
+    "honk": {
+      "with": "destination"
+    },
+    "hook": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "hoot": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "hop": {
+      "with": "location"
+    },
+    "horsewhip": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "house": {
+      "in": "location",
+      "on": "destination"
+    },
+    "howl": {
+      "about": "topic",
+      "for": "destination",
+      "in": "destination",
+      "with": "destination"
+    },
+    "hum": {
+      "about": "topic",
+      "for": "destination",
+      "with": "location"
+    },
+    "humanize": {
+      "with": "instrument"
+    },
+    "humidify": {
+      "with": "instrument"
+    },
+    "hunch": {
+      "in": "destination"
+    },
+    "hunt": {
+      "for": "location"
+    },
+    "hurry": {
+      "to": "source"
+    },
+    "hurtle": {
+      "to": "source"
+    },
+    "hush": {
+      "with": "instrument"
+    },
+    "hush up": {
+      "with": "instrument"
+    },
+    "hybridize": {
+      "with": "instrument"
+    },
+    "hydrate": {
+      "with": "instrument"
+    },
+    "hydrogenate": {
+      "with": "instrument"
+    },
+    "hydrolize": {
+      "with": "instrument"
+    },
+    "hyperextend": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "hyperventilate": {
+      "with": "location"
+    },
+    "ice": {
+      "with": "destination"
+    },
+    "ignite": {
+      "with": "instrument"
+    },
+    "illuminate": {
+      "with": "destination"
+    },
+    "illustrate": {
+      "from": "source",
+      "to": "destination",
+      "with": "destination"
+    },
+    "imbue": {
+      "with": "destination"
+    },
+    "immolate": {
+      "with": "instrument"
+    },
+    "immortalize": {
+      "with": "instrument"
+    },
+    "impale": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "implement": {
+      "with": "instrument"
+    },
+    "import": {
+      "to": "destination"
+    },
+    "impound": {
+      "from": "beneficiary"
+    },
+    "impregnate": {
+      "with": "destination"
+    },
+    "imprint": {
+      "with": "destination"
+    },
+    "imprison": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "improve": {
+      "with": "instrument"
+    },
+    "improvise": {
+      "for": "beneficiary"
+    },
+    "inactivate": {
+      "with": "instrument"
+    },
+    "incandesce": {
+      "with": "location"
+    },
+    "inch": {
+      "to": "source"
+    },
+    "incinerate": {
+      "with": "instrument"
+    },
+    "incise": {
+      "with": "destination"
+    },
+    "include": {
+      "in": "destination"
+    },
+    "increase": {
+      "with": "instrument"
+    },
+    "incubate": {
+      "with": "instrument"
+    },
+    "indicate": {
+      "to": "destination"
+    },
+    "indurate": {
+      "with": "instrument"
+    },
+    "industrialize": {
+      "with": "instrument"
+    },
+    "infect": {
+      "with": "destination"
+    },
+    "infer": {
+      "from": "source"
+    },
+    "infest": {
+      "with": "destination"
+    },
+    "inflate": {
+      "with": "instrument"
+    },
+    "inform": {
+      "of": "topic"
+    },
+    "ingest": {
+      "from": "source"
+    },
+    "ingrain": {
+      "with": "destination"
+    },
+    "inherit": {
+      "from": "source"
+    },
+    "initial": {
+      "with": "destination"
+    },
+    "initiate": {
+      "with": "instrument"
+    },
+    "inject": {
+      "with": "destination"
+    },
+    "ink": {
+      "with": "destination"
+    },
+    "inlay": {
+      "with": "destination"
+    },
+    "inquire": {
+      "about": "topic",
+      "of": "topic"
+    },
+    "inscribe": {
+      "with": "destination"
+    },
+    "inseminate": {
+      "with": "instrument"
+    },
+    "insinuate": {
+      "to": "destination"
+    },
+    "insist": {
+      "to": "destination"
+    },
+    "inspect": {
+      "for": "location"
+    },
+    "inspissate": {
+      "with": "instrument"
+    },
+    "instigate": {
+      "with": "instrument"
+    },
+    "institute": {
+      "with": "instrument"
+    },
+    "instruct": {
+      "about": "topic",
+      "on": "source"
+    },
+    "insulate": {
+      "with": "destination"
+    },
+    "insure": {
+      "for": "beneficiary"
+    },
+    "intensify": {
+      "with": "instrument"
+    },
+    "interact": {
+      "about": "topic",
+      "on": "topic",
+      "with": "topic"
+    },
+    "intercept": {
+      "with": "instrument"
+    },
+    "interlace": {
+      "with": "destination"
+    },
+    "interlard": {
+      "with": "destination"
+    },
+    "interleave": {
+      "with": "destination"
+    },
+    "internationalize": {
+      "with": "instrument"
+    },
+    "interrogate": {
+      "about": "topic"
+    },
+    "intersperse": {
+      "with": "destination"
+    },
+    "interview": {
+      "about": "topic"
+    },
+    "interweave": {
+      "with": "destination"
+    },
+    "intimate": {
+      "to": "destination"
+    },
+    "intone": {
+      "for": "beneficiary"
+    },
+    "introduce": {
+      "with": "instrument"
+    },
+    "intrude": {
+      "to": "destination"
+    },
+    "inundate": {
+      "with": "destination"
+    },
+    "invent": {
+      "for": "beneficiary"
+    },
+    "invert": {
+      "with": "instrument"
+    },
+    "invest": {
+      "with": "destination"
+    },
+    "investigate": {
+      "for": "location"
+    },
+    "involve": {
+      "from": "source",
+      "in": "destination"
+    },
+    "iodize": {
+      "with": "instrument"
+    },
+    "ionize": {
+      "with": "instrument"
+    },
+    "iron": {
+      "for": "beneficiary"
+    },
+    "isolate": {
+      "from": "beneficiary",
+      "in": "destination"
+    },
+    "issue": {
+      "for": "destination",
+      "to": "destination",
+      "with": "destination"
+    },
+    "jab": {
+      "through": "location",
+      "with": "instrument"
+    },
+    "jabber": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "jail": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "jangle": {
+      "with": "location"
+    },
+    "jar": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "jeer": {
+      "in": "destination"
+    },
+    "jest": {
+      "about": "topic",
+      "with": "topic"
+    },
+    "jet": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "jig": {
+      "to": "destination"
+    },
+    "jingle": {
+      "with": "location"
+    },
+    "jitterbug": {
+      "to": "destination"
+    },
+    "jive": {
+      "to": "destination"
+    },
+    "joke": {
+      "about": "topic",
+      "with": "topic"
+    },
+    "jot": {
+      "in": "location",
+      "on": "location"
+    },
+    "jot down": {
+      "in": "location",
+      "on": "location"
+    },
+    "joust": {
+      "about": "topic"
+    },
+    "judge": {
+      "for": "beneficiary"
+    },
+    "jug": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "justify": {
+      "from": "source",
+      "to": "destination"
+    },
+    "k.o.": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "keen": {
+      "about": "topic",
+      "for": "destination",
+      "with": "location"
+    },
+    "keep": {
+      "from": "beneficiary"
+    },
+    "keep down": {
+      "with": "instrument"
+    },
+    "keep up": {
+      "through": "instrument"
+    },
+    "kennel": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "ki yi": {
+      "with": "destination"
+    },
+    "kick": {
+      "in": "destination",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "kidnap": {
+      "for": "beneficiary"
+    },
+    "kill": {
+      "with": "instrument"
+    },
+    "kindle": {
+      "for": "beneficiary",
+      "with": "instrument"
+    },
+    "kiss": {
+      "with": "instrument"
+    },
+    "knap": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "knead": {
+      "with": "instrument"
+    },
+    "knee": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "kneel": {
+      "to": "destination"
+    },
+    "knell": {
+      "with": "location"
+    },
+    "knife": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "knit": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "in": "destination",
+      "of": "beneficiary"
+    },
+    "knock": {
+      "with": "instrument"
+    },
+    "knock off": {
+      "for": "beneficiary"
+    },
+    "knot": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "kvetch": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "label": {
+      "with": "destination"
+    },
+    "lace": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "lam": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "laminate": {
+      "with": "instrument"
+    },
+    "lance": {
+      "with": "instrument"
+    },
+    "land": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "lard": {
+      "with": "destination"
+    },
+    "larrup": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "lash": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "destination"
+    },
+    "lasso": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "latch": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "lather": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "laugh": {
+      "in": "destination"
+    },
+    "launch": {
+      "with": "instrument"
+    },
+    "lawyer": {
+      "for": "beneficiary"
+    },
+    "lay": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "lay off": {
+      "from": "source"
+    },
+    "leaf": {
+      "for": "location",
+      "through": "location"
+    },
+    "leak": {
+      "from": "source",
+      "of": "location",
+      "to": "destination",
+      "with": "location"
+    },
+    "learn": {
+      "about": "source",
+      "from": "source",
+      "of": "topic"
+    },
+    "lease": {
+      "at": "destination",
+      "for": "beneficiary",
+      "from": "source",
+      "on": "destination",
+      "to": "destination"
+    },
+    "leash": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "destination"
+    },
+    "leave": {
+      "for": "destination",
+      "to": "destination",
+      "with": "destination"
+    },
+    "leaven": {
+      "with": "destination"
+    },
+    "lecture": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "legislate": {
+      "with": "beneficiary"
+    },
+    "lend": {
+      "to": "destination"
+    },
+    "lengthen": {
+      "with": "instrument"
+    },
+    "lessen": {
+      "with": "instrument"
+    },
+    "let": {
+      "at": "destination",
+      "for": "destination",
+      "on": "destination",
+      "to": "destination"
+    },
+    "let go": {
+      "from": "source"
+    },
+    "letter": {
+      "with": "destination"
+    },
+    "level": {
+      "with": "instrument"
+    },
+    "levitate": {
+      "with": "instrument"
+    },
+    "liberalize": {
+      "with": "instrument"
+    },
+    "liberate": {
+      "for": "beneficiary",
+      "of": "source"
+    },
+    "lick": {
+      "with": "instrument"
+    },
+    "lift": {
+      "for": "beneficiary"
+    },
+    "light": {
+      "for": "beneficiary",
+      "with": "instrument"
+    },
+    "lignify": {
+      "with": "instrument"
+    },
+    "lilt": {
+      "about": "topic",
+      "for": "destination",
+      "with": "location"
+    },
+    "limit": {
+      "to": "destination"
+    },
+    "line": {
+      "in": "destination"
+    },
+    "link": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "lipstick": {
+      "with": "destination"
+    },
+    "liquefy": {
+      "with": "instrument"
+    },
+    "liquidate": {
+      "with": "instrument"
+    },
+    "liquify": {
+      "with": "instrument"
+    },
+    "lisp": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "listen": {
+      "for": "location",
+      "through": "location"
+    },
+    "litter": {
+      "with": "destination"
+    },
+    "live": {
+      "at": "location",
+      "in": "location",
+      "with": "location"
+    },
+    "liven": {
+      "with": "instrument"
+    },
+    "loan": {
+      "to": "destination"
+    },
+    "lock": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "lodge": {
+      "at": "location",
+      "in": "location",
+      "on": "destination",
+      "with": "location"
+    },
+    "look": {
+      "for": "location",
+      "through": "location"
+    },
+    "loop": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "loose": {
+      "with": "instrument"
+    },
+    "loosen": {
+      "with": "instrument"
+    },
+    "lope": {
+      "to": "source"
+    },
+    "lour": {
+      "in": "destination"
+    },
+    "louse up": {
+      "with": "instrument"
+    },
+    "low": {
+      "with": "destination"
+    },
+    "lubricate": {
+      "with": "destination"
+    },
+    "lug": {
+      "to": "destination"
+    },
+    "lull": {
+      "with": "instrument"
+    },
+    "lump": {
+      "in": "destination"
+    },
+    "lynch": {
+      "with": "instrument"
+    },
+    "macerate": {
+      "with": "instrument"
+    },
+    "maim": {
+      "with": "instrument"
+    },
+    "maintain": {
+      "through": "instrument"
+    },
+    "make": {
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "manacle": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "mangle": {
+      "with": "instrument"
+    },
+    "manifest": {
+      "to": "destination"
+    },
+    "mantle": {
+      "with": "destination"
+    },
+    "manufacture": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "manure": {
+      "with": "instrument"
+    },
+    "marginalize": {
+      "with": "instrument"
+    },
+    "marinate": {
+      "in": "destination"
+    },
+    "mark": {
+      "with": "destination"
+    },
+    "mash": {
+      "with": "instrument"
+    },
+    "mask": {
+      "with": "destination"
+    },
+    "mass produce": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "massacre": {
+      "with": "instrument"
+    },
+    "massage": {
+      "with": "instrument"
+    },
+    "mature": {
+      "with": "instrument"
+    },
+    "mechanize": {
+      "with": "instrument"
+    },
+    "medicate": {
+      "with": "instrument"
+    },
+    "meditate": {
+      "about": "topic"
+    },
+    "meet": {
+      "with": "instrument"
+    },
+    "mellow": {
+      "with": "instrument"
+    },
+    "memorize": {
+      "from": "source"
+    },
+    "meow": {
+      "with": "destination"
+    },
+    "metabolize": {
+      "with": "instrument"
+    },
+    "mew": {
+      "with": "destination"
+    },
+    "mewl": {
+      "about": "topic",
+      "for": "destination",
+      "with": "location"
+    },
+    "microwave": {
+      "for": "beneficiary",
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "midwife": {
+      "for": "beneficiary"
+    },
+    "militarize": {
+      "with": "instrument"
+    },
+    "milk": {
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "mill": {
+      "with": "instrument"
+    },
+    "mince": {
+      "with": "instrument"
+    },
+    "mine": {
+      "for": "location"
+    },
+    "mineralize": {
+      "with": "instrument"
+    },
+    "miniaturize": {
+      "with": "instrument"
+    },
+    "minimize": {
+      "with": "instrument"
+    },
+    "misappropriate": {
+      "for": "beneficiary"
+    },
+    "mishandle": {
+      "with": "instrument"
+    },
+    "mismanage": {
+      "with": "instrument"
+    },
+    "misspell": {
+      "in": "location",
+      "on": "location"
+    },
+    "misspend": {
+      "on": "destination"
+    },
+    "mitigate": {
+      "with": "instrument"
+    },
+    "mix": {
+      "for": "beneficiary"
+    },
+    "moan": {
+      "about": "topic",
+      "for": "destination",
+      "in": "destination",
+      "to": "destination",
+      "with": "destination"
+    },
+    "mob": {
+      "with": "instrument"
+    },
+    "mobilize": {
+      "with": "instrument"
+    },
+    "model": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "modem": {
+      "about": "topic",
+      "for": "destination",
+      "to": "destination"
+    },
+    "moderate": {
+      "with": "instrument"
+    },
+    "modernize": {
+      "with": "instrument"
+    },
+    "modify": {
+      "with": "instrument"
+    },
+    "modulate": {
+      "with": "instrument"
+    },
+    "moil": {
+      "with": "location"
+    },
+    "moisten": {
+      "with": "instrument"
+    },
+    "mold": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "monitor": {
+      "for": "location"
+    },
+    "monogram": {
+      "with": "destination"
+    },
+    "moo": {
+      "with": "destination"
+    },
+    "moor": {
+      "in": "destination",
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "moralize": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "motor": {
+      "to": "destination"
+    },
+    "motorize": {
+      "with": "instrument"
+    },
+    "mottle": {
+      "with": "destination"
+    },
+    "mount": {
+      "with": "instrument"
+    },
+    "move": {
+      "to": "destination"
+    },
+    "move in on": {
+      "with": "instrument"
+    },
+    "mow": {
+      "with": "instrument"
+    },
+    "muddy": {
+      "with": "instrument"
+    },
+    "muffle": {
+      "with": "instrument"
+    },
+    "mulch": {
+      "with": "destination"
+    },
+    "multiply": {
+      "with": "instrument"
+    },
+    "mumble": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "mummify": {
+      "with": "instrument"
+    },
+    "murder": {
+      "with": "instrument"
+    },
+    "murmur": {
+      "about": "topic",
+      "for": "destination",
+      "with": "location"
+    },
+    "muse": {
+      "about": "topic"
+    },
+    "mute": {
+      "with": "instrument"
+    },
+    "mutilate": {
+      "with": "instrument"
+    },
+    "mutter": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "muzzle": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "destination"
+    },
+    "nail": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "narrate": {
+      "from": "source",
+      "to": "destination"
+    },
+    "narrow": {
+      "with": "instrument"
+    },
+    "nasal": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "nasalize": {
+      "with": "instrument"
+    },
+    "nationalize": {
+      "with": "instrument"
+    },
+    "natter": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "naturalize": {
+      "with": "instrument"
+    },
+    "necessitate": {
+      "from": "source"
+    },
+    "negotiate": {
+      "about": "topic",
+      "with": "topic"
+    },
+    "neigh": {
+      "with": "destination"
+    },
+    "netmail": {
+      "about": "topic",
+      "for": "destination",
+      "to": "destination"
+    },
+    "neutralize": {
+      "with": "instrument"
+    },
+    "nick": {
+      "with": "instrument"
+    },
+    "nickel": {
+      "with": "destination"
+    },
+    "nitrify": {
+      "with": "instrument"
+    },
+    "nobble": {
+      "for": "beneficiary"
+    },
+    "nod": {
+      "in": "destination"
+    },
+    "normalize": {
+      "with": "instrument"
+    },
+    "nose": {
+      "for": "location"
+    },
+    "notch": {
+      "with": "instrument"
+    },
+    "notify": {
+      "about": "topic",
+      "of": "topic",
+      "on": "destination"
+    },
+    "nourish": {
+      "with": "instrument"
+    },
+    "nudge": {
+      "to": "destination",
+      "with": "instrument"
+    },
+    "number": {
+      "in": "destination"
+    },
+    "nurse": {
+      "to": "destination"
+    },
+    "object": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "objectify": {
+      "with": "instrument"
+    },
+    "obliterate": {
+      "with": "instrument"
+    },
+    "obscure": {
+      "with": "instrument"
+    },
+    "observe": {
+      "for": "location"
+    },
+    "obtain": {
+      "for": "destination"
+    },
+    "obviate": {
+      "with": "instrument"
+    },
+    "occlude": {
+      "with": "instrument"
+    },
+    "off": {
+      "with": "instrument"
+    },
+    "offer": {
+      "to": "destination"
+    },
+    "oil": {
+      "with": "destination"
+    },
+    "oink": {
+      "with": "destination"
+    },
+    "omit": {
+      "from": "destination"
+    },
+    "ooze": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "open": {
+      "in": "destination",
+      "with": "instrument"
+    },
+    "open up": {
+      "with": "instrument"
+    },
+    "operate": {
+      "with": "instrument"
+    },
+    "order": {
+      "at": "beneficiary",
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "organize": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary",
+      "with": "instrument"
+    },
+    "originate": {
+      "with": "instrument"
+    },
+    "ornament": {
+      "with": "destination"
+    },
+    "osculate": {
+      "with": "instrument"
+    },
+    "ossify": {
+      "with": "instrument"
+    },
+    "oust": {
+      "from": "source"
+    },
+    "outline": {
+      "from": "source",
+      "to": "destination"
+    },
+    "oven fry": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "oven poach": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "overbake": {
+      "for": "beneficiary",
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "overcook": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "overheat": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "overload": {
+      "with": "destination"
+    },
+    "overnight": {
+      "at": "location",
+      "in": "location",
+      "with": "location"
+    },
+    "overshadow": {
+      "with": "instrument"
+    },
+    "overturn": {
+      "with": "instrument"
+    },
+    "oxidize": {
+      "with": "instrument"
+    },
+    "oxygenate": {
+      "with": "instrument"
+    },
+    "pad": {
+      "with": "destination"
+    },
+    "paddle": {
+      "to": "destination",
+      "with": "instrument"
+    },
+    "padlock": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "page": {
+      "for": "location",
+      "through": "location"
+    },
+    "paint": {
+      "with": "destination"
+    },
+    "palaver": {
+      "about": "topic",
+      "with": "topic"
+    },
+    "pale": {
+      "with": "instrument"
+    },
+    "pan": {
+      "for": "location"
+    },
+    "pan broil": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "pan fry": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "panel": {
+      "in": "destination",
+      "with": "destination"
+    },
+    "pant": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "paper": {
+      "with": "destination"
+    },
+    "paralyze": {
+      "with": "instrument"
+    },
+    "parboil": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "parch": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "parquet": {
+      "with": "destination"
+    },
+    "partner": {
+      "with": "beneficiary"
+    },
+    "pass": {
+      "to": "destination"
+    },
+    "pass on": {
+      "to": "destination"
+    },
+    "pass out": {
+      "to": "destination"
+    },
+    "paste": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "pasteurize": {
+      "with": "instrument"
+    },
+    "pasture": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "pat": {
+      "with": "instrument"
+    },
+    "patch": {
+      "with": "destination"
+    },
+    "patrol": {
+      "for": "location"
+    },
+    "patter": {
+      "with": "location"
+    },
+    "pave": {
+      "in": "destination"
+    },
+    "paw": {
+      "for": "location",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "pawn": {
+      "at": "destination",
+      "for": "destination",
+      "on": "destination",
+      "to": "destination"
+    },
+    "pay": {
+      "for": "destination"
+    },
+    "peal": {
+      "with": "location"
+    },
+    "peck": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "peddle": {
+      "to": "destination"
+    },
+    "pee": {
+      "on": "destination"
+    },
+    "peep": {
+      "with": "destination"
+    },
+    "peg": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "pelt": {
+      "with": "destination"
+    },
+    "pen": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "pepper": {
+      "with": "destination"
+    },
+    "pepperspray": {
+      "with": "destination"
+    },
+    "percolate": {
+      "from": "source",
+      "in": "instrument",
+      "of": "location",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "perfect": {
+      "with": "instrument"
+    },
+    "perforate": {
+      "with": "instrument"
+    },
+    "perform": {
+      "for": "beneficiary"
+    },
+    "perfume": {
+      "with": "destination"
+    },
+    "perk": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "perpetuate": {
+      "with": "instrument"
+    },
+    "pet": {
+      "with": "instrument"
+    },
+    "petrify": {
+      "with": "instrument"
+    },
+    "phone": {
+      "about": "topic",
+      "at": "beneficiary",
+      "for": "beneficiary",
+      "from": "source",
+      "to": "destination"
+    },
+    "pick": {
+      "at": "beneficiary",
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "pick up": {
+      "about": "source",
+      "from": "source"
+    },
+    "picket": {
+      "for": "location"
+    },
+    "pickle": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "pickpocket": {
+      "for": "beneficiary"
+    },
+    "pierce": {
+      "through": "location",
+      "with": "instrument"
+    },
+    "pillory": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "pin": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "pinch": {
+      "for": "beneficiary",
+      "with": "instrument"
+    },
+    "ping": {
+      "with": "location"
+    },
+    "pink": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "pip": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "pipe": {
+      "with": "destination"
+    },
+    "pirouette": {
+      "to": "destination"
+    },
+    "piss": {
+      "on": "destination"
+    },
+    "place": {
+      "on": "destination"
+    },
+    "plagiarize": {
+      "for": "beneficiary"
+    },
+    "plank": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "plant": {
+      "with": "instrument"
+    },
+    "plash": {
+      "with": "location"
+    },
+    "plaster": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "destination"
+    },
+    "plate": {
+      "with": "destination"
+    },
+    "plink": {
+      "with": "location"
+    },
+    "plonk": {
+      "with": "location"
+    },
+    "plop": {
+      "with": "location"
+    },
+    "plot": {
+      "about": "topic",
+      "with": "topic"
+    },
+    "pluck": {
+      "at": "beneficiary",
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "plug": {
+      "with": "destination"
+    },
+    "plumb": {
+      "for": "location"
+    },
+    "plump": {
+      "with": "instrument"
+    },
+    "plunder": {
+      "for": "beneficiary",
+      "of": "destination"
+    },
+    "plunk": {
+      "with": "location"
+    },
+    "ply": {
+      "with": "destination"
+    },
+    "poach": {
+      "for": "location",
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "pocket": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "point": {
+      "in": "destination"
+    },
+    "poison": {
+      "to": "instrument",
+      "with": "destination"
+    },
+    "poke": {
+      "for": "location",
+      "through": "location",
+      "with": "instrument"
+    },
+    "polarize": {
+      "with": "instrument"
+    },
+    "polish": {
+      "with": "destination"
+    },
+    "polka": {
+      "to": "destination"
+    },
+    "pollard": {
+      "with": "instrument"
+    },
+    "polymerize": {
+      "with": "instrument"
+    },
+    "pomade": {
+      "with": "destination"
+    },
+    "pommel": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "ponder": {
+      "about": "topic"
+    },
+    "pontificate": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "pop": {
+      "with": "instrument"
+    },
+    "popularize": {
+      "with": "instrument"
+    },
+    "port": {
+      "to": "destination"
+    },
+    "portion out": {
+      "for": "beneficiary",
+      "to": "destination"
+    },
+    "pose": {
+      "from": "source",
+      "to": "destination"
+    },
+    "post": {
+      "to": "destination"
+    },
+    "poster": {
+      "with": "destination"
+    },
+    "postmark": {
+      "with": "destination"
+    },
+    "pot": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "pot roast": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "pound": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary",
+      "with": "instrument"
+    },
+    "pour": {
+      "for": "beneficiary",
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "pout": {
+      "in": "destination"
+    },
+    "powder": {
+      "with": "destination"
+    },
+    "prance": {
+      "to": "source"
+    },
+    "prattle": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "pre empt": {
+      "with": "instrument"
+    },
+    "preach": {
+      "about": "topic",
+      "from": "source",
+      "to": "destination"
+    },
+    "preclude": {
+      "from": "destination"
+    },
+    "prefill": {
+      "with": "destination"
+    },
+    "prejudge": {
+      "with": "instrument"
+    },
+    "premise": {
+      "with": "instrument"
+    },
+    "prepare": {
+      "for": "beneficiary",
+      "with": "instrument"
+    },
+    "present": {
+      "for": "destination",
+      "to": "destination",
+      "with": "destination"
+    },
+    "prettify": {
+      "with": "instrument"
+    },
+    "prick": {
+      "through": "location",
+      "with": "instrument"
+    },
+    "privatize": {
+      "with": "instrument"
+    },
+    "probe": {
+      "for": "location"
+    },
+    "proclaim": {
+      "to": "destination"
+    },
+    "procure": {
+      "at": "beneficiary",
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "prod": {
+      "with": "instrument"
+    },
+    "produce": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "proffer": {
+      "to": "destination"
+    },
+    "profit": {
+      "by": "beneficiary",
+      "from": "beneficiary"
+    },
+    "proliferate": {
+      "with": "instrument"
+    },
+    "prolong": {
+      "through": "instrument"
+    },
+    "promise": {
+      "to": "destination"
+    },
+    "promulgate": {
+      "to": "destination"
+    },
+    "propagate": {
+      "with": "location"
+    },
+    "propose": {
+      "to": "destination"
+    },
+    "prospect": {
+      "for": "location"
+    },
+    "prostitute": {
+      "for": "beneficiary"
+    },
+    "protest": {
+      "with": "beneficiary"
+    },
+    "protract": {
+      "through": "instrument"
+    },
+    "prove": {
+      "from": "source"
+    },
+    "provide": {
+      "for": "beneficiary"
+    },
+    "prowl": {
+      "for": "location"
+    },
+    "prune": {
+      "with": "instrument"
+    },
+    "pry": {
+      "about": "topic",
+      "of": "topic"
+    },
+    "publicize": {
+      "with": "instrument"
+    },
+    "publish": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "pucker": {
+      "in": "destination"
+    },
+    "puff": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "puke": {
+      "on": "destination"
+    },
+    "pull": {
+      "at": "beneficiary",
+      "for": "beneficiary",
+      "from": "source",
+      "to": "destination",
+      "with": "beneficiary"
+    },
+    "pull away": {
+      "from": "source"
+    },
+    "pull out": {
+      "of": "source"
+    },
+    "pullulate": {
+      "with": "location"
+    },
+    "pulverize": {
+      "with": "instrument"
+    },
+    "pummel": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "punch": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "punctuate": {
+      "with": "destination"
+    },
+    "puncture": {
+      "with": "instrument"
+    },
+    "purchase": {
+      "for": "destination"
+    },
+    "purge": {
+      "from": "source"
+    },
+    "purify": {
+      "from": "source",
+      "with": "instrument"
+    },
+    "purloin": {
+      "for": "beneficiary"
+    },
+    "purple": {
+      "with": "instrument"
+    },
+    "purpose": {
+      "to": "destination"
+    },
+    "purr": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "purse": {
+      "in": "destination"
+    },
+    "put": {
+      "on": "destination"
+    },
+    "putrefy": {
+      "with": "instrument"
+    },
+    "putter": {
+      "with": "location"
+    },
+    "putty": {
+      "with": "destination"
+    },
+    "quack": {
+      "with": "destination"
+    },
+    "quadruple": {
+      "with": "instrument"
+    },
+    "quarantine": {
+      "from": "beneficiary"
+    },
+    "quarrel": {
+      "about": "topic"
+    },
+    "quarry": {
+      "for": "location"
+    },
+    "quarter": {
+      "at": "location",
+      "in": "location",
+      "with": "instrument"
+    },
+    "quash": {
+      "with": "instrument"
+    },
+    "quaver": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "quell": {
+      "with": "instrument"
+    },
+    "quench": {
+      "with": "instrument"
+    },
+    "quest": {
+      "for": "location"
+    },
+    "question": {
+      "about": "topic"
+    },
+    "quibble": {
+      "about": "topic"
+    },
+    "quicken": {
+      "with": "instrument"
+    },
+    "quickstep": {
+      "to": "destination"
+    },
+    "quiet": {
+      "with": "instrument"
+    },
+    "quieten": {
+      "with": "instrument"
+    },
+    "quiz": {
+      "for": "location"
+    },
+    "race": {
+      "to": "source"
+    },
+    "rack": {
+      "with": "instrument"
+    },
+    "radiate": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "radio": {
+      "about": "topic",
+      "for": "destination",
+      "to": "destination"
+    },
+    "rage": {
+      "about": "topic",
+      "for": "destination",
+      "with": "location"
+    },
+    "raid": {
+      "for": "location"
+    },
+    "raise": {
+      "in": "destination",
+      "with": "instrument"
+    },
+    "rake": {
+      "for": "location",
+      "in": "destination"
+    },
+    "ransack": {
+      "for": "location"
+    },
+    "rant": {
+      "about": "topic",
+      "for": "destination",
+      "to": "destination"
+    },
+    "rap": {
+      "about": "topic",
+      "for": "beneficiary",
+      "with": "topic"
+    },
+    "rarefy": {
+      "with": "instrument"
+    },
+    "rasp": {
+      "about": "topic",
+      "for": "destination",
+      "with": "location"
+    },
+    "ration": {
+      "for": "beneficiary",
+      "to": "destination"
+    },
+    "rationalize": {
+      "from": "source"
+    },
+    "rattle": {
+      "with": "destination"
+    },
+    "ravage": {
+      "with": "instrument"
+    },
+    "rave": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "raze": {
+      "with": "instrument"
+    },
+    "reach": {
+      "at": "beneficiary",
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "read": {
+      "about": "topic",
+      "of": "topic"
+    },
+    "readapt": {
+      "to": "destination"
+    },
+    "readjust": {
+      "to": "destination"
+    },
+    "ready": {
+      "for": "beneficiary"
+    },
+    "reanimate": {
+      "with": "instrument"
+    },
+    "rearrange": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "reason": {
+      "from": "source"
+    },
+    "reason out": {
+      "from": "source"
+    },
+    "reassemble": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "reassert": {
+      "to": "destination"
+    },
+    "rebel": {
+      "with": "beneficiary"
+    },
+    "rebuild": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "recall": {
+      "to": "destination"
+    },
+    "recap": {
+      "from": "source",
+      "to": "destination"
+    },
+    "recapture": {
+      "for": "beneficiary"
+    },
+    "receive": {
+      "from": "source"
+    },
+    "recite": {
+      "from": "source",
+      "to": "destination"
+    },
+    "reclaim": {
+      "for": "beneficiary"
+    },
+    "reclassify": {
+      "in": "destination"
+    },
+    "recode": {
+      "in": "destination"
+    },
+    "recommence": {
+      "with": "instrument"
+    },
+    "recommend": {
+      "to": "destination"
+    },
+    "recommit": {
+      "to": "destination"
+    },
+    "reconstitute": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "recoup": {
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "recover": {
+      "from": "source"
+    },
+    "rectify": {
+      "with": "instrument"
+    },
+    "recuse": {
+      "to": "destination"
+    },
+    "redact": {
+      "with": "instrument"
+    },
+    "redden": {
+      "with": "instrument"
+    },
+    "redecorate": {
+      "in": "destination",
+      "with": "destination"
+    },
+    "redeem": {
+      "for": "beneficiary"
+    },
+    "redouble": {
+      "with": "instrument"
+    },
+    "reduce": {
+      "to": "destination",
+      "with": "instrument"
+    },
+    "reek": {
+      "of": "location"
+    },
+    "reeve": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "refashion": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "refer": {
+      "to": "destination"
+    },
+    "refine": {
+      "with": "instrument"
+    },
+    "reflect": {
+      "about": "topic"
+    },
+    "reform": {
+      "with": "instrument"
+    },
+    "refract": {
+      "with": "instrument"
+    },
+    "refund": {
+      "to": "destination"
+    },
+    "regain": {
+      "from": "source"
+    },
+    "regroup": {
+      "in": "destination"
+    },
+    "regularize": {
+      "with": "instrument"
+    },
+    "reheat": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "reinforce": {
+      "through": "instrument",
+      "with": "instrument"
+    },
+    "reinscribe": {
+      "with": "destination"
+    },
+    "reinsure": {
+      "for": "beneficiary"
+    },
+    "rekindle": {
+      "with": "instrument"
+    },
+    "relate": {
+      "in": "destination"
+    },
+    "relay": {
+      "about": "topic",
+      "for": "destination",
+      "from": "source",
+      "to": "destination"
+    },
+    "release": {
+      "of": "source"
+    },
+    "relieve": {
+      "from": "source"
+    },
+    "relinquish": {
+      "to": "destination"
+    },
+    "remake": {
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "remark": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "remaster": {
+      "with": "instrument"
+    },
+    "remedy": {
+      "with": "instrument"
+    },
+    "remind": {
+      "of": "topic"
+    },
+    "remit": {
+      "to": "destination"
+    },
+    "remove": {
+      "from": "source",
+      "to": "destination"
+    },
+    "rend": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "render": {
+      "to": "destination"
+    },
+    "renegotiate": {
+      "on": "topic",
+      "with": "topic"
+    },
+    "renew": {
+      "with": "instrument"
+    },
+    "rent": {
+      "at": "destination",
+      "for": "beneficiary",
+      "from": "source",
+      "on": "destination",
+      "to": "destination"
+    },
+    "reopen": {
+      "with": "instrument"
+    },
+    "reorganize": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "repair": {
+      "with": "instrument"
+    },
+    "repay": {
+      "for": "destination"
+    },
+    "replenish": {
+      "with": "destination"
+    },
+    "replicate": {
+      "with": "instrument"
+    },
+    "reply": {
+      "to": "destination"
+    },
+    "repopulate": {
+      "with": "destination"
+    },
+    "repossess": {
+      "for": "beneficiary"
+    },
+    "repress": {
+      "from": "beneficiary",
+      "with": "instrument"
+    },
+    "reproduce": {
+      "with": "instrument"
+    },
+    "require": {
+      "from": "source"
+    },
+    "rerelease": {
+      "of": "source"
+    },
+    "rescue": {
+      "for": "beneficiary"
+    },
+    "reseat": {
+      "in": "location"
+    },
+    "reserve": {
+      "at": "beneficiary",
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "reside": {
+      "at": "location",
+      "in": "location",
+      "with": "location"
+    },
+    "resign": {
+      "from": "source",
+      "to": "destination"
+    },
+    "resonate": {
+      "with": "location"
+    },
+    "resound": {
+      "with": "location"
+    },
+    "respond": {
+      "to": "destination"
+    },
+    "restore": {
+      "to": "destination"
+    },
+    "restrain": {
+      "to": "destination"
+    },
+    "restrict": {
+      "to": "destination"
+    },
+    "resume": {
+      "with": "instrument"
+    },
+    "resupply": {
+      "with": "destination"
+    },
+    "resuscitate": {
+      "with": "instrument"
+    },
+    "retaliate": {
+      "with": "beneficiary"
+    },
+    "retire": {
+      "from": "source"
+    },
+    "retort": {
+      "to": "destination"
+    },
+    "retreat": {
+      "from": "source"
+    },
+    "retrieve": {
+      "from": "source"
+    },
+    "return": {
+      "to": "destination"
+    },
+    "reuse": {
+      "on": "destination"
+    },
+    "reveal": {
+      "to": "destination"
+    },
+    "reverberate": {
+      "with": "location"
+    },
+    "reverse": {
+      "with": "instrument"
+    },
+    "revise": {
+      "with": "instrument"
+    },
+    "revive": {
+      "with": "instrument"
+    },
+    "rhapsodize": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "rid": {
+      "of": "destination"
+    },
+    "riddle": {
+      "with": "destination"
+    },
+    "riffle": {
+      "for": "location"
+    },
+    "rifle": {
+      "for": "location"
+    },
+    "ring": {
+      "with": "destination"
+    },
+    "rip": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "ripen": {
+      "with": "instrument"
+    },
+    "ripple": {
+      "with": "location"
+    },
+    "rissole": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "rival": {
+      "with": "instrument"
+    },
+    "rive": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "rivet": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "roar": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "roast": {
+      "for": "beneficiary",
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "rob": {
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "robe": {
+      "in": "destination",
+      "with": "destination"
+    },
+    "roil": {
+      "with": "location"
+    },
+    "roll": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "in": "destination",
+      "of": "beneficiary",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "roof": {
+      "with": "destination"
+    },
+    "room": {
+      "at": "location",
+      "in": "location",
+      "with": "location"
+    },
+    "rooroo": {
+      "with": "destination"
+    },
+    "root": {
+      "for": "location",
+      "with": "instrument"
+    },
+    "rope": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "rosin": {
+      "with": "destination"
+    },
+    "rouge": {
+      "with": "destination"
+    },
+    "roughen": {
+      "with": "instrument"
+    },
+    "round": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "row": {
+      "to": "destination"
+    },
+    "rub": {
+      "in": "destination",
+      "with": "instrument"
+    },
+    "ruin": {
+      "with": "instrument"
+    },
+    "rumba": {
+      "to": "destination"
+    },
+    "rumble": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "ruminate": {
+      "about": "topic"
+    },
+    "rummage": {
+      "for": "location"
+    },
+    "rumple": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "run": {
+      "for": "beneficiary",
+      "to": "destination"
+    },
+    "rupture": {
+      "with": "instrument"
+    },
+    "rustle": {
+      "for": "beneficiary",
+      "with": "location"
+    },
+    "rut": {
+      "with": "destination"
+    },
+    "sack": {
+      "from": "source"
+    },
+    "saddle": {
+      "with": "destination"
+    },
+    "sail": {
+      "from": "destination",
+      "to": "destination"
+    },
+    "salaam": {
+      "to": "destination"
+    },
+    "salt": {
+      "with": "destination"
+    },
+    "salute": {
+      "to": "destination"
+    },
+    "salve": {
+      "with": "destination"
+    },
+    "samba": {
+      "to": "destination"
+    },
+    "sand": {
+      "with": "destination"
+    },
+    "sap": {
+      "of": "destination"
+    },
+    "saponify": {
+      "with": "instrument"
+    },
+    "sate": {
+      "with": "instrument"
+    },
+    "satellite": {
+      "about": "topic",
+      "for": "destination",
+      "to": "destination"
+    },
+    "satiate": {
+      "with": "instrument"
+    },
+    "satisfy": {
+      "with": "instrument"
+    },
+    "saturate": {
+      "in": "destination"
+    },
+    "sauce": {
+      "with": "destination"
+    },
+    "saute": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "save": {
+      "for": "destination",
+      "from": "source",
+      "on": "destination"
+    },
+    "say": {
+      "to": "destination"
+    },
+    "scald": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "scallop": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "scan": {
+      "for": "location"
+    },
+    "scar": {
+      "with": "destination"
+    },
+    "scavenge": {
+      "for": "location"
+    },
+    "scent": {
+      "for": "location",
+      "with": "destination"
+    },
+    "scheme": {
+      "with": "beneficiary"
+    },
+    "schlep": {
+      "to": "destination"
+    },
+    "schmooze": {
+      "about": "topic",
+      "with": "topic"
+    },
+    "scintillate": {
+      "with": "location"
+    },
+    "scoff": {
+      "in": "destination"
+    },
+    "scollop": {
+      "with": "instrument"
+    },
+    "scoot": {
+      "to": "destination"
+    },
+    "scorch": {
+      "with": "instrument"
+    },
+    "score": {
+      "for": "destination",
+      "from": "source",
+      "on": "destination"
+    },
+    "scour": {
+      "for": "location"
+    },
+    "scout": {
+      "for": "location"
+    },
+    "scowl": {
+      "in": "destination"
+    },
+    "scrabble": {
+      "for": "location",
+      "through": "location"
+    },
+    "scramble": {
+      "for": "beneficiary"
+    },
+    "scrap": {
+      "about": "topic"
+    },
+    "scrape": {
+      "in": "destination"
+    },
+    "scratch": {
+      "for": "location",
+      "through": "location",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "scrawk": {
+      "with": "destination"
+    },
+    "scream": {
+      "about": "topic",
+      "for": "destination",
+      "with": "location"
+    },
+    "screech": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "screen": {
+      "from": "beneficiary"
+    },
+    "screw": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "scrounge": {
+      "for": "location"
+    },
+    "scrunch": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "scrutinize": {
+      "for": "location"
+    },
+    "scuffle": {
+      "about": "topic"
+    },
+    "sculpt": {
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "sculpture": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "seal": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "sear": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "search": {
+      "for": "location"
+    },
+    "season": {
+      "with": "destination"
+    },
+    "seat": {
+      "in": "location"
+    },
+    "seclude": {
+      "from": "beneficiary"
+    },
+    "section": {
+      "with": "instrument"
+    },
+    "secularize": {
+      "with": "instrument"
+    },
+    "secure": {
+      "for": "beneficiary",
+      "from": "source",
+      "on": "destination"
+    },
+    "seed": {
+      "in": "destination",
+      "with": "destination"
+    },
+    "seek": {
+      "for": "location"
+    },
+    "seep": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "seethe": {
+      "with": "location"
+    },
+    "seize": {
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "select": {
+      "from": "source"
+    },
+    "sell": {
+      "at": "destination",
+      "for": "destination",
+      "on": "destination",
+      "to": "destination"
+    },
+    "semaphore": {
+      "about": "topic",
+      "for": "destination",
+      "to": "destination"
+    },
+    "send": {
+      "to": "destination"
+    },
+    "send away": {
+      "from": "source"
+    },
+    "sensationalize": {
+      "with": "instrument"
+    },
+    "sensitize": {
+      "with": "instrument"
+    },
+    "separate": {
+      "in": "destination"
+    },
+    "sequester": {
+      "for": "beneficiary",
+      "from": "beneficiary"
+    },
+    "sequin": {
+      "with": "destination"
+    },
+    "serve": {
+      "for": "source",
+      "in": "location"
+    },
+    "set": {
+      "for": "beneficiary",
+      "on": "destination",
+      "with": "instrument"
+    },
+    "settle": {
+      "at": "location",
+      "in": "location",
+      "on": "topic",
+      "with": "location"
+    },
+    "sew": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "shack up": {
+      "at": "location",
+      "in": "location",
+      "with": "location"
+    },
+    "shackle": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "shake": {
+      "in": "destination"
+    },
+    "shanghai": {
+      "to": "destination"
+    },
+    "shape": {
+      "from": "beneficiary",
+      "of": "beneficiary",
+      "to": "destination"
+    },
+    "sharpen": {
+      "with": "instrument"
+    },
+    "shatter": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "shave": {
+      "with": "instrument"
+    },
+    "shawl": {
+      "with": "destination"
+    },
+    "sheathe": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "shed": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "shell": {
+      "with": "destination"
+    },
+    "shell out": {
+      "to": "destination"
+    },
+    "shelter": {
+      "at": "location",
+      "from": "beneficiary",
+      "in": "location",
+      "with": "location"
+    },
+    "shelve": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "shift": {
+      "to": "destination"
+    },
+    "shimmer": {
+      "with": "location"
+    },
+    "shine": {
+      "with": "location"
+    },
+    "shingle": {
+      "with": "destination"
+    },
+    "shipwreck": {
+      "with": "instrument"
+    },
+    "shirr": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "shit": {
+      "on": "destination"
+    },
+    "shitcan": {
+      "from": "source"
+    },
+    "shoe": {
+      "with": "destination"
+    },
+    "shoot": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "shop": {
+      "for": "location"
+    },
+    "short": {
+      "with": "instrument"
+    },
+    "short circuit": {
+      "with": "instrument"
+    },
+    "shortchange": {
+      "with": "instrument"
+    },
+    "shorten": {
+      "with": "instrument"
+    },
+    "shoulder": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "shout": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "shovel": {
+      "in": "destination"
+    },
+    "show": {
+      "about": "topic",
+      "in": "destination",
+      "to": "destination"
+    },
+    "shower": {
+      "with": "destination"
+    },
+    "shred": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "shriek": {
+      "about": "topic",
+      "for": "destination",
+      "with": "location"
+    },
+    "shrill": {
+      "with": "location"
+    },
+    "shrink": {
+      "with": "instrument"
+    },
+    "shrivel": {
+      "with": "instrument"
+    },
+    "shroud": {
+      "in": "destination"
+    },
+    "shrug": {
+      "in": "destination"
+    },
+    "shuffle": {
+      "in": "destination",
+      "to": "destination"
+    },
+    "shunt": {
+      "to": "destination"
+    },
+    "shush": {
+      "with": "instrument"
+    },
+    "shut": {
+      "with": "instrument"
+    },
+    "shut up": {
+      "with": "instrument"
+    },
+    "shutter": {
+      "with": "destination"
+    },
+    "shuttle": {
+      "to": "destination"
+    },
+    "sibilate": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "sicken": {
+      "with": "instrument"
+    },
+    "side": {
+      "with": "destination"
+    },
+    "sift": {
+      "for": "location"
+    },
+    "sigh": {
+      "about": "topic",
+      "for": "destination",
+      "in": "destination"
+    },
+    "sign": {
+      "about": "topic",
+      "for": "destination",
+      "to": "destination",
+      "with": "destination"
+    },
+    "signal": {
+      "about": "topic",
+      "for": "destination",
+      "to": "destination"
+    },
+    "silence": {
+      "with": "instrument"
+    },
+    "silicify": {
+      "with": "instrument"
+    },
+    "silver": {
+      "with": "destination"
+    },
+    "simmer": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "simper": {
+      "about": "topic",
+      "for": "destination",
+      "in": "destination"
+    },
+    "simulate": {
+      "with": "instrument"
+    },
+    "sin": {
+      "with": "beneficiary"
+    },
+    "sing": {
+      "about": "topic",
+      "for": "destination",
+      "with": "location"
+    },
+    "singe": {
+      "with": "instrument"
+    },
+    "sink": {
+      "with": "instrument"
+    },
+    "sinter": {
+      "with": "instrument"
+    },
+    "sizzle": {
+      "with": "location"
+    },
+    "skewer": {
+      "in": "destination",
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "skip": {
+      "to": "source"
+    },
+    "skirmish": {
+      "about": "topic"
+    },
+    "skitter": {
+      "to": "source"
+    },
+    "slack": {
+      "with": "instrument"
+    },
+    "slacken": {
+      "with": "instrument"
+    },
+    "slake": {
+      "with": "instrument"
+    },
+    "slam": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "slap": {
+      "with": "instrument"
+    },
+    "slate": {
+      "with": "destination"
+    },
+    "slaughter": {
+      "with": "instrument"
+    },
+    "slay": {
+      "with": "instrument"
+    },
+    "sleep": {
+      "in": "location"
+    },
+    "sleep over": {
+      "at": "location",
+      "in": "location",
+      "with": "location"
+    },
+    "slice": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "slide": {
+      "to": "source"
+    },
+    "slim": {
+      "with": "instrument"
+    },
+    "slime": {
+      "with": "destination"
+    },
+    "slipcover": {
+      "with": "destination"
+    },
+    "slit": {
+      "with": "instrument"
+    },
+    "sliver": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "slop": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "slow": {
+      "with": "instrument"
+    },
+    "slug": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "smack": {
+      "in": "destination",
+      "with": "instrument"
+    },
+    "smarten": {
+      "with": "instrument"
+    },
+    "smash": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "smatter": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "smell": {
+      "for": "location",
+      "of": "location"
+    },
+    "smile": {
+      "about": "topic",
+      "for": "destination",
+      "in": "destination"
+    },
+    "smirk": {
+      "in": "destination"
+    },
+    "smite": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "smoke": {
+      "with": "instrument"
+    },
+    "smolder": {
+      "with": "location"
+    },
+    "smooth": {
+      "with": "instrument"
+    },
+    "smoothen": {
+      "with": "instrument"
+    },
+    "smother": {
+      "in": "destination",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "smut": {
+      "with": "destination"
+    },
+    "snap": {
+      "about": "topic",
+      "for": "destination",
+      "in": "destination",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "snare": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "snarl": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "snatch": {
+      "from": "source"
+    },
+    "snatch away": {
+      "for": "beneficiary"
+    },
+    "sneak": {
+      "to": "source"
+    },
+    "sneer": {
+      "in": "destination"
+    },
+    "sneeze": {
+      "in": "destination"
+    },
+    "snicker": {
+      "in": "destination"
+    },
+    "sniff": {
+      "from": "source",
+      "in": "destination",
+      "to": "destination"
+    },
+    "snigger": {
+      "in": "destination"
+    },
+    "snitch": {
+      "from": "source",
+      "to": "destination"
+    },
+    "snivel": {
+      "about": "topic",
+      "for": "destination",
+      "in": "destination"
+    },
+    "snoop": {
+      "for": "location"
+    },
+    "snore": {
+      "in": "destination"
+    },
+    "snort": {
+      "in": "destination"
+    },
+    "snuffle": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "soak": {
+      "in": "destination",
+      "with": "instrument"
+    },
+    "sob": {
+      "in": "destination"
+    },
+    "sober": {
+      "with": "instrument"
+    },
+    "sock": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "sod": {
+      "with": "destination"
+    },
+    "softboil": {
+      "for": "beneficiary",
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "soften": {
+      "with": "instrument"
+    },
+    "soil": {
+      "with": "destination"
+    },
+    "solder": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "soldier": {
+      "for": "beneficiary"
+    },
+    "sole": {
+      "with": "destination"
+    },
+    "solidify": {
+      "with": "instrument"
+    },
+    "sort": {
+      "in": "destination"
+    },
+    "sort out": {
+      "in": "destination"
+    },
+    "sough": {
+      "with": "location"
+    },
+    "sound": {
+      "with": "location"
+    },
+    "sour": {
+      "with": "instrument"
+    },
+    "source": {
+      "from": "source"
+    },
+    "souse": {
+      "with": "instrument"
+    },
+    "sovietize": {
+      "with": "instrument"
+    },
+    "spank": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "spar": {
+      "about": "topic"
+    },
+    "sparkle": {
+      "with": "location"
+    },
+    "spat": {
+      "about": "topic"
+    },
+    "speak": {
+      "about": "topic",
+      "to": "destination",
+      "with": "topic"
+    },
+    "speak out": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "speak up": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "spear": {
+      "with": "instrument"
+    },
+    "speckle": {
+      "in": "destination"
+    },
+    "speed": {
+      "to": "source"
+    },
+    "spell": {
+      "in": "location",
+      "on": "location"
+    },
+    "spend": {
+      "for": "source",
+      "on": "destination"
+    },
+    "spew": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "spice": {
+      "with": "destination"
+    },
+    "spill": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "spin": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "spindle": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "spit": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "splash": {
+      "with": "location"
+    },
+    "splay": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "splinter": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "split": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "sploosh": {
+      "with": "location"
+    },
+    "splotch": {
+      "with": "destination"
+    },
+    "splutter": {
+      "about": "topic",
+      "for": "destination",
+      "with": "location"
+    },
+    "spool": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "spoon": {
+      "in": "destination"
+    },
+    "spoonfeed": {
+      "to": "destination"
+    },
+    "spot": {
+      "in": "destination"
+    },
+    "spout": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "sprout": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "spurt": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "sputter": {
+      "with": "location"
+    },
+    "squabble": {
+      "about": "topic"
+    },
+    "squall": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "squander": {
+      "for": "source",
+      "on": "destination"
+    },
+    "square": {
+      "on": "topic",
+      "with": "topic"
+    },
+    "squaredance": {
+      "to": "destination"
+    },
+    "squash": {
+      "in": "destination",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "squat": {
+      "at": "location",
+      "in": "location",
+      "with": "location"
+    },
+    "squawk": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "squeak": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "squeal": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "squeeze": {
+      "with": "instrument"
+    },
+    "squelch": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "squint": {
+      "in": "destination"
+    },
+    "squirt": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "squish": {
+      "in": "destination",
+      "with": "instrument"
+    },
+    "stab": {
+      "through": "location",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "stabilize": {
+      "with": "instrument"
+    },
+    "stable": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "staff": {
+      "with": "destination"
+    },
+    "stain": {
+      "in": "destination",
+      "with": "destination"
+    },
+    "stalk": {
+      "for": "location"
+    },
+    "stammer": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "stamp": {
+      "in": "destination",
+      "with": "destination"
+    },
+    "stamp down": {
+      "with": "instrument"
+    },
+    "standardize": {
+      "with": "instrument"
+    },
+    "staple": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "starch": {
+      "with": "destination"
+    },
+    "start": {
+      "with": "instrument"
+    },
+    "start off": {
+      "with": "instrument"
+    },
+    "stay": {
+      "at": "location",
+      "in": "location",
+      "with": "location"
+    },
+    "stay over": {
+      "at": "location",
+      "in": "location",
+      "with": "location"
+    },
+    "steady": {
+      "with": "instrument"
+    },
+    "steam": {
+      "from": "source",
+      "in": "instrument",
+      "of": "location",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "steam bake": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "steep": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "steepen": {
+      "with": "instrument"
+    },
+    "stemmer": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "sterilize": {
+      "with": "instrument"
+    },
+    "stew": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "stick": {
+      "on": "destination",
+      "through": "location",
+      "with": "instrument"
+    },
+    "stiffen": {
+      "with": "instrument"
+    },
+    "stifle": {
+      "with": "instrument"
+    },
+    "still": {
+      "with": "instrument"
+    },
+    "sting": {
+      "with": "instrument"
+    },
+    "stink": {
+      "of": "location"
+    },
+    "stipple": {
+      "with": "destination"
+    },
+    "stir fry": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "stitch": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary",
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "stomp": {
+      "with": "instrument"
+    },
+    "stone": {
+      "to": "instrument",
+      "with": "destination"
+    },
+    "stop": {
+      "at": "location",
+      "in": "location",
+      "with": "location"
+    },
+    "stop up": {
+      "with": "destination"
+    },
+    "stopper": {
+      "with": "destination"
+    },
+    "store": {
+      "in": "location"
+    },
+    "straighten": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "strangle": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "strangulate": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "strap": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "stratify": {
+      "with": "instrument"
+    },
+    "stream": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "streamline": {
+      "with": "instrument"
+    },
+    "strengthen": {
+      "through": "instrument",
+      "with": "instrument"
+    },
+    "stress": {
+      "with": "destination"
+    },
+    "stretch": {
+      "in": "destination",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "stridulate": {
+      "with": "destination"
+    },
+    "strike": {
+      "with": "instrument"
+    },
+    "strike up": {
+      "with": "instrument"
+    },
+    "string": {
+      "in": "destination",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "destination"
+    },
+    "strip": {
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "stroke": {
+      "with": "instrument"
+    },
+    "struggle": {
+      "about": "topic"
+    },
+    "strut": {
+      "to": "source"
+    },
+    "stucco": {
+      "with": "destination"
+    },
+    "stud": {
+      "with": "destination"
+    },
+    "study": {
+      "about": "source",
+      "from": "source"
+    },
+    "stutter": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "style": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "subdue": {
+      "with": "instrument"
+    },
+    "subjugate": {
+      "with": "instrument"
+    },
+    "submerge": {
+      "with": "instrument"
+    },
+    "subselect": {
+      "from": "source"
+    },
+    "substitute": {
+      "for": "destination",
+      "with": "destination"
+    },
+    "subvert": {
+      "with": "instrument"
+    },
+    "succor": {
+      "with": "beneficiary"
+    },
+    "suckle": {
+      "to": "destination"
+    },
+    "suffocate": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "suffuse": {
+      "with": "destination"
+    },
+    "sugar": {
+      "with": "destination"
+    },
+    "suggest": {
+      "to": "destination"
+    },
+    "sulfurize": {
+      "with": "instrument"
+    },
+    "sully": {
+      "with": "destination"
+    },
+    "sulphur": {
+      "with": "destination"
+    },
+    "sum up": {
+      "from": "source",
+      "to": "destination"
+    },
+    "summarize": {
+      "from": "source",
+      "to": "destination"
+    },
+    "sunburn": {
+      "with": "instrument"
+    },
+    "support": {
+      "through": "instrument",
+      "with": "beneficiary"
+    },
+    "suppress": {
+      "from": "beneficiary",
+      "with": "instrument"
+    },
+    "surround": {
+      "in": "destination"
+    },
+    "surveil": {
+      "for": "location"
+    },
+    "survey": {
+      "for": "location"
+    },
+    "suspend": {
+      "from": "source"
+    },
+    "sustain": {
+      "through": "instrument"
+    },
+    "suture": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "swaddle": {
+      "in": "destination"
+    },
+    "swap": {
+      "for": "destination",
+      "with": "destination"
+    },
+    "swap out": {
+      "for": "destination",
+      "with": "destination"
+    },
+    "swarm": {
+      "with": "location"
+    },
+    "swat": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "swathe": {
+      "in": "destination"
+    },
+    "sweat": {
+      "from": "source",
+      "of": "location",
+      "on": "destination",
+      "with": "location"
+    },
+    "sweep": {
+      "for": "location"
+    },
+    "sweeten": {
+      "with": "instrument"
+    },
+    "swim": {
+      "with": "location"
+    },
+    "swindle": {
+      "for": "source"
+    },
+    "swipe": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "swish": {
+      "with": "location"
+    },
+    "switch": {
+      "for": "destination",
+      "with": "destination"
+    },
+    "swoosh": {
+      "with": "location"
+    },
+    "synthesise": {
+      "with": "instrument"
+    },
+    "synthesize": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "tabulate": {
+      "with": "instrument"
+    },
+    "tack": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "tackle": {
+      "with": "instrument"
+    },
+    "tag": {
+      "with": "destination"
+    },
+    "taint": {
+      "with": "destination"
+    },
+    "taiwanize": {
+      "with": "instrument"
+    },
+    "take": {
+      "at": "beneficiary",
+      "for": "beneficiary",
+      "from": "source",
+      "in": "location",
+      "on": "destination",
+      "to": "destination"
+    },
+    "take down": {
+      "in": "location",
+      "on": "location"
+    },
+    "take on": {
+      "with": "instrument"
+    },
+    "talk": {
+      "about": "topic",
+      "to": "destination",
+      "with": "topic"
+    },
+    "tame": {
+      "with": "instrument"
+    },
+    "tamp": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "tan": {
+      "with": "instrument"
+    },
+    "tango": {
+      "to": "destination"
+    },
+    "tap": {
+      "for": "location",
+      "with": "instrument"
+    },
+    "tapdance": {
+      "to": "destination"
+    },
+    "tape": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "taper": {
+      "with": "instrument"
+    },
+    "tar": {
+      "with": "destination"
+    },
+    "target": {
+      "with": "instrument"
+    },
+    "tarmac": {
+      "with": "destination"
+    },
+    "tart up": {
+      "with": "instrument"
+    },
+    "tassel": {
+      "in": "destination",
+      "on": "destination",
+      "with": "destination"
+    },
+    "taste": {
+      "for": "location"
+    },
+    "tatter": {
+      "with": "instrument"
+    },
+    "tattoo": {
+      "with": "destination"
+    },
+    "tauten": {
+      "with": "instrument"
+    },
+    "teach": {
+      "about": "topic"
+    },
+    "team up": {
+      "with": "beneficiary"
+    },
+    "tear": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "teem": {
+      "with": "location"
+    },
+    "telecast": {
+      "about": "topic",
+      "for": "destination",
+      "to": "destination"
+    },
+    "telegraph": {
+      "about": "topic",
+      "for": "destination",
+      "to": "destination"
+    },
+    "telephone": {
+      "about": "topic",
+      "for": "destination",
+      "to": "destination"
+    },
+    "telex": {
+      "about": "topic",
+      "for": "destination",
+      "to": "destination"
+    },
+    "tell": {
+      "about": "topic"
+    },
+    "tenderize": {
+      "with": "instrument"
+    },
+    "tense": {
+      "with": "instrument"
+    },
+    "terminate": {
+      "from": "source"
+    },
+    "test": {
+      "for": "location"
+    },
+    "testify": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "tether": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "thatch": {
+      "with": "destination"
+    },
+    "theorize": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "thicken": {
+      "with": "instrument"
+    },
+    "thieve": {
+      "for": "beneficiary"
+    },
+    "thin": {
+      "with": "instrument"
+    },
+    "think": {
+      "about": "topic"
+    },
+    "thrash": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "thread": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "throttle": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "throw up": {
+      "on": "destination"
+    },
+    "thrum": {
+      "with": "location"
+    },
+    "thud": {
+      "with": "location"
+    },
+    "thumb": {
+      "for": "location"
+    },
+    "thumbtack": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "thump": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "thunder": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "thunk": {
+      "with": "location"
+    },
+    "thwack": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "tick": {
+      "with": "location"
+    },
+    "ticket": {
+      "with": "destination"
+    },
+    "tickle": {
+      "with": "instrument"
+    },
+    "tie": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "tighten": {
+      "with": "instrument"
+    },
+    "tile": {
+      "in": "destination",
+      "with": "destination"
+    },
+    "tilt": {
+      "about": "topic",
+      "with": "instrument"
+    },
+    "tin": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "ting": {
+      "with": "location"
+    },
+    "tinge": {
+      "with": "destination"
+    },
+    "tinkle": {
+      "with": "location"
+    },
+    "tinsel": {
+      "with": "destination"
+    },
+    "tire": {
+      "with": "instrument"
+    },
+    "tisk": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "tithe": {
+      "for": "destination"
+    },
+    "titter": {
+      "in": "destination"
+    },
+    "toast": {
+      "for": "beneficiary",
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "toll": {
+      "with": "location"
+    },
+    "tone": {
+      "with": "instrument"
+    },
+    "tool": {
+      "in": "destination",
+      "to": "destination",
+      "with": "instrument"
+    },
+    "tool around": {
+      "to": "destination"
+    },
+    "toot": {
+      "with": "location"
+    },
+    "tootle": {
+      "with": "location"
+    },
+    "top": {
+      "with": "destination"
+    },
+    "topple": {
+      "with": "instrument"
+    },
+    "toss": {
+      "for": "beneficiary",
+      "in": "destination"
+    },
+    "tote": {
+      "to": "destination"
+    },
+    "touch": {
+      "with": "instrument"
+    },
+    "toughen": {
+      "with": "instrument"
+    },
+    "tour": {
+      "for": "location"
+    },
+    "tousle": {
+      "with": "instrument"
+    },
+    "tow": {
+      "to": "destination"
+    },
+    "trace": {
+      "in": "location",
+      "on": "location"
+    },
+    "track": {
+      "for": "location"
+    },
+    "trade": {
+      "for": "destination"
+    },
+    "trammel": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "tranquilize": {
+      "with": "instrument"
+    },
+    "transfer": {
+      "to": "destination"
+    },
+    "transport": {
+      "to": "destination"
+    },
+    "transship": {
+      "to": "destination"
+    },
+    "trap": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "traumatize": {
+      "with": "instrument"
+    },
+    "trawl": {
+      "for": "location"
+    },
+    "tread": {
+      "with": "instrument"
+    },
+    "treble": {
+      "with": "instrument"
+    },
+    "tree": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "trench": {
+      "with": "instrument"
+    },
+    "trickle": {
+      "from": "source",
+      "of": "location",
+      "with": "location"
+    },
+    "trill": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "trim": {
+      "in": "destination"
+    },
+    "trip": {
+      "to": "source",
+      "with": "instrument"
+    },
+    "triple": {
+      "with": "instrument"
+    },
+    "trivialize": {
+      "with": "instrument"
+    },
+    "troll": {
+      "for": "location"
+    },
+    "trot": {
+      "to": "source"
+    },
+    "trounce": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "truck": {
+      "to": "destination"
+    },
+    "trumpet": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "truncate": {
+      "with": "instrument"
+    },
+    "truncheon": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "trundle": {
+      "to": "destination"
+    },
+    "truss": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "trust": {
+      "for": "destination",
+      "to": "destination",
+      "with": "destination"
+    },
+    "tuck": {
+      "in": "destination"
+    },
+    "tug": {
+      "to": "destination",
+      "with": "instrument"
+    },
+    "tunnel": {
+      "for": "location"
+    },
+    "turf": {
+      "with": "destination"
+    },
+    "turn": {
+      "in": "destination"
+    },
+    "turn away": {
+      "to": "destination"
+    },
+    "turn back": {
+      "to": "destination"
+    },
+    "turn down": {
+      "with": "instrument"
+    },
+    "turn in": {
+      "to": "destination"
+    },
+    "turn off": {
+      "with": "instrument"
+    },
+    "turn on": {
+      "with": "instrument"
+    },
+    "turn out": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary",
+      "to": "destination"
+    },
+    "turn over": {
+      "to": "destination"
+    },
+    "turn up": {
+      "with": "instrument"
+    },
+    "tussle": {
+      "about": "topic"
+    },
+    "twang": {
+      "about": "topic",
+      "for": "destination",
+      "with": "location"
+    },
+    "tweak": {
+      "with": "instrument"
+    },
+    "tweet": {
+      "with": "destination"
+    },
+    "twiddle": {
+      "in": "destination"
+    },
+    "twinge": {
+      "with": "instrument"
+    },
+    "twinkle": {
+      "with": "location"
+    },
+    "twitch": {
+      "in": "destination"
+    },
+    "twitter": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "ulcerate": {
+      "with": "instrument"
+    },
+    "ululate": {
+      "with": "destination"
+    },
+    "unbend": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "unburden": {
+      "of": "source"
+    },
+    "underfeed": {
+      "with": "instrument"
+    },
+    "underline": {
+      "in": "location",
+      "on": "location"
+    },
+    "underscore": {
+      "in": "location",
+      "on": "location"
+    },
+    "undertake": {
+      "with": "instrument"
+    },
+    "undo": {
+      "with": "instrument"
+    },
+    "unfold": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "unfurl": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "unionize": {
+      "with": "instrument"
+    },
+    "unmake": {
+      "with": "instrument"
+    },
+    "unroll": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "unseat": {
+      "from": "source"
+    },
+    "unwind": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "update": {
+      "of": "topic"
+    },
+    "upload": {
+      "with": "instrument"
+    },
+    "urbanize": {
+      "with": "instrument"
+    },
+    "utter": {
+      "to": "destination"
+    },
+    "vaporize": {
+      "with": "instrument"
+    },
+    "varnish": {
+      "with": "destination"
+    },
+    "vary": {
+      "with": "instrument"
+    },
+    "veil": {
+      "in": "destination",
+      "with": "destination"
+    },
+    "vein": {
+      "in": "destination"
+    },
+    "veneer": {
+      "with": "destination"
+    },
+    "ventilate": {
+      "with": "instrument"
+    },
+    "venture": {
+      "to": "destination"
+    },
+    "verify": {
+      "from": "source",
+      "to": "destination"
+    },
+    "vibrate": {
+      "with": "instrument"
+    },
+    "vie": {
+      "about": "topic"
+    },
+    "vitrify": {
+      "with": "instrument"
+    },
+    "vocalize": {
+      "for": "beneficiary",
+      "to": "destination"
+    },
+    "vociferate": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "voice": {
+      "to": "destination"
+    },
+    "volatilize": {
+      "with": "instrument"
+    },
+    "volunteer": {
+      "for": "beneficiary"
+    },
+    "vomit": {
+      "on": "destination"
+    },
+    "vroom": {
+      "with": "location"
+    },
+    "vulcanize": {
+      "with": "instrument"
+    },
+    "vulgarize": {
+      "with": "instrument"
+    },
+    "wag": {
+      "in": "destination"
+    },
+    "waggle": {
+      "in": "destination"
+    },
+    "wail": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "wake": {
+      "with": "instrument"
+    },
+    "waken": {
+      "with": "instrument"
+    },
+    "walk": {
+      "from": "source"
+    },
+    "walk away": {
+      "from": "source"
+    },
+    "walk out": {
+      "from": "source"
+    },
+    "walk over": {
+      "with": "instrument"
+    },
+    "wallop": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "wallpaper": {
+      "with": "destination"
+    },
+    "waltz": {
+      "to": "destination"
+    },
+    "war": {
+      "about": "topic"
+    },
+    "warble": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "warehouse": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "warm": {
+      "with": "instrument"
+    },
+    "warm up": {
+      "in": "instrument",
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "warn": {
+      "about": "topic",
+      "on": "source"
+    },
+    "warp": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "wash": {
+      "for": "beneficiary",
+      "with": "instrument"
+    },
+    "waste": {
+      "for": "source",
+      "on": "destination",
+      "with": "instrument"
+    },
+    "watch": {
+      "for": "location"
+    },
+    "water": {
+      "with": "destination"
+    },
+    "wave": {
+      "in": "destination"
+    },
+    "wax": {
+      "with": "destination"
+    },
+    "weaken": {
+      "with": "instrument"
+    },
+    "wean": {
+      "of": "source"
+    },
+    "weave": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "weep": {
+      "in": "destination",
+      "on": "destination"
+    },
+    "weld": {
+      "for": "beneficiary",
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "westernize": {
+      "with": "instrument"
+    },
+    "wet": {
+      "with": "instrument"
+    },
+    "whack": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "wham": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "whang": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "whap": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "wharf": {
+      "in": "destination",
+      "on": "destination",
+      "with": "destination"
+    },
+    "wheel": {
+      "to": "destination"
+    },
+    "wheeze": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "whiff": {
+      "for": "location"
+    },
+    "whimper": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "whine": {
+      "about": "topic",
+      "for": "destination",
+      "to": "destination",
+      "with": "destination"
+    },
+    "whinny": {
+      "with": "destination"
+    },
+    "whip": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "whir": {
+      "with": "location"
+    },
+    "whish": {
+      "with": "location"
+    },
+    "whisk": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "whisper": {
+      "about": "topic",
+      "for": "destination",
+      "with": "location"
+    },
+    "whistle": {
+      "about": "topic",
+      "for": "destination",
+      "in": "destination",
+      "with": "destination"
+    },
+    "whiten": {
+      "with": "instrument"
+    },
+    "whitewash": {
+      "with": "destination"
+    },
+    "whittle": {
+      "for": "beneficiary",
+      "from": "beneficiary",
+      "of": "beneficiary"
+    },
+    "whomp": {
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "whoop": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "whoosh": {
+      "with": "location"
+    },
+    "whop": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "whore": {
+      "for": "beneficiary"
+    },
+    "whump": {
+      "with": "location"
+    },
+    "widen": {
+      "with": "instrument"
+    },
+    "wiggle": {
+      "in": "destination"
+    },
+    "win": {
+      "at": "beneficiary",
+      "for": "beneficiary",
+      "from": "source"
+    },
+    "wink": {
+      "in": "destination"
+    },
+    "wipe": {
+      "in": "destination"
+    },
+    "wire": {
+      "about": "topic",
+      "for": "destination",
+      "on": "instrument",
+      "to": "destination"
+    },
+    "wireless": {
+      "about": "topic",
+      "for": "destination",
+      "to": "destination"
+    },
+    "withdraw": {
+      "from": "source"
+    },
+    "witter": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "wizen": {
+      "with": "instrument"
+    },
+    "wonder": {
+      "about": "topic"
+    },
+    "woof": {
+      "with": "destination"
+    },
+    "worsen": {
+      "with": "instrument"
+    },
+    "wrack": {
+      "with": "instrument"
+    },
+    "wrangle": {
+      "about": "topic"
+    },
+    "wreathe": {
+      "with": "destination"
+    },
+    "wreck": {
+      "with": "instrument"
+    },
+    "wrest": {
+      "for": "beneficiary"
+    },
+    "wriggle out": {
+      "of": "source"
+    },
+    "wring": {
+      "in": "destination",
+      "with": "instrument"
+    },
+    "wrinkle": {
+      "in": "destination",
+      "to": "instrument",
+      "with": "instrument"
+    },
+    "write": {
+      "about": "topic",
+      "to": "destination"
+    },
+    "write in": {
+      "from": "source",
+      "to": "destination"
+    },
+    "yak": {
+      "about": "topic",
+      "with": "topic"
+    },
+    "yammer": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "yank": {
+      "to": "destination"
+    },
+    "yap": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "yawn": {
+      "in": "destination"
+    },
+    "yell": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "yellow": {
+      "with": "instrument"
+    },
+    "yelp": {
+      "about": "topic",
+      "for": "destination",
+      "with": "destination"
+    },
+    "yip": {
+      "with": "destination"
+    },
+    "yodel": {
+      "about": "topic",
+      "for": "destination"
+    },
+    "yoke": {
+      "on": "instrument",
+      "to": "instrument",
+      "with": "destination"
+    },
+    "yowl": {
+      "with": "destination"
+    },
+    "zing": {
+      "with": "location"
+    },
+    "zip": {
+      "on": "instrument",
+      "to": "instrument"
+    },
+    "zipcode": {
+      "with": "destination"
+    }
+  },
+  "schema_version": 1
+}

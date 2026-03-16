@@ -6,7 +6,7 @@ import re
 from typing import List, Optional, Set
 
 from ambisense.detector import detect_ambiguities, load_model
-from ambisense.paraphraser import generate_paraphrases
+from ambisense.paraphraser import generate_suggestions
 
 
 HEADING_PREFIX_RE = re.compile(r"^[ \t]{0,3}#{1,6}[ \t]+")
@@ -49,8 +49,12 @@ class ReviewFinding:
     alternative_head_pos: str
     verb_text: str
     noun_text: str
+    reading_high: str
+    reading_low: str
     rewrite_high: str
     rewrite_low: str
+    high_rule_id: Optional[str]
+    low_rule_id: Optional[str]
 
 
 @dataclass
@@ -332,7 +336,7 @@ def review_text(
         )
 
         for record in records:
-            high, low = generate_paraphrases(record)
+            suggestions = generate_suggestions(record)
             abs_sentence_start = block.start_char + record.sentence.start_char
             abs_sentence_end = block.start_char + record.sentence.end_char
             abs_pp_start = block.start_char + record.pp_span.start_char
@@ -365,8 +369,12 @@ def review_text(
                     alternative_head_pos=record.alternative_head.pos_,
                     verb_text=_verb_label(record),
                     noun_text=record.noun.text,
-                    rewrite_high=high,
-                    rewrite_low=low,
+                    reading_high=suggestions.reading_high,
+                    reading_low=suggestions.reading_low,
+                    rewrite_high=suggestions.rewrite_high,
+                    rewrite_low=suggestions.rewrite_low,
+                    high_rule_id=suggestions.high_rule_id,
+                    low_rule_id=suggestions.low_rule_id,
                 )
             )
 

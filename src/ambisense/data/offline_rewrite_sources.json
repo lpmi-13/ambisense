@@ -1,0 +1,61 @@
+{
+  "sources": [
+    {
+      "name": "VerbNet",
+      "url": "https://verbs.colorado.edu/~mpalmer/projects/verbnet/downloads.html",
+      "download_url": "https://verbs.colorado.edu/verb-index/vn/verbnet-3.3.tar.gz",
+      "fetch_supported": true,
+      "planned_use": "Map verb lemmas and prepositions to coarse semantic roles and frame preferences.",
+      "future_output": "src/ambisense/data/generated/verbnet_index.json"
+    },
+    {
+      "name": "FrameNet",
+      "url": "https://framenet.icsi.berkeley.edu/framenet_data",
+      "download_url": null,
+      "fetch_supported": false,
+      "manual_download_url": "https://framenet.icsi.berkeley.edu/framenet_request_data",
+      "planned_use": "Refine event/frame labels and valence patterns for PP roles.",
+      "future_output": "src/ambisense/data/generated/framenet_index.json"
+    },
+    {
+      "name": "SemLink",
+      "url": "https://verbs.colorado.edu/semlink/",
+      "download_url": "https://codeload.github.com/cu-clear/semlink/tar.gz/refs/heads/master",
+      "fetch_supported": true,
+      "planned_use": "Bridge VerbNet classes and FrameNet/PropBank role labels.",
+      "future_output": "src/ambisense/data/generated/semlink_map.json"
+    },
+    {
+      "name": "WordNet",
+      "url": "https://wordnet.princeton.edu/homepage",
+      "download_url": "https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.gz",
+      "fetch_supported": true,
+      "planned_use": "Provide noun-type backoff classes when the local technical lexicon has no exact match.",
+      "future_output": "src/ambisense/data/generated/wordnet_types.json"
+    },
+    {
+      "name": "Google Developer Documentation Style Guide Word List",
+      "url": "https://developers.google.com/style/word-list",
+      "planned_use": "Seed preferred technical terminology and substitution candidates.",
+      "future_output": "src/ambisense/data/preferred_terms.json"
+    },
+    {
+      "name": "Microsoft Writing Style Guide",
+      "url": "https://learn.microsoft.com/en-us/style-guide/word-choice/use-technical-terms-carefully",
+      "planned_use": "Guide preferred technical terminology and consistency rules.",
+      "future_output": "src/ambisense/data/preferred_terms.json"
+    },
+    {
+      "name": "Red Hat Supplementary Style Guide",
+      "url": "https://redhat-documentation.github.io/supplementary-style-guide/",
+      "planned_use": "Seed technical glossary entries and preferred wording for docs.",
+      "future_output": "src/ambisense/data/preferred_terms.json"
+    },
+    {
+      "name": "Vale",
+      "url": "https://vale.sh/docs/",
+      "planned_use": "Share the same preferred and discouraged terminology with prose linting.",
+      "future_output": "vale/styles/config/vocabularies/Ambisense/"
+    }
+  ]
+}

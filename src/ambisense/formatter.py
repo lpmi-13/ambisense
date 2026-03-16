@@ -6,7 +6,7 @@ import json
 from typing import List, Optional
 
 from ambisense.detector import AmbiguityRecord
-from ambisense.paraphraser import generate_paraphrases
+from ambisense.paraphraser import generate_paraphrases, generate_suggestions
 from ambisense.review import DocumentReview
 
 
@@ -34,7 +34,9 @@ def format_human(
 
     lines = []
     for i, record in enumerate(records):
-        high, low = generate_paraphrases(record)
+        suggestions = generate_suggestions(record)
+        high = suggestions.reading_high
+        low = suggestions.reading_low
 
         if use_color:
             header = f" \u26a0  Ambiguous PP: \"{record.pp_text}\""
@@ -61,6 +63,11 @@ def format_human(
         )
         lines.append(f"      {low}")
 
+        if suggestions.rewrite_high != high or suggestions.rewrite_low != low:
+            lines.append("    Suggested rewrites:")
+            lines.append(f"      If you mean A: {suggestions.rewrite_high}")
+            lines.append(f"      If you mean B: {suggestions.rewrite_low}")
+
         if verbose:
             lines.append(f"    Preposition: {record.preposition.text}")
             lines.append(f"    PP span: [{record.pp_span.start}:{record.pp_span.end}]")
@@ -83,7 +90,7 @@ def format_json(
     """Format ambiguity records as JSON."""
     ambiguities = []
     for i, record in enumerate(records):
-        high, low = generate_paraphrases(record)
+        suggestions = generate_suggestions(record)
         entry = {
             "sentence": record.sentence.text.strip(),
             "sentence_index": record.sentence.start,
@@ -102,8 +109,12 @@ def format_json(
                 "index": record.alternative_head.i,
             },
             "readings": {
-                "high": high,
-                "low": low,
+                "high": suggestions.reading_high,
+                "low": suggestions.reading_low,
+            },
+            "rewrites": {
+                "high": suggestions.rewrite_high,
+                "low": suggestions.rewrite_low,
             },
         }
         if trees_ascii and i < len(trees_ascii):
@@ -131,7 +142,7 @@ def format_csv(
     ])
 
     for record in records:
-        high, low = generate_paraphrases(record)
+        suggestions = generate_suggestions(record)
         writer.writerow([
             filename or "<stdin>",
             record.sentence.text.strip(),
@@ -141,8 +152,8 @@ def format_csv(
             record.parser_head.pos_,
             record.alternative_head.text,
             record.alternative_head.pos_,
-            high,
-            low,
+            suggestions.reading_high,
+            suggestions.reading_low,
         ])
 
     return buf.getvalue()
@@ -188,8 +199,8 @@ def format_review_finding(
         f'  Sentence: "{finding.sentence}"',
         "",
         "  Possible readings:",
-        f"  A. {_sentence_case(finding.rewrite_high)}",
-        f"  B. {_sentence_case(finding.rewrite_low)}",
+        f"  A. {_sentence_case(finding.reading_high)}",
+        f"  B. {_sentence_case(finding.reading_low)}",
         "",
         "  Suggested rewrites:",
         f'  - If you mean A: "{_sentence_case(finding.rewrite_high)}"',
@@ -261,14 +272,18 @@ def format_review_json(results: List[DocumentReview]) -> str:
                             "pos": finding.alternative_head_pos,
                         },
                         "possible_readings": {
-                            "A": _sentence_case(finding.rewrite_high),
-                            "B": _sentence_case(finding.rewrite_low),
+                            "A": _sentence_case(finding.reading_high),
+                            "B": _sentence_case(finding.reading_low),
                         },
                         "rewrites": {
                             "A": _sentence_case(finding.rewrite_high),
                             "B": _sentence_case(finding.rewrite_low),
                             "verb_attachment": _sentence_case(finding.rewrite_high),
                             "noun_attachment": _sentence_case(finding.rewrite_low),
+                        },
+                        "matched_rules": {
+                            "A": finding.high_rule_id,
+                            "B": finding.low_rule_id,
                         },
                     }
                     for finding in result.findings
